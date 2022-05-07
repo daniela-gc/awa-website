@@ -1,24 +1,22 @@
 <template>
-  <header class="flex items-center py-4 md:py-8">
-    <div class="header__logo">
-      <nuxt-link to="/">
-        <img :src="logo" alt="Logo" />
-      </nuxt-link>
-    </div>
+  <header class="flex justify-between items-center py-4 md:py-8">
+    <!-- logo - start -->
+    <a
+      href="/"
+      class="inline-flex items-center text-gray-700 text-lg md:text-xl font-bold"
+      aria-label="logo"
+    >
+      Art While Apart
+    </a>
+    <!-- logo - end -->
 
-    <nav class="nav ml-auto">
+    <nav class="nav ml-auto font-bold text-gray-700">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0 md:mr-4 lg:mr-8">
         <li>
-          <nuxt-link to="/blog" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            Blog
-          </nuxt-link>
+          <nuxt-link to="/blog" class="block px-4 py-1 md:p-2 lg:px-4"> Home </nuxt-link>
         </li>
 
-        <li
-          v-for="(page, index) in pages"
-          :key="index"
-          class="block font-medium px-4 py-1 md:p-2 lg:px-4"
-        >
+        <li v-for="(page, index) in pages" :key="index" class="block px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
         </li>
       </ul>
