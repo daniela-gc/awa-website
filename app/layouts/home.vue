@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .main-wrapper {
-  padding: 0 140px 0;
+  padding: 0 150px 0;
   width: 100%;
   min-height: 100vh !important;
   display: flex;

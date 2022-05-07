@@ -9,7 +9,7 @@
 
       <!-- Hero body - start-->
       <div
-        class="hero-body flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16 mb-8 md:mb-16"
+        class="hero-body flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16 mb-8 md:mb-10"
       >
         <!-- content - start -->
         <div class="xl:w-4/12 flex flex-col justify-center sm:text-center lg:text-left lg:pb-16">
@@ -40,7 +40,7 @@
         <!-- content - end -->
 
         <!-- image - start -->
-        <div class="w-5/12">
+        <div class="image-width">
           <img src="/images/uploads/awa-logo.png" loading="lazy" alt="Art While Apart logo" />
         </div>
         <!-- image - end -->
@@ -50,7 +50,9 @@
         class="flex flex-col lg:flex-row justify-between items-center border-t gap-10 lg:gap-8 pt-8 border-gray-400"
       >
         <!-- stats - start -->
-        <div class="grid grid-cols-2 md:flex md:divide-x gap-4 -mx-6 md:-mx-8 max-w-4xl">
+        <div
+          class="grid grid-cols-2 md:flex md:divide-x divide-gray-400 gap-4 -mx-6 md:-mx-8 max-w-4xl"
+        >
           <div class="px-6 md:px-8">
             <span
               class="block text-orange-500 text-xl md:text-2xl font-bold text-center md:text-left"
@@ -207,5 +209,9 @@ export default {
 
 .hero-title {
   font-size: 2.5rem;
+}
+
+.image-width {
+  width: 45%;
 }
 </style>
