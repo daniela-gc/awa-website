@@ -3,21 +3,34 @@
     <!-- logo - start -->
     <a
       href="/"
-      class="inline-flex items-center text-gray-700 text-lg md:text-xl font-bold"
+      class="inline-flex items-center text-gray-800 text-xl md:text-2xl font-bold"
       aria-label="logo"
     >
       Art While Apart
     </a>
     <!-- logo - end -->
 
-    <nav class="nav ml-auto font-bold text-gray-700">
-      <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0 md:mr-4 lg:mr-8">
+    <nav class="nav font-bold text-gray-700 text-lg md:text-xl">
+      <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
         <li>
           <nuxt-link to="/blog" class="block px-4 py-1 md:p-2 lg:px-4"> Home </nuxt-link>
         </li>
 
         <li v-for="(page, index) in pages" :key="index" class="block px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
+        </li>
+
+        <li>
+          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Team </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Artist Showcase </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Join Us </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Request Art </nuxt-link>
         </li>
       </ul>
     </nav>

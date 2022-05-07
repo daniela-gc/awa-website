@@ -1,6 +1,6 @@
 <template>
   <div class="bg-orange-500">
-    <footer class="max-w-screen-2xl px-4 md:px-40 mx-auto">
+    <footer class="max-w-screen-2xl px-4 md:px-40 mx-auto pt-16">
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 mb-16">
         <div class="col-span-full lg:col-span-2">
           <!-- logo - start -->
@@ -15,7 +15,7 @@
           </div>
           <!-- logo - end -->
 
-          <p class="text-gray-200 sm:pr-8 mb-6 max-w-md">
+          <p class="text-gray-200 sm:pr-8 mb-6 max-w-md text-lg">
             A collaborative effor to bring people and animals closer together through art.
           </p>
 
@@ -108,7 +108,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Home</a
               >
             </div>
@@ -116,7 +116,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Portfolio</a
               >
             </div>
@@ -124,7 +124,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Team</a
               >
             </div>
@@ -132,7 +132,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Artist Showcase</a
               >
             </div>
@@ -148,7 +148,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Join Us</a
               >
             </div>
@@ -156,7 +156,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Request Art</a
               >
             </div>
@@ -164,7 +164,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Merchandise</a
               >
             </div>
@@ -172,7 +172,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100"
+                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Donate</a
               >
             </div>
