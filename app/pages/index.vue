@@ -4,10 +4,10 @@
     <section class="flex flex-col lg:flex-row items-center gap-6 sm:gap-4 md:gap-8 mb-14 md:mb-32">
       <div class="ml-64 mr-16 w-full">
         <img
-          src="/images/uploads/awa-alt-logo.png"
+          src="/images/uploads/awa-alt-logo-rainbow.png"
           loading="lazy"
           alt="Art While Apart alt logo"
-          class="w-9/12"
+          class="w-10/12"
         />
       </div>
       <div class="mr-56 text-gray-700 text-lg">

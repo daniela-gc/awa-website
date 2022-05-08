@@ -16,7 +16,7 @@
           <!-- logo - end -->
 
           <p class="text-gray-200 sm:pr-8 mb-6 max-w-md text-lg">
-            A collaborative effor to bring people and animals closer together through art.
+            A collaborative effort to bring people and animals closer together through art.
           </p>
 
           <!-- social - start -->

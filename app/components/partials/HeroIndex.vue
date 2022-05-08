@@ -8,19 +8,21 @@
       <!-- Hero head: end -->
 
       <!-- Hero body - start-->
-      <div
-        class="hero-body flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16 mb-8 md:mb-10"
-      >
+      <div class="hero-body flex flex-col lg:flex-row justify-between gap-2 mt-5 mb-8 md:mb-10">
         <!-- content - start -->
-        <div class="xl:w-5/12 flex flex-col justify-center sm:text-center lg:text-left lg:pb-16">
-          <h1 class="hero-title text-gray-800 text-2xl sm:text-3xl font-bold mb-8 md:mb-12">
-            A collaborative effor to bring people and animals closer together through art
+        <div
+          class="w-full lg:w-8/12 xl:w-5/12 flex flex-col justify-center sm:text-center lg:text-left lg:pb-16"
+        >
+          <h1
+            class="hero-title text-gray-800 text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-4xl font-bold mb-8 md:mb-12"
+          >
+            A collaborative effort to bring people and animals closer together through art
           </h1>
 
-          <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
+          <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2 lg:gap-4">
             <a
               href="#"
-              class="inline-block bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-8 py-3"
+              class="inline-block bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-6 py-3 lg:px-8"
               >Request Art</a
             >
 
@@ -34,7 +36,7 @@
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="inline-block hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-8 py-3"
+              class="invisible xl:visible inline-block hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-8 py-3"
               >Merchandise</a
             >
           </div>
@@ -228,11 +230,14 @@ export default {
   overflow: hidden;
 }
 
-.hero-title {
-  font-size: 2.5rem;
-}
+// .hero-title {
+//   font-size: 2.5rem;
+// }
 
 .image-width {
-  width: 43%;
+  width: 35%;
+  @screen lg {
+    width: 43%;
+  }
 }
 </style>
