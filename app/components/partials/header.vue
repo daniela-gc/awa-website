@@ -10,27 +10,33 @@
     </a>
     <!-- logo - end -->
 
-    <nav class="nav font-bold text-gray-700 text-lg md:text-xl">
+    <nav class="nav font-bold text-gray-700 text-md md:text-lg">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
-        <li>
+        <!-- <li>
           <nuxt-link to="/blog" class="block px-4 py-1 md:p-2 lg:px-4"> Home </nuxt-link>
         </li>
 
         <li v-for="(page, index) in pages" :key="index" class="block px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
-        </li>
+        </li> -->
 
         <li>
-          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Team </nuxt-link>
+          <a href="#" class="block px-4 py-1 md:p-2 lg:px-4"> Home </a>
         </li>
         <li>
-          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Artist Showcase </nuxt-link>
+          <a href="#" class="block px-4 py-1 md:p-2 lg:px-4"> Portfolio </a>
         </li>
         <li>
-          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Join Us </nuxt-link>
+          <a href="#" class="block px-4 py-1 md:p-2 lg:px-4"> Team </a>
         </li>
         <li>
-          <nuxt-link to="#" class="block px-4 py-1 md:p-2 lg:px-4"> Request Art </nuxt-link>
+          <a href="#" class="block px-4 py-1 md:p-2 lg:px-4"> Artist Showcase </a>
+        </li>
+        <li>
+          <a href="#" class="block px-4 py-1 md:p-2 lg:px-4"> Join Us </a>
+        </li>
+        <li>
+          <a href="#" class="block px-4 py-1 md:p-2 lg:px-4"> Request Art </a>
         </li>
       </ul>
     </nav>
