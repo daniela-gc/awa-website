@@ -7,14 +7,9 @@
 
 module.exports = {
   mode: 'jit',
-  purge: [
-    'components/**/*.vue',
-    'layouts/**/*.vue',
-    'pages/**/*.vue',
-    'content/**/*.md',
-    'plugins/**/*.js',
-    'nuxt.config.js',
-  ],
+  future: {
+    purgeLayersByDefault: true,
+  },
   theme: {
     fontFamily: {
       sans: ['Open Sans', 'sans-serif'],
