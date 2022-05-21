@@ -1,16 +1,16 @@
 <template>
   <div>
     <div class="main-wrapper">
-      <HeroIndex />
+      <hero-index />
       <div class="is-flex-grow-1"></div>
     </div>
     <Nuxt />
-    <TheFooter />
+    <the-footer />
   </div>
 </template>
 
 <script>
-import TheFooter from '@/components/partials/footer.vue';
+import TheFooter from '@/components/partials/TheFooter.vue';
 import HeroIndex from '@/components/partials/HeroIndex.vue';
 
 export default {

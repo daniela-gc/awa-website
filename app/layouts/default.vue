@@ -1,7 +1,7 @@
 <template>
   <main :class="[$route.name]" class="main px-4 md:px-0">
     <div class="container mx-auto">
-      <site-header />
+      <the-header />
       <nuxt class="nuxt" />
     </div>
 
@@ -9,19 +9,19 @@
       <polygon stroke="none" stroke-width="0" fill="#ED8937" points="0,0.6 0,1 10,1 10,0" />
     </svg> -->
 
-    <site-footer />
+    <the-footer />
   </main>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
-import SiteHeader from '@/components/partials/header.vue';
-import SiteFooter from '@/components/partials/footer.vue';
+import TheHeader from '@/components/partials/TheHeader.vue';
+import TheFooter from '@/components/partials/TheFooter.vue';
 
 @Component({
   components: {
-    SiteHeader,
-    SiteFooter,
+    TheHeader,
+    TheFooter,
   },
 })
 export default class DefaultLayout extends Vue {}

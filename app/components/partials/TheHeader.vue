@@ -48,7 +48,7 @@ import { Component, Vue } from 'nuxt-property-decorator';
 import settings from '@/content/settings/general.json';
 
 @Component
-export default class Header extends Vue {
+export default class TheHeader extends Vue {
   get pages(): Page[] {
     return this.$store.state.pages;
   }

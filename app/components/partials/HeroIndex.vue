@@ -3,7 +3,7 @@
     <section class="main-hero">
       <!-- Hero head - start -->
       <div class="hero-head">
-        <TheHeader />
+        <the-header />
       </div>
       <!-- Hero head: end -->
 
@@ -215,7 +215,7 @@
 </template>
 
 <script>
-import TheHeader from '@/components/partials/header.vue';
+import TheHeader from '@/components/partials/TheHeader.vue';
 
 export default {
   components: {
