@@ -16,12 +16,6 @@ module.exports = {
     'nuxt.config.js',
   ],
   theme: {
-    extend: {
-      screens: {
-        // @media (min-width: 1280px) { ... }
-        // '3xl': '1700px',
-      },
-    },
     fontFamily: {
       sans: ['Open Sans', 'sans-serif'],
       heading: ['Fira Sans', 'sans-serif'],
