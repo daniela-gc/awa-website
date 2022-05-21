@@ -72,6 +72,8 @@ const nuxtConfig: Configuration = {
     ],
   },
 
+  target: 'static', // default is 'server'
+
   /*
    ** Plugins to load before mounting the App
    */
