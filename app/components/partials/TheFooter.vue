@@ -1,8 +1,12 @@
 <template>
   <div class="bg-orange-500">
-    <footer class="max-w-screen-2xl px-4 md:px-40 mx-auto pt-16">
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 mb-16">
-        <div class="col-span-full lg:col-span-2">
+    <footer
+      class="max-w-screen-2xl px-6 sm:px-16 md:px-14 lg:px-16 xl:px-20 mx-auto pt-10 lg:pt-16"
+    >
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 place-content-between place-items-center md:place-items-start mb-16"
+      >
+        <div class="col-span-full xl:col-span-2 text-center md:text-left">
           <!-- logo - start -->
           <div class="mt-8 mb-4">
             <a
@@ -15,12 +19,14 @@
           </div>
           <!-- logo - end -->
 
-          <p class="text-gray-200 sm:pr-8 mb-6 max-w-md text-lg">
+          <p
+            class="text-gray-200 sm:pr-10 mb-6 max-w-md lg:max-w-lg xl:max-w-md text-base sm:text-lg"
+          >
             A collaborative effort to bring people and animals closer together through art.
           </p>
 
           <!-- social - start -->
-          <div class="flex gap-4">
+          <div class="flex gap-4 mb-8 xl:mb-0 justify-center md:justify-start">
             <a
               href="https://www.instagram.com/art.while.apart/"
               target="_blank"
@@ -120,10 +126,10 @@
         </div>
 
         <!-- nav - start -->
-        <div class="mt-8">
-          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4">About Us</div>
+        <div class="mt-8 pl-2 sm:ml-0">
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm">About Us</div>
 
-          <nav class="flex flex-col gap-4">
+          <nav class="flex flex-col gap-3 sm:gap-4">
             <div>
               <a
                 href="#"
@@ -160,10 +166,12 @@
         <!-- nav - end -->
 
         <!-- nav - start -->
-        <div class="mt-8">
-          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4">Get Involved</div>
+        <div class="mt-8 pl-4 sm:ml-0">
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm">
+            Get Involved
+          </div>
 
-          <nav class="flex flex-col gap-4">
+          <nav class="flex flex-col gap-3 sm:gap-4">
             <div>
               <a
                 href="#"
@@ -200,7 +208,9 @@
         <!-- nav - end -->
 
         <!-- image - start -->
-        <div>
+        <div
+          class="col-span-2 md:col-span-1 place-self-center md:place-self-end max-w-xs sm:max-w-sm md:max-w-xs mt-12 md:mt-0"
+        >
           <img src="/images/uploads/awa-logo.png" loading="lazy" alt="Art While Apart logo" />
         </div>
         <!-- image - end -->

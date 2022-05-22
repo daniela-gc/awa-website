@@ -8,35 +8,35 @@
       <!-- Hero head: end -->
 
       <!-- Hero body - start-->
-      <div class="hero-body flex flex-col lg:flex-row justify-between gap-2 mt-5 mb-8 md:mb-10">
+      <div class="hero-body flex flex-col lg:flex-row justify-between mb-2 sm:mb-8 md:mb-10">
         <!-- content - start -->
         <div
-          class="w-full lg:w-8/12 xl:w-5/12 flex flex-col justify-center sm:text-center lg:text-left lg:pb-16"
+          class="w-full sm:w-9/12 md:w-8/12 xl:w-6/12 2xl:w-5/12 max-w-sm sm:max-w-none xl:max-w-xl 2xl:max-w-xl flex flex-col self-center lg:pb-16"
         >
           <h1
-            class="hero-title text-gray-800 text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-4xl font-bold mb-8 md:mb-12"
+            class="text-gray-800 text-center lg:text-left text-lg sm:text-xl lg:text-2xl xl:text-4xl font-bold mb-6 md:mb-8 lg:mb-12"
           >
             A collaborative effort to bring people and animals closer together through art
           </h1>
 
-          <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2 lg:gap-4">
+          <div class="flex justify-center lg:justify-start gap-2 lg:gap-4 mb-8 lg:mb-0">
             <a
               href="#"
-              class="inline-block bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-6 py-3 lg:px-8"
+              class="bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Request Art</a
             >
 
             <a
               href="https://www.paypal.com/paypalme/ArtWhileApart"
               target="_blank"
-              class="inline-block hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-8 py-3"
+              class="hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Donate</a
             >
 
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="invisible xl:visible inline-block hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-8 py-3"
+              class="hidden sm:inline-block hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Merchandise</a
             >
           </div>
@@ -44,7 +44,7 @@
         <!-- content - end -->
 
         <!-- image - start -->
-        <div class="image-width">
+        <div class="logo-width self-center mt-5 mb-5 md:mb-0">
           <img src="/images/uploads/awa-logo.png" loading="lazy" alt="Art While Apart logo" />
         </div>
         <!-- image - end -->
@@ -59,7 +59,7 @@
         >
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >3200+</span
             >
             <span
@@ -70,29 +70,29 @@
 
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >2850+</span
             >
             <span
               class="block text-gray-700 text-sm md:text-base font-bold text-center md:text-left"
-              >Completed pet portraits requests</span
+              >Completed pet portraits</span
             >
           </div>
 
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >350+</span
             >
             <span
               class="block text-gray-700 text-sm md:text-base font-bold text-center md:text-left"
-              >Completed rescue pet portraits</span
+              >Completed rescue portraits</span
             >
           </div>
 
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >150+</span
             >
             <span
@@ -105,10 +105,11 @@
 
         <!-- social - start -->
         <div class="flex justify-center lg:justify-start items-center gap-4">
-          <span class="text-gray-600 text-base sm:text-lg font-semibold tracking-widest uppercase"
+          <span
+            class="hidden sm:inline-block text-gray-600 text-sm lg:text-lg font-semibold tracking-widest uppercase ml-6"
             >Social</span
           >
-          <span class="w-12 h-px bg-gray-400"></span>
+          <span class="hidden sm:inline-block w-10 lg:w-8 2xl:w-12 h-px bg-gray-400"></span>
 
           <div class="flex gap-4">
             <a
@@ -230,12 +231,14 @@ export default {
   overflow: hidden;
 }
 
-// .hero-title {
-//   font-size: 2.5rem;
-// }
-
-.image-width {
-  width: 35%;
+.logo-width {
+  width: 85%;
+  @screen sm {
+    width: 75%;
+  }
+  @screen md {
+    width: 55%;
+  }
   @screen lg {
     width: 43%;
   }
