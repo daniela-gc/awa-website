@@ -36,7 +36,7 @@ import { MetaInfo } from 'vue-meta';
 export default class BlogPost extends Vue {
   post!: Post;
 
-  async asyncData({ params, payload }): Promise<{ post: Post }> {
+  async asyncData({ params, payload }: { params: any; payload: any }): Promise<{ post: Post }> {
     if (payload) {
       return { post: payload };
     }

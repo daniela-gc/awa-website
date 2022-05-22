@@ -82,7 +82,7 @@ const nuxtConfig: Configuration = {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/markdownit'],
 
 
   markdownit: {
@@ -107,12 +107,6 @@ const nuxtConfig: Configuration = {
         handler: 'cacheFirst',
       },
     ],
-  },
-
-  pwa: {
-    icon: {
-      iconSrc: `app/static${settings.icon}`,
-    },
   },
 
   manifest: {
@@ -166,7 +160,7 @@ const nuxtConfig: Configuration = {
       },
     },
 
-    publicPath: process.env.npm_lifecycle_event === 'generate' ? '/pwa/' : '/_nuxt/',
+    publicPath: '/_nuxt/',
 
     devtools: process.env.NODE_ENV !== 'production',
 

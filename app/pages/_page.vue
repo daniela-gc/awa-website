@@ -43,7 +43,7 @@ import { MetaInfo } from 'vue-meta';
 export default class PageTemplate extends Vue {
   page!: Page;
 
-  async asyncData({ params, payload }): Promise<{ page: Page }> {
+  async asyncData({ params, payload }: { params: any; payload: any }): Promise<{ page: Page }> {
     if (payload) {
       return { page: payload };
     }

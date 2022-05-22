@@ -64,7 +64,7 @@ export default class BlogIndex extends Vue {
 
   posts: Post[] = [];
 
-  async asyncData({ params, store }) {
+  async asyncData({ params, store }: { params: any; store: any }): Promise<any> {
     const page: number = params.page ? parseInt(params.page, 10) : 1;
     const { perPage }: { perPage: number } = store.state;
     const range = page * perPage;
