@@ -20,7 +20,7 @@
           <!-- logo - end -->
 
           <p
-            class="text-gray-200 sm:pr-10 mb-6 max-w-md lg:max-w-lg xl:max-w-md text-base sm:text-lg"
+            class="text-gray-200 lg:pr-10 mb-6 max-w-md lg:max-w-lg xl:max-w-md text-base sm:text-lg"
           >
             A collaborative effort to bring people and animals closer together through art.
           </p>

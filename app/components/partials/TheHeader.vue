@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center py-6 md:py-8">
+  <header class="flex justify-between items-center pt-6 pb-4 lg:py-8">
     <!-- logo - start -->
     <a
       href="/"

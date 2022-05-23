@@ -8,7 +8,9 @@
       <!-- Hero head: end -->
 
       <!-- Hero body - start-->
-      <div class="hero-body flex flex-col lg:flex-row justify-between mb-2 sm:mb-8 md:mb-10">
+      <div
+        class="hero-body flex flex-col-reverse lg:flex-row justify-between mb-2 sm:mb-8 md:mb-10"
+      >
         <!-- content - start -->
         <div
           class="w-full sm:w-9/12 md:w-8/12 xl:w-6/12 2xl:w-5/12 max-w-sm sm:max-w-none xl:max-w-xl 2xl:max-w-xl flex flex-col self-center lg:pb-16"
@@ -44,7 +46,7 @@
         <!-- content - end -->
 
         <!-- image - start -->
-        <div class="logo-width self-center mt-5 mb-5 md:mb-0">
+        <div class="logo-width self-center mt-5 mb-10 lg:mb-0 2xl:mb-4">
           <img src="/images/uploads/awa-logo.png" loading="lazy" alt="Art While Apart logo" />
         </div>
         <!-- image - end -->

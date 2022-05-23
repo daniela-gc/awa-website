@@ -1,10 +1,10 @@
 <template>
-  <div class="px-10 mt-12 lg:mt-20 2xl:mt-12">
+  <div class="mt-12 lg:mt-20 2xl:mt-12">
     <!-- Our Mission - start -->
     <section
-      class="flex flex-col lg:flex-row items-center gap-4 mb-16 md:mb-20 lg:mb-32 lg:mx-12 xl:mx-32 2xl:mx-64"
+      class="flex flex-col lg:flex-row items-center gap-4 pt-10 pb-12 lg:py-12 mb-12 md:mb-12 lg:mb-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100"
     >
-      <div class="w-full mb-8 flex justify-center lg:justify-start">
+      <div class="w-full 2xl:w-9/12 mb-4 flex justify-center lg:justify-start 2xl:pl-10">
         <img
           src="/images/uploads/awa-alt-logo-rainbow.png"
           loading="lazy"
@@ -12,18 +12,18 @@
           class="w-full max-w-xs lg:max-w-sm"
         />
       </div>
-      <div class="w-full max-w-2xl lg:max-w-none text-gray-700 text-base lg:text-lg">
+      <div class="w-full max-w-2xl lg:max-w-none text-gray-700 text-base lg:text-lg 2xl:pr-10">
         <h2
           class="font-bold text-lg md:text-xl lg:text-2xl mb-5 flex justify-center lg:justify-start"
         >
           Our Mission
         </h2>
         <p class="mb-5">
-          Here at, we're a group of digital artists working towards reminding people that, despite
-          these tough times, there's still some sunshine. We hope to spread some joy globally and
-          offer an outlet for artists to draw at their own pace, while also providing them a place
-          to publicize, share, and improve upon their art. In doing this, we also aim to spark a
-          smile in this small act of kindness.
+          Here at AWA, we're a group of digital artists working towards reminding people that,
+          despite these tough times, there's still some sunshine. We hope to spread some joy
+          globally and offer an outlet for artists to draw at their own pace, while also providing
+          them a place to publicize, share, and improve upon their art. In doing this, we also aim
+          to spark a smile in this small act of kindness.
         </p>
         <p>
           AWA has also now expanded to include rescue pet portraits. By partnering with rescues such
@@ -46,7 +46,7 @@
     <!-- Our Mission - end -->
 
     <!-- Rescue logos - start -->
-    <section class="mb-20 lg:mb-32 flex justify-center">
+    <section class="px-10 mb-20 lg:mb-32 flex justify-center">
       <div class="w-full 2xl:w-9/12 md:px-12">
         <h2 class="text-gray-700 text-xl lg:text-2xl font-bold text-center mb-4 md:mb-8">
           Our Animal Rescue Partners
@@ -112,7 +112,7 @@
     <!-- rescue logos - end -->
 
     <!-- CTA - start -->
-    <div class="bg-white mb-20 lg:mb-32 lg:mx-6">
+    <div class="bg-white mb-20 lg:mb-32 lg:mx-6 px-10">
       <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
         <div class="flex bg-gray-100 rounded-lg justify-center md:justify-start overflow-hidden">
           <!-- image - start -->
