@@ -2,8 +2,8 @@
   "title": "AWA",
   "titleTemplate": "| Art While Apart",
   "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.\n\n\n\n\n\nHIIIIIIIIIIIIIIIIIIIIIIIIIIII",
-  "logo": "/images/uploads/awa-alt-logo.png",
-  "icon": "/images/uploads/awa-alt-logo.png",
+  "logo": "/images/uploads/awa-logo.png",
+  "icon": "/images/uploads/awa-logo.png",
   "loadingColor": "#ED8937",
   "seoDescription": "A collaborative effort to bring people and animals closer together through art.",
   "seoMetaImage": ""
