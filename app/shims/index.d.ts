@@ -24,3 +24,8 @@ interface Page {
   seoDescription?: string;
   seoMetaImage?: string;
 }
+interface PortfolioPiece {
+  title: string;
+  featuredImage: string;
+  socialMediaLink?: string;
+}

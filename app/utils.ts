@@ -10,7 +10,8 @@ export async function getContent({
   prefix: string;
 }): Promise<{ slug: string; title: string }[]> {
   const slugs: string[] = [];
-  const content: { slug: string; title: string; featuredImage: string }[] = [];
+  const content: { slug: string; title: string; featuredImage: string; socialMediaLink: string }[] =
+    [];
 
   // Get slugs
   for (let index = 0; index < context.keys().length; index += 1) {
@@ -34,6 +35,7 @@ export async function getContent({
         excerpt: createExcerpt({ text: entry.content }),
       }),
       featuredImage: entry.featuredImage,
+      socialMediaLink: entry.socialMediaLink,
     });
   }
 

@@ -7,14 +7,16 @@ export interface State {
   perPage: number;
   pages: Page[];
   posts: Post[];
+  portfolioPieces: PortfolioPiece[];
   route?: Route;
 }
 
 // Initial State
 export const appState = {
-  perPage: 4,
+  perPage: 25,
   pages: [],
   posts: [],
+  portfolioPieces: [],
 };
 
 export const mutations: MutationTree<State> = {
@@ -24,15 +26,26 @@ export const mutations: MutationTree<State> = {
   SET_POSTS: (state, payload: Record<string, unknown>): void => {
     Vue.set(state, 'posts', payload);
   },
+  SET_PORTFOLIO_PIECES: (state, payload: Record<string, unknown>): void => {
+    Vue.set(state, 'portfolioPieces', payload);
+  },
 };
 
 interface Actions<S, R> extends ActionTree<S, R> {
   GET_PAGES_LIST(context: ActionContext<S, R>): Promise<void | Error>;
   GET_POSTS_LIST(context: ActionContext<S, R>): Promise<void | Error>;
+  GET_PORTFOLIO_PIECES_LIST(context: ActionContext<S, R>): Promise<void | Error>;
   nuxtServerInit(context: ActionContext<S, R>): void;
 }
 
 export const actions: Actions<State, State> = {
+  async GET_PORTFOLIO_PIECES_LIST({ commit }): Promise<void | Error> {
+    // Use webpack to search the blog directory matching .json files
+    const context = await require.context('@/content/portfolio/', false, /\.json$/);
+    const portfolioPieces = await getContent({ context, prefix: 'portfolio' });
+    commit('SET_PORTFOLIO_PIECES', portfolioPieces);
+  },
+
   async GET_POSTS_LIST({ commit }): Promise<void | Error> {
     // Use webpack to search the blog directory matching .json files
     const context = await require.context('@/content/blog/', false, /\.json$/);
@@ -51,7 +64,11 @@ export const actions: Actions<State, State> = {
   },
 
   async nuxtServerInit({ dispatch }): Promise<void> {
-    await Promise.all([dispatch('GET_PAGES_LIST'), dispatch('GET_POSTS_LIST')]);
+    await Promise.all([
+      dispatch('GET_PAGES_LIST'),
+      dispatch('GET_POSTS_LIST'),
+      dispatch('GET_PORTFOLIO_PIECES_LIST'),
+    ]);
   },
 };
 

@@ -67,3 +67,12 @@ collections:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
       - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
+  - name: 'portfolio'
+    label: 'Portfolio'
+    folder: 'app/content/portfolio'
+    create: true
+    format: 'json'
+    fields:
+      - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
+      - { label: Title, name: title, widget: string }
+      - { label: Social media link, name: socialMediaLink, widget: string }

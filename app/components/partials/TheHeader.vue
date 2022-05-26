@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center pt-6 pb-4 lg:py-8">
+  <header class="flex justify-between items-center pt-6 pb-4">
     <!-- logo - start -->
     <a
       href="/"
@@ -21,21 +21,21 @@
         </li> -->
 
         <li>
-          <a href="#" class="block px-2 lg:px-4"> Home </a>
+          <nuxt-link to="/" class="block px-2 lg:px-4"> Home </nuxt-link>
         </li>
-        <li>
-          <a href="#" class="block px-2 lg:px-4"> Portfolio </a>
+        <li class="link-active">
+          <nuxt-link to="/portfolio" class="block px-2 lg:px-4"> Portfolio </nuxt-link>
         </li>
-        <li>
+        <li class="link-active">
           <a href="#" class="block px-2 lg:px-4"> Team </a>
         </li>
-        <li>
+        <li class="link-active">
           <a href="#" class="block px-2 lg:px-4"> Artist Showcase </a>
         </li>
-        <li>
+        <li class="link-active">
           <a href="#" class="block px-2 lg:px-4"> Join Us </a>
         </li>
-        <li>
+        <li class="link-active">
           <a href="#" class="block px-2 lg:px-4"> Request Art </a>
         </li>
       </ul>
@@ -80,8 +80,8 @@ export default class TheHeader extends Vue {
 </script>
 
 <style lang="scss">
-.nav {
-  ul li > a {
+.link-active {
+  a {
     &.nuxt-link-active {
       color: $bluise;
       @apply font-bold;
