@@ -2,7 +2,7 @@
   <div class="mt-12 lg:mt-20 2xl:mt-12">
     <!-- Our Mission - start -->
     <section
-      class="flex flex-col lg:flex-row items-center gap-4 pt-10 pb-12 lg:py-12 mb-12 md:mb-12 lg:mb-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100"
+      class="flex flex-col lg:flex-row items-center gap-4 pt-10 pb-12 lg:py-12 mb-12 md:mb-12 lg:mb-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/50"
     >
       <div class="w-full 2xl:w-9/12 mb-4 flex justify-center lg:justify-start 2xl:pl-10">
         <img
@@ -28,16 +28,16 @@
         <p>
           AWA has also now expanded to include rescue pet portraits. By partnering with rescues such
           as the
-          <a href="https://bestfriends.org/" class="text-orange-500 hover:underline"
+          <a href="https://bestfriends.org/" class="text-primary hover:underline"
             >Best Friends Animal Society</a
           >,
-          <a href="https://www.torontohumanesociety.com/" class="text-orange-500 hover:underline"
+          <a href="https://www.torontohumanesociety.com/" class="text-primary hover:underline"
             >Toronto Humane Society</a
           >,
-          <a href="https://www.horseplushumanesociety.org/" class="text-orange-500 hover:underline"
+          <a href="https://www.horseplushumanesociety.org/" class="text-primary hover:underline"
             >Horse Plus Humane Society</a
           >, and
-          <a href="https://niagaradogrescue.com/" class="text-orange-500 hover:underline"
+          <a href="https://niagaradogrescue.com/" class="text-primary hover:underline"
             >Niagara Dog Rescue</a
           >, we aim to increase pet exposure in order to help connect them to their forever homes.
         </p>
@@ -48,12 +48,12 @@
     <!-- Rescue logos - start -->
     <section class="px-10 mb-20 lg:mb-32 flex justify-center">
       <div class="w-full 2xl:w-9/12 md:px-12">
-        <h2 class="text-gray-700 text-xl lg:text-2xl font-bold text-center mb-4 md:mb-8">
+        <h2 class="text-gray-700 text-xl lg:text-2xl font-bold text-center mb-4 md:mb-10">
           Our Animal Rescue Partners
         </h2>
 
         <div
-          class="lg:h-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 content-evenly border-t border-b rounded-lg py-8"
+          class="lg:h-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 content-evenly border-t border-b py-8"
         >
           <!-- logo - start -->
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
@@ -62,7 +62,7 @@
                 src="/images/uploads/best-friends-logo.png"
                 loading="lazy"
                 alt="Best Friends logo"
-                class="h-20 lg:h-28"
+                class="h-20 lg:h-24"
               />
             </a>
           </div>
@@ -75,7 +75,7 @@
                 src="/images/uploads/ths-logo.png"
                 loading="lazy"
                 alt="Toronto Humane Society logo"
-                class="h-20 lg:h-28"
+                class="h-20 lg:h-24"
               />
             </a>
           </div>
@@ -88,7 +88,7 @@
                 src="/images/uploads/hph-logo.png"
                 loading="lazy"
                 alt="Horse Plus Humane Society logo"
-                class="h-20 lg:h-28"
+                class="h-20 lg:h-24"
               />
             </a>
           </div>
@@ -101,7 +101,7 @@
                 src="/images/uploads/niagaradogrescue-logo.png"
                 loading="lazy"
                 alt="Niagara Dog Rescue logo"
-                class="h-20 lg:h-28"
+                class="h-20 lg:h-24"
               />
             </a>
           </div>
@@ -114,7 +114,7 @@
     <!-- CTA - start -->
     <div class="bg-white mb-20 lg:mb-32 lg:mx-6 px-10">
       <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-        <div class="flex bg-gray-100 rounded-lg justify-center md:justify-start overflow-hidden">
+        <div class="flex bg-gray-100/50 rounded-lg justify-center md:justify-start overflow-hidden">
           <!-- image - start -->
           <div class="w-full md:w-7/12 lg:w-1/2 hidden md:block bg-gray-200 relative">
             <img
@@ -127,11 +127,11 @@
           <!-- image - end -->
 
           <!-- content - start -->
-          <div class="flex items-center p-8 sm:p-8 lg:pl-10 bg-gray-100">
+          <div class="flex items-center p-8 sm:p-8 lg:pl-10">
             <div class="w-full flex sm:block flex-col">
               <div class="inline-block mb-3 sm:mb-5">
                 <h2
-                  class="text-orange-500 text-lg sm:text-xl lg:text-2xl font-bold text-center md:text-left mb-2"
+                  class="text-primary text-lg sm:text-xl lg:text-2xl font-bold text-center md:text-left mb-2"
                 >
                   Request a pet portrait
                 </h2>
@@ -143,7 +143,7 @@
               <div class="text-center md:text-left">
                 <a
                   href="#"
-                  class="inline-block bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-100 px-8 py-3"
+                  class="inline-block bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-100 px-8 py-3"
                   >Request Art</a
                 >
               </div>
@@ -162,9 +162,3 @@ export default {
   layout: 'home',
 };
 </script>
-
-<style scoped>
-.h-28 {
-  height: 7rem;
-}
-</style>

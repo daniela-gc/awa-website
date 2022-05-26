@@ -5,12 +5,16 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 
+const colors = require('tailwindcss/colors');
+
 module.exports = {
-  mode: 'jit',
-  // future: {
-  //   purgeLayersByDefault: true,
-  // },
-  purge: false,
+  content: [
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+  ],
   theme: {
     fontFamily: {
       sans: ['Open Sans', 'sans-serif'],
@@ -32,11 +36,19 @@ module.exports = {
       '2xl': '1530px',
       // => @media (min-width: 1536px) { ... }
     },
-  },
-  variants: {
-    extend: {
-      borderWidth: ['hover'],
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      primary: '#ea7f38',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.neutral,
+      orange: colors.orange,
+      yellow: colors.amber,
+      indigo: colors.indigo,
+      emerald: colors.emerald,
+      blue: colors.blue,
     },
   },
-  plugins: [process.env.NODE_ENV === 'production' ? { cssnano: {} } : {}],
+  plugins: [],
 };

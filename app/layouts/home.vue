@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .main-wrapper {
   padding: 0 25px 0;
   @screen sm {

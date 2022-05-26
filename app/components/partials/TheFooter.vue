@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-orange-500">
+  <div class="bg-primary">
     <footer
       class="max-w-screen-2xl px-6 sm:px-16 md:px-14 lg:px-16 xl:px-20 mx-auto pt-10 lg:pt-16"
     >
@@ -30,7 +30,7 @@
             <a
               href="https://www.instagram.com/art.while.apart/"
               target="_blank"
-              class="text-orange-200 hover:text-orange-100 transition duration-100"
+              class="text-white hover:text-orange-200 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@
             <a
               href="https://www.facebook.com/artwhileapart"
               target="_blank"
-              class="text-orange-200 hover:text-orange-100 active:text-gray-600 transition duration-100"
+              class="text-white hover:text-orange-200 active:text-gray-600 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="text-orange-200 hover:text-orange-100 active:text-gray-600 transition duration-100"
+              class="text-white hover:text-orange-200 active:text-gray-600 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@
             <a
               href="mailto:artwhileapart@gmail.com"
               target="_blank"
-              class="text-orange-200 hover:text-orange-100 active:text-gray-600 transition duration-100"
+              class="text-white hover:text-orange-200 active:text-gray-600 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

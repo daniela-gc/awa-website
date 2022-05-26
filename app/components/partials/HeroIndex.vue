@@ -16,7 +16,7 @@
           class="w-full sm:w-9/12 md:w-8/12 xl:w-6/12 2xl:w-5/12 max-w-sm sm:max-w-none xl:max-w-xl 2xl:max-w-xl flex flex-col self-center lg:pb-16"
         >
           <h1
-            class="text-gray-800 text-center lg:text-left text-lg sm:text-xl lg:text-2xl xl:text-4xl font-bold mb-6 md:mb-8 lg:mb-12"
+            class="text-gray-800 text-center lg:text-left text-lg sm:text-xl lg:text-2xl xl:text-4xl leading-normal sm:leading-normal lg:leading-normal xl:leading-normal font-bold mb-6 md:mb-8 lg:mb-12"
           >
             A collaborative effort to bring people and animals closer together through art
           </h1>
@@ -24,21 +24,21 @@
           <div class="flex justify-center lg:justify-start gap-2 lg:gap-4 mb-8 lg:mb-0">
             <a
               href="#"
-              class="bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Request Art</a
             >
 
             <a
               href="https://www.paypal.com/paypalme/ArtWhileApart"
               target="_blank"
-              class="hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="hover:bg-primary text-primary hover:text-white active:text-orange-500 text-sm md:text-base font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Donate</a
             >
 
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="hidden sm:inline-block hover:bg-orange-500 text-orange-500 hover:text-white active:text-orange-600 text-sm md:text-base font-semibold text-center rounded-md border-2 border-orange-500 outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="hidden sm:inline-block hover:bg-primary text-primary hover:text-white active:text-orange-500 text-sm md:text-base font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Merchandise</a
             >
           </div>
@@ -53,15 +53,15 @@
       </div>
 
       <section
-        class="flex flex-col lg:flex-row justify-between items-center border-t gap-10 lg:gap-8 pt-8 border-gray-400"
+        class="flex flex-col lg:flex-row justify-between items-center border-t gap-10 lg:gap-8 pt-8 border-gray-300"
       >
         <!-- stats - start -->
         <div
-          class="grid grid-cols-2 md:flex md:divide-x divide-gray-400 gap-4 -mx-6 md:-mx-8 max-w-4xl"
+          class="grid grid-cols-2 md:flex md:divide-x divide-gray-300 gap-4 -mx-6 md:-mx-8 max-w-4xl"
         >
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-primary text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >3200+</span
             >
             <span
@@ -72,7 +72,7 @@
 
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-primary text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >2850+</span
             >
             <span
@@ -83,7 +83,7 @@
 
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-primary text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >350+</span
             >
             <span
@@ -94,7 +94,7 @@
 
           <div class="px-6 md:px-8">
             <span
-              class="block text-orange-500 text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
+              class="block text-primary text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left"
               >150+</span
             >
             <span
@@ -108,16 +108,16 @@
         <!-- social - start -->
         <div class="flex justify-center lg:justify-start items-center gap-4">
           <span
-            class="hidden sm:inline-block text-gray-600 text-sm lg:text-lg font-semibold tracking-widest uppercase ml-6"
+            class="hidden sm:inline-block text-gray-500 text-sm lg:text-lg font-semibold tracking-widest uppercase ml-6"
             >Social</span
           >
-          <span class="hidden sm:inline-block w-10 lg:w-8 2xl:w-12 h-px bg-gray-400"></span>
+          <span class="hidden sm:inline-block w-10 lg:w-8 2xl:w-12 h-px bg-gray-300"></span>
 
           <div class="flex gap-4">
             <a
               href="https://www.instagram.com/art.while.apart/"
               target="_blank"
-              class="text-gray-600 hover:text-gray-700 transition duration-100"
+              class="text-gray-500 hover:text-gray-700 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@
             <a
               href="https://www.facebook.com/artwhileapart"
               target="_blank"
-              class="text-gray-600 hover:text-gray-700 active:text-gray-600 transition duration-100"
+              class="text-gray-500 hover:text-gray-700 active:text-gray-600 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +167,7 @@
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="text-gray-600 hover:text-gray-700 active:text-gray-600 transition duration-100"
+              class="text-gray-500 hover:text-gray-700 active:text-gray-600 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@
             <a
               href="mailto:artwhileapart@gmail.com"
               target="_blank"
-              class="text-gray-600 hover:text-gray-700 active:text-gray-600 transition duration-100"
+              class="text-gray-500 hover:text-gray-700 active:text-gray-600 transition duration-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
