@@ -132,18 +132,19 @@
           <nav class="flex flex-col gap-3 sm:gap-4">
             <div>
               <a
-                href="#"
+                href="/"
                 class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Home</a
               >
             </div>
 
             <div>
-              <a
-                href="#"
+              <nuxt-link
+                to="/portfolio"
                 class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
-                >Portfolio</a
               >
+                Portfolio
+              </nuxt-link>
             </div>
 
             <div>
@@ -190,7 +191,8 @@
 
             <div>
               <a
-                href="#"
+                href="https://www.redbubble.com/people/ArtWhileApart/"
+                target="_blank"
                 class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Merchandise</a
               >
@@ -198,7 +200,8 @@
 
             <div>
               <a
-                href="#"
+                href="https://www.paypal.com/paypalme/ArtWhileApart"
+                target="_blank"
                 class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
                 >Donate</a
               >
