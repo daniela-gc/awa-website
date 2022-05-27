@@ -18,7 +18,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Open Sans', 'sans-serif'],
-      heading: ['Fira Sans', 'sans-serif'],
+      display: ['Caveat Brush', 'cursive'],
     },
     screens: {
       sm: '640px',

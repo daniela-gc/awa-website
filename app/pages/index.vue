@@ -14,7 +14,7 @@
       </div>
       <div class="w-full max-w-2xl lg:max-w-none text-gray-700 text-base lg:text-lg 2xl:pr-10">
         <h2
-          class="font-bold text-lg md:text-xl lg:text-2xl mb-5 flex justify-center lg:justify-start"
+          class="font-display font-medium text-3xl lg:text-4xl mb-5 flex justify-center lg:justify-start"
         >
           Our Mission
         </h2>
@@ -48,7 +48,9 @@
     <!-- Rescue logos - start -->
     <section class="px-10 mb-20 lg:mb-32 flex justify-center">
       <div class="w-full 2xl:w-9/12 md:px-12">
-        <h2 class="text-gray-700 text-xl lg:text-2xl font-bold text-center mb-4 md:mb-10">
+        <h2
+          class="font-display text-gray-700 text-3xl lg:text-4xl font-medium text-center mb-4 md:mb-10"
+        >
           Our Animal Rescue Partners
         </h2>
 
@@ -131,7 +133,7 @@
             <div class="w-full flex sm:block flex-col">
               <div class="inline-block mb-3 sm:mb-5">
                 <h2
-                  class="text-primary text-lg sm:text-xl lg:text-2xl font-bold text-center md:text-left mb-2"
+                  class="font-display font-medium text-primary text-3xl text-center md:text-left mb-4"
                 >
                   Request a pet portrait
                 </h2>

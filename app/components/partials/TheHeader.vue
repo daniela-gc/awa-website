@@ -1,16 +1,16 @@
 <template>
-  <header class="flex justify-between items-center pt-6 pb-4">
+  <header class="flex justify-between items-center pt-6 xl:pt-8 pb-4 lg:pb-12 xl:pb-8">
     <!-- logo - start -->
     <a
       href="/"
-      class="inline-flex items-center text-gray-800 text-lg md:text-2xl font-bold"
+      class="font-display tracking-wide inline-flex items-center text-gray-800 text-2xl md:text-3xl xl:text-4xl"
       aria-label="logo"
     >
       Art While Apart
     </a>
     <!-- logo - end -->
 
-    <nav class="nav hidden lg:flex font-bold text-gray-700 text-md xl:text-lg">
+    <nav class="nav hidden font-bold lg:flex text-gray-700 text-md xl:text-lg">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
         <!-- <li>
           <nuxt-link to="/blog" class="block px-2 lg:px-4"> Home </nuxt-link>

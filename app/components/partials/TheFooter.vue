@@ -11,7 +11,7 @@
           <div class="mt-8 mb-4">
             <a
               href="/"
-              class="inline-flex items-center text-gray-100 text-xl md:text-2xl font-bold"
+              class="font-display inline-flex items-center text-gray-100 text-2xl md:text-4xl font-medium"
               aria-label="logo"
             >
               Art While Apart
@@ -127,7 +127,9 @@
 
         <!-- nav - start -->
         <div class="mt-8 pl-2 sm:ml-0">
-          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm">About Us</div>
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm lg:text-base">
+            About Us
+          </div>
 
           <nav class="flex flex-col gap-3 sm:gap-4">
             <div>
@@ -168,7 +170,7 @@
 
         <!-- nav - start -->
         <div class="mt-8 pl-4 sm:ml-0">
-          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm">
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm lg:text-base">
             Get Involved
           </div>
 

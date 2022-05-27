@@ -13,10 +13,10 @@
       >
         <!-- content - start -->
         <div
-          class="w-full sm:w-9/12 md:w-8/12 xl:w-6/12 2xl:w-5/12 max-w-sm sm:max-w-none xl:max-w-xl 2xl:max-w-xl flex flex-col self-center lg:pb-16"
+          class="w-full sm:w-8/12 md:w-8/12 xl:w-6/12 2xl:w-7/12 max-w-sm sm:max-w-none xl:max-w-xl 2xl:max-w-2xl flex flex-col self-center lg:pb-16"
         >
           <h1
-            class="text-gray-800 text-center lg:text-left text-lg sm:text-xl lg:text-2xl xl:text-4xl leading-normal sm:leading-normal lg:leading-normal xl:leading-normal font-bold mb-6 md:mb-8 lg:mb-12"
+            class="font-bold lg:max-w-lg xl:max-w-none text-gray-700 text-center lg:text-left lg:leading-normal xl:leading-normal 2xl:leading-normal text-lg sm:text-2xl lg:text-3xl xl:text-4xl text-biggest mb-10 md:mb-10 lg:mb-12"
           >
             A collaborative effort to bring people and animals closer together through art
           </h1>
@@ -24,21 +24,21 @@
           <div class="flex justify-center lg:justify-start gap-2 lg:gap-4 mb-8 lg:mb-0">
             <a
               href="#"
-              class="bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-sm md:text-base font-semibold text-center rounded-md outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-base md:text-lg font-semibold text-center rounded-md outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Request Art</a
             >
 
             <a
               href="https://www.paypal.com/paypalme/ArtWhileApart"
               target="_blank"
-              class="hover:bg-primary text-primary hover:text-white active:text-orange-500 text-sm md:text-base font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="hover:bg-primary text-primary hover:text-white active:text-orange-500 text-base md:text-lg font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Donate</a
             >
 
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="hidden sm:inline-block hover:bg-primary text-primary hover:text-white active:text-orange-500 text-sm md:text-base font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="hidden sm:inline-block hover:bg-primary text-primary hover:text-white active:text-orange-500 text-base md:text-lg font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Merchandise</a
             >
           </div>
@@ -65,7 +65,7 @@
               >3200+</span
             >
             <span
-              class="block text-gray-700 text-sm md:text-base font-bold text-center md:text-left"
+              class="block text-gray-600 text-sm md:text-base font-bold text-center md:text-left"
               >Total completed pieces</span
             >
           </div>
@@ -76,7 +76,7 @@
               >2850+</span
             >
             <span
-              class="block text-gray-700 text-sm md:text-base font-bold text-center md:text-left"
+              class="block text-gray-600 text-sm md:text-base font-bold text-center md:text-left"
               >Completed pet portraits</span
             >
           </div>
@@ -87,7 +87,7 @@
               >350+</span
             >
             <span
-              class="block text-gray-700 text-sm md:text-base font-bold text-center md:text-left"
+              class="block text-gray-600 text-sm md:text-base font-bold text-center md:text-left"
               >Completed rescue portraits</span
             >
           </div>
@@ -98,7 +98,7 @@
               >150+</span
             >
             <span
-              class="block text-gray-700 text-sm md:text-base font-bold text-center md:text-left"
+              class="block text-gray-600 text-sm md:text-base font-bold text-center md:text-left"
               >Team members</span
             >
           </div>
@@ -243,6 +243,12 @@ export default {
   }
   @screen lg {
     width: 43%;
+  }
+}
+
+@screen 2xl {
+  .text-biggest {
+    font-size: 2.7rem !important;
   }
 }
 </style>

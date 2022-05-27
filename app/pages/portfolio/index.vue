@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio px-1 md:px-4">
+  <section class="portfolio px-1">
     <div
       class="py-4 md:mt-8 md:mb-16 pb-8 md:pb-10 mb-10 2xl:mx-6 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200"
     >
