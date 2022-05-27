@@ -24,21 +24,21 @@
           <div class="flex justify-center lg:justify-start gap-2 lg:gap-4 mb-8 lg:mb-0">
             <a
               href="#"
-              class="bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-base md:text-lg font-semibold text-center rounded-md outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-base md:text-lg font-semibold text-center rounded-lg outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Request Art</a
             >
 
             <a
               href="https://www.paypal.com/paypalme/ArtWhileApart"
               target="_blank"
-              class="hover:bg-primary text-primary hover:text-white active:text-orange-500 text-base md:text-lg font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="hover:bg-primary text-primary hover:text-white active:text-orange-500 text-base md:text-lg font-semibold text-center rounded-lg border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Donate</a
             >
 
             <a
               href="https://www.redbubble.com/people/ArtWhileApart/"
               target="_blank"
-              class="hidden sm:inline-block hover:bg-primary text-primary hover:text-white active:text-orange-500 text-base md:text-lg font-semibold text-center rounded-md border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
+              class="hidden sm:inline-block hover:bg-primary text-primary hover:text-white active:text-orange-500 text-base md:text-lg font-semibold text-center rounded-lg border-2 border-primary outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Merchandise</a
             >
           </div>

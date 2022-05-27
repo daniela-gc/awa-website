@@ -42,7 +42,7 @@ module.exports = {
       primary: '#ea7f38',
       black: colors.black,
       white: colors.white,
-      gray: colors.neutral,
+      gray: colors.stone,
       orange: colors.orange,
       yellow: colors.amber,
       indigo: colors.indigo,

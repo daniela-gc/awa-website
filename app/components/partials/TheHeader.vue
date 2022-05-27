@@ -3,7 +3,7 @@
     <!-- logo - start -->
     <a
       href="/"
-      class="font-display tracking-wide inline-flex items-center text-gray-800 text-2xl md:text-3xl xl:text-4xl"
+      class="font-display tracking-wide inline-flex items-center text-gray-700 text-2xl md:text-3xl xl:text-4xl"
       aria-label="logo"
     >
       Art While Apart
