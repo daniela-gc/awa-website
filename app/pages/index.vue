@@ -2,7 +2,7 @@
   <div class="mt-12 lg:mt-20 2xl:mt-12">
     <!-- Our Mission - start -->
     <section
-      class="flex flex-col lg:flex-row items-center gap-4 mt-20 pt-10 pb-12 lg:py-16 mb-12 md:mb-12 lg:mb-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
+      class="flex flex-col lg:flex-row items-center gap-4 mt-20 2xl:mt-0 pt-10 pb-12 lg:py-16 mb-12 md:mb-12 lg:mb-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
     >
       <div class="w-full 2xl:w-9/12 mb-4 flex justify-center lg:justify-start 2xl:pl-10">
         <img

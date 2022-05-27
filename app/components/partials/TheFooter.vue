@@ -127,7 +127,7 @@
 
         <!-- nav - start -->
         <div class="mt-8 pl-2 sm:ml-0">
-          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm lg:text-base">
+          <div class="text-gray-100 font-bold tracking-wide uppercase mb-4 text-sm lg:text-base">
             About Us
           </div>
 
@@ -170,7 +170,7 @@
 
         <!-- nav - start -->
         <div class="mt-8 pl-4 sm:ml-0">
-          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4 text-sm lg:text-base">
+          <div class="text-gray-100 font-bold tracking-wide uppercase mb-4 text-sm lg:text-base">
             Get Involved
           </div>
 
