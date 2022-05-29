@@ -1,12 +1,6 @@
 <template>
   <div>
-    <section class="main-hero">
-      <!-- Hero head - start -->
-      <div class="hero-head">
-        <the-header />
-      </div>
-      <!-- Hero head: end -->
-
+    <section>
       <!-- Hero body - start-->
       <div
         class="hero-body flex flex-col-reverse lg:flex-row justify-between mb-2 sm:mb-8 md:mb-10"
@@ -217,22 +211,7 @@
   </div>
 </template>
 
-<script>
-import TheHeader from '@/components/partials/TheHeader.vue';
-
-export default {
-  components: {
-    TheHeader,
-  },
-};
-</script>
-
 <style lang="scss" scoped>
-.main-hero .hero-body {
-  position: relative;
-  overflow: hidden;
-}
-
 .logo-width {
   width: 85%;
   @screen sm {

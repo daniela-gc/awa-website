@@ -8,6 +8,8 @@ export interface State {
   pages: Page[];
   posts: Post[];
   portfolioPieces: PortfolioPiece[];
+  staffMembers: StaffMember[];
+  artists: Artist[];
   route?: Route;
 }
 
@@ -17,6 +19,8 @@ export const appState = {
   pages: [],
   posts: [],
   portfolioPieces: [],
+  staffMembers: [],
+  artists: [],
 };
 
 export const mutations: MutationTree<State> = {
@@ -29,16 +33,38 @@ export const mutations: MutationTree<State> = {
   SET_PORTFOLIO_PIECES: (state, payload: Record<string, unknown>): void => {
     Vue.set(state, 'portfolioPieces', payload);
   },
+  SET_STAFF_MEMBERS: (state, payload: Record<string, unknown>): void => {
+    Vue.set(state, 'staffMembers', payload);
+  },
+  SET_ARTISTS: (state, payload: Record<string, unknown>): void => {
+    Vue.set(state, 'artists', payload);
+  },
 };
 
 interface Actions<S, R> extends ActionTree<S, R> {
   GET_PAGES_LIST(context: ActionContext<S, R>): Promise<void | Error>;
   GET_POSTS_LIST(context: ActionContext<S, R>): Promise<void | Error>;
   GET_PORTFOLIO_PIECES_LIST(context: ActionContext<S, R>): Promise<void | Error>;
+  GET_STAFF_MEMBERS_LIST(context: ActionContext<S, R>): Promise<void | Error>;
+  GET_ARTISTS_LIST(context: ActionContext<S, R>): Promise<void | Error>;
   nuxtServerInit(context: ActionContext<S, R>): void;
 }
 
 export const actions: Actions<State, State> = {
+  async GET_ARTISTS_LIST({ commit }): Promise<void | Error> {
+    // Use webpack to search the blog directory matching .json files
+    const context = await require.context('@/content/artists/', false, /\.json$/);
+    const artists = await getContent({ context, prefix: 'artists' });
+    commit('SET_ARTISTS', artists);
+  },
+
+  async GET_STAFF_MEMBERS_LIST({ commit }): Promise<void | Error> {
+    // Use webpack to search the blog directory matching .json files
+    const context = await require.context('@/content/staff/', false, /\.json$/);
+    const staffMembers = await getContent({ context, prefix: 'staff' });
+    commit('SET_STAFF_MEMBERS', staffMembers);
+  },
+
   async GET_PORTFOLIO_PIECES_LIST({ commit }): Promise<void | Error> {
     // Use webpack to search the blog directory matching .json files
     const context = await require.context('@/content/portfolio/', false, /\.json$/);
@@ -68,6 +94,8 @@ export const actions: Actions<State, State> = {
       dispatch('GET_PAGES_LIST'),
       dispatch('GET_POSTS_LIST'),
       dispatch('GET_PORTFOLIO_PIECES_LIST'),
+      dispatch('GET_STAFF_MEMBERS_LIST'),
+      dispatch('GET_ARTISTS_LIST'),
     ]);
   },
 };

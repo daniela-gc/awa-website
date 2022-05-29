@@ -1,14 +1,9 @@
 <template>
-  <main :class="[$route.name]" class="main px-4 md:px-0">
-    <div class="mx-2 md:mx-8 2xl:mx-20">
+  <main :class="[$route.name]" class="px-4 md:px-0">
+    <div class="mx-4 md:mx-10 xl:mx-16 2xl:mx-20 mt-1 md:mt-4">
       <the-header />
       <nuxt class="nuxt" />
     </div>
-
-    <!-- <svg class="" width="100%" viewBox="0 0 10 1">
-      <polygon stroke="none" stroke-width="0" fill="#ED8937" points="0,0.6 0,1 10,1 10,0" />
-    </svg> -->
-
     <the-footer />
   </main>
 </template>
@@ -27,14 +22,8 @@ import TheFooter from '@/components/partials/TheFooter.vue';
 export default class DefaultLayout extends Vue {}
 </script>
 
-<style lang="scss">
-.divider {
-  position: relative;
-  min-width: 100vw;
-  margin-top: auto;
-}
-
+<style lang="scss" scoped>
 .nuxt {
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.4s cubic-bezier(0.55, 0, 0.1, 1);
 }
 </style>

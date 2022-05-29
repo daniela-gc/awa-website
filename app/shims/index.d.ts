@@ -24,8 +24,24 @@ interface Page {
   seoDescription?: string;
   seoMetaImage?: string;
 }
+
 interface PortfolioPiece {
   title: string;
   featuredImage: string;
   socialMediaLink?: string;
+}
+
+interface StaffMember {
+  title: string;
+  featuredImage: string;
+  role: string;
+  bio: string;
+  externalLinks?: string;
+}
+
+interface Artist {
+  title: string;
+  featuredImage: string;
+  bio: string;
+  externalLinks?: string;
 }

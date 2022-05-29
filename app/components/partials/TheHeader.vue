@@ -1,5 +1,7 @@
 <template>
-  <header class="flex justify-between items-center pt-6 xl:pt-8 pb-4 lg:pb-12 xl:pb-8">
+  <header
+    class="sticky top-0 z-50 flex justify-between items-center py-5 backdrop-blur-md bg-white bg-opacity-95"
+  >
     <!-- logo - start -->
     <a
       href="/"
@@ -12,14 +14,6 @@
 
     <nav class="nav hidden font-bold lg:flex text-gray-700 text-md xl:text-lg">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
-        <!-- <li>
-          <nuxt-link to="/blog" class="block px-2 lg:px-4"> Home </nuxt-link>
-        </li>
-
-        <li v-for="(page, index) in pages" :key="index" class="block px-2 lg:px-4">
-          <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
-        </li> -->
-
         <li>
           <nuxt-link to="/" class="block px-2 lg:px-4"> Home </nuxt-link>
         </li>
@@ -27,7 +21,7 @@
           <nuxt-link to="/portfolio" class="block px-2 lg:px-4"> Portfolio </nuxt-link>
         </li>
         <li class="link-active">
-          <a href="#" class="block px-2 lg:px-4"> Team </a>
+          <nuxt-link to="/team" class="block px-2 lg:px-4"> Team </nuxt-link>
         </li>
         <li class="link-active">
           <a href="#" class="block px-2 lg:px-4"> Artist Showcase </a>
@@ -36,7 +30,7 @@
           <a href="#" class="block px-2 lg:px-4"> Join Us </a>
         </li>
         <li class="link-active">
-          <a href="#" class="block px-2 lg:px-4"> Request Art </a>
+          <a href="#" class="block pl-2 lg:pl-4"> Request Art </a>
         </li>
       </ul>
     </nav>

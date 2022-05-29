@@ -11,7 +11,7 @@
           <div class="mt-8 mb-4">
             <a
               href="/"
-              class="font-display inline-flex items-center text-gray-100 text-2xl md:text-4xl font-medium"
+              class="font-display inline-flex items-center text-gray-100 text-3xl md:text-4xl font-medium"
               aria-label="logo"
             >
               Art While Apart
@@ -135,7 +135,7 @@
             <div>
               <a
                 href="/"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Home</a
               >
             </div>
@@ -143,24 +143,25 @@
             <div>
               <nuxt-link
                 to="/portfolio"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
               >
                 Portfolio
               </nuxt-link>
             </div>
 
             <div>
-              <a
-                href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
-                >Team</a
+              <nuxt-link
+                to="/team"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
               >
+                Team
+              </nuxt-link>
             </div>
 
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Artist Showcase</a
               >
             </div>
@@ -178,7 +179,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Join Us</a
               >
             </div>
@@ -186,7 +187,7 @@
             <div>
               <a
                 href="#"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Request Art</a
               >
             </div>
@@ -195,7 +196,7 @@
               <a
                 href="https://www.redbubble.com/people/ArtWhileApart/"
                 target="_blank"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Merchandise</a
               >
             </div>
@@ -204,7 +205,7 @@
               <a
                 href="https://www.paypal.com/paypalme/ArtWhileApart"
                 target="_blank"
-                class="text-gray-200 hover:text-gray-100 active:text-indigo-600 transition duration-100 hover:underline"
+                class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Donate</a
               >
             </div>

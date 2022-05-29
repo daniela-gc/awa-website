@@ -1,20 +1,23 @@
 <template>
-  <div>
-    <div class="main-wrapper">
+  <main class="mt-1 md:mt-4">
+    <the-header class="px-8 md:px-12 xl:px-16 2xl:px-24" />
+    <div class="main-wrapper mt-4">
       <hero-index />
       <div class="is-flex-grow-1"></div>
     </div>
     <Nuxt />
     <the-footer />
-  </div>
+  </main>
 </template>
 
 <script>
 import TheFooter from '@/components/partials/TheFooter.vue';
 import HeroIndex from '@/components/partials/HeroIndex.vue';
+import TheHeader from '@/components/partials/TheHeader.vue';
 
 export default {
   components: {
+    TheHeader,
     HeroIndex,
     TheFooter,
   },
@@ -35,10 +38,6 @@ export default {
   }
   @screen 2xl {
     padding: 0 120px 0;
-    width: 100%;
-    min-height: 100vh !important;
-    display: flex;
-    flex-direction: column;
   }
 }
 </style>

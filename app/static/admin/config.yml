@@ -75,4 +75,35 @@ collections:
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
       - { label: Title, name: title, widget: string }
-      - { label: Social media link, name: socialMediaLink, widget: string }
+      - { label: 'Social media link', name: socialMediaLink, widget: string }
+  - name: 'staff'
+    label: 'Staff'
+    folder: 'app/content/staff'
+    create: true
+    format: 'json'
+    fields:
+      - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
+      - { label: Title, name: title, widget: string }
+      - { label: Role, name: role, widget: string, required: true }
+      - { label: Bio, name: bio, widget: string, required: true }
+      - label: 'External Links'
+        name: externalLinks
+        widget: list
+        fields:
+          - { label: "Nombre (i.e. Instagram, DeviantArt, Website)", name: "name", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+  - name: 'artist'
+    label: 'Artist'
+    folder: 'app/content/artists'
+    create: true
+    format: 'json'
+    fields:
+      - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
+      - { label: Title, name: title, widget: string }
+      - { label: Bio, name: bio, widget: string, required: true }
+      - label: 'External Links'
+        name: externalLinks
+        widget: list
+        fields:
+          - { label: "Nombre (i.e. Instagram, DeviantArt, Website)", name: "name", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }

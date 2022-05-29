@@ -11,9 +11,9 @@
           Portfolio
         </h1>
         <p
-          class="text-sm lg:text-base 2xl:text-lg text-gray-600 max-w-3xl sm:px-16 md:px-0 md:mr-10"
+          class="text-sm lg:text-base 2xl:text-lg text-gray-600 max-w-3xl sm:px-16 md:px-0 md:mr-12"
         >
-          Here are some of our past finished works! <br class="hidden lg:inline-block" />
+          Here are some of our past finished works! <br class="hidden xl:inline-block" />
           For a deeper look into the pieces we've made, check out our social media pages.
         </p>
       </div>
@@ -144,7 +144,7 @@ const Pagination = () => import('@/components/commons/pagination.vue');
         {
           hid: 'description',
           name: 'description',
-          content: 'Portfolio index',
+          content: 'Our Portfolio',
         },
       ],
     };

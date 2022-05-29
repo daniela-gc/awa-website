@@ -10,8 +10,15 @@ export async function getContent({
   prefix: string;
 }): Promise<{ slug: string; title: string }[]> {
   const slugs: string[] = [];
-  const content: { slug: string; title: string; featuredImage: string; socialMediaLink: string }[] =
-    [];
+  const content: {
+    slug: string;
+    title: string;
+    featuredImage: string;
+    socialMediaLink: string;
+    externalLinks: string;
+    role: string;
+    bio: string;
+  }[] = [];
 
   // Get slugs
   for (let index = 0; index < context.keys().length; index += 1) {
@@ -36,6 +43,9 @@ export async function getContent({
       }),
       featuredImage: entry.featuredImage,
       socialMediaLink: entry.socialMediaLink,
+      externalLinks: entry.externalLinks,
+      role: entry.role,
+      bio: entry.bio,
     });
   }
 
