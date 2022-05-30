@@ -58,7 +58,16 @@
                 <h2 class="mb-1 text-gray-600 font-bold text-lg">{{ staffMember.title }}</h2>
                 <p class="mb-5 text-primary font-semibold">{{ staffMember.role }}</p>
                 <p class="mb-4 text-gray-600">{{ staffMember.bio }}</p>
-                <p class="mb-2 text-gray-600">{{ staffMember.externalLinks }}</p>
+                <p class="mb-2">
+                  <a
+                    v-for="externalLink in staffMember.externalLinks"
+                    :key="externalLink.url"
+                    :href="externalLink.url"
+                  >
+                    <span class="hover:underline text-primary">{{ externalLink.name }}</span>
+                    <span class="text-gray-400">| &nbsp;</span>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -84,7 +93,17 @@
               <div class="py-3 bg-white">
                 <h2 class="mb-4 text-gray-600 font-bold text-lg">{{ artist.title }}</h2>
                 <p class="mb-4 text-gray-600">{{ artist.bio }}</p>
-                <p class="mb-2 text-gray-600">{{ artist.externalLinks }}</p>
+
+                <p class="mb-2">
+                  <a
+                    v-for="externalLink in artist.externalLinks"
+                    :key="externalLink.url"
+                    :href="externalLink.url"
+                  >
+                    <span class="hover:underline text-primary">{{ externalLink.name }}</span>
+                    <span class="text-gray-400">| &nbsp;</span>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
