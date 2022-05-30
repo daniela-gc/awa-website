@@ -9,7 +9,7 @@
           src="/images/uploads/awa-alt-logo-rainbow.png"
           loading="lazy"
           alt="Art While Apart alt logo"
-          class="w-full max-w-xs lg:max-w-sm"
+          class="w-full max-w-xs"
         />
       </div>
       <div class="w-full max-w-2xl lg:max-w-none text-gray-700 text-base lg:text-lg 2xl:pr-10">
