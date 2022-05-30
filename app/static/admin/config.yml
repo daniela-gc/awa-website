@@ -4,7 +4,7 @@ backend:
   branch: master
 
 # Publish mode https://www.netlifycms.org/docs/configuration-options/#publish-mode
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 # Media and Public Folders https://www.netlifycms.org/docs/configuration-options/#media-and-public-folders
 media_folder: 'app/static/images/uploads' # Media files will be stored in the repo under images/uploads
@@ -89,13 +89,15 @@ collections:
       - label: 'External Links'
         name: externalLinks
         widget: list
+        max: 4
+        label_singular: 'Add external link'
         fields:
           - {
-              label: 'Site name (i.e. Instagram, DeviantArt, Website)',
+              label: 'Site name (i.e. "Instagram", "DeviantArt", "Website")',
               name: 'name',
               widget: 'string',
             }
-          - { label: 'URL', name: 'url', widget: 'string' }
+          - { label: 'Link/URL', name: 'url', widget: 'string' }
   - name: 'artist'
     label: 'Artist'
     folder: 'app/content/artists'
@@ -112,8 +114,8 @@ collections:
         label_singular: 'Add external link'
         fields:
           - {
-              label: 'Site name (i.e. Instagram, DeviantArt, Website)',
+              label: 'Site name (i.e. "Instagram", "DeviantArt", "Website")',
               name: 'name',
               widget: 'string',
             }
-          - { label: 'URL', name: 'url', widget: 'string' }
+          - { label: 'Link/URL', name: 'url', widget: 'string' }
