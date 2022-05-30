@@ -90,8 +90,12 @@ collections:
         name: externalLinks
         widget: list
         fields:
-          - { label: "Nombre (i.e. Instagram, DeviantArt, Website)", name: "name", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
+          - {
+              label: 'Site name (i.e. Instagram, DeviantArt, Website)',
+              name: 'name',
+              widget: 'string',
+            }
+          - { label: 'URL', name: 'url', widget: 'string' }
   - name: 'artist'
     label: 'Artist'
     folder: 'app/content/artists'
@@ -104,6 +108,12 @@ collections:
       - label: 'External Links'
         name: externalLinks
         widget: list
+        max: 4
+        label_singular: 'Add external link'
         fields:
-          - { label: "Nombre (i.e. Instagram, DeviantArt, Website)", name: "name", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
+          - {
+              label: 'Site name (i.e. Instagram, DeviantArt, Website)',
+              name: 'name',
+              widget: 'string',
+            }
+          - { label: 'URL', name: 'url', widget: 'string' }
