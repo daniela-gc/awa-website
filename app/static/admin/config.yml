@@ -17,7 +17,7 @@ site_url: https://silly-bombolone-eb69bf.netlify.app
 display_url: https://silly-bombolone-eb69bf.netlify.app
 
 # Brands the CMS with our logo
-logo_url: https://imgur.com/2LBZtL8
+logo_url: https://imgur.com/2LBZtL8.png
 
 # Collections https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
