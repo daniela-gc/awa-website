@@ -171,10 +171,14 @@ export default class TeamIndex extends Vue {
       return range - perPage < indexPage && indexPage <= range;
     });
 
+    staffMembers.sort(({ position: a }, { position: b }) => a - b);
+
     const artists = store.state.artists.filter((artist, index) => {
       const indexPage = index + 1;
       return range - perPage < indexPage && indexPage <= range;
     });
+
+    artists.sort(({ position: a }, { position: b }) => a - b);
 
     return {
       currentPage: page,

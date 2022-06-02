@@ -18,6 +18,7 @@ export async function getContent({
     externalLinks: string;
     role: string;
     bio: string;
+    position: number;
   }[] = [];
 
   // Get slugs
@@ -46,6 +47,7 @@ export async function getContent({
       externalLinks: entry.externalLinks,
       role: entry.role,
       bio: entry.bio,
+      position: entry.position,
     });
   }
 
