@@ -93,7 +93,7 @@ collections:
     sort: 'position:asc'
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
-      - { label: Title, name: title, widget: string }
+      - { label: Nombre, name: title, widget: string }
       - { label: Role, name: role, widget: string, required: true }
       - { label: Bio, name: bio, widget: string, required: true }
       - label: 'External Links'
@@ -123,7 +123,7 @@ collections:
     sort: 'position:asc'
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
-      - { label: Title, name: title, widget: string }
+      - { label: Nombre, name: title, widget: string }
       - { label: Bio, name: bio, widget: string, required: true }
       - label: 'External Links'
         name: externalLinks
