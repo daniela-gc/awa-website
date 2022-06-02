@@ -115,7 +115,6 @@ collections:
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
       - { label: Title, name: title, widget: string }
-      - { label: 'Published at', name: publishedAt, widget: date, format: 'Do MMM YYYY' }
       - { label: Bio, name: bio, widget: string, required: true }
       - label: "Published at"
         name: "publishedAt"
