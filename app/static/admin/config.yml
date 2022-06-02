@@ -110,6 +110,7 @@ collections:
           - { label: 'Link / URL', name: 'url', widget: 'string' }
       - label: 'Position in page'
         name: 'position'
+        hint: 'Optional number to order the staff member in the Team page.'
         widget: 'number'
         value_type: 'int'
         min: 1
@@ -138,6 +139,7 @@ collections:
           - { label: 'Link / URL', name: 'url', widget: 'string' }
       - label: 'Position in page'
         name: 'position'
+        hint: 'Optional number to order the artist in the Team page.'
         widget: 'number'
         value_type: 'int'
         min: 1
