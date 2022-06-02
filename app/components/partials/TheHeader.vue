@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="sticky top-0 z-50 flex justify-between items-center py-5 bg-white bg-opacity-90 backdrop-blur-md"
-  >
+  <header class="sticky top-0 z-50 flex justify-between items-center py-5 bg-white">
     <!-- logo - start -->
     <a
       href="/"
