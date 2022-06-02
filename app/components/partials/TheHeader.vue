@@ -1,6 +1,6 @@
 <template>
   <header
-    class="sticky top-0 z-50 flex justify-between items-center py-5 backdrop-blur-md bg-white bg-opacity-95"
+    class="sticky top-0 z-50 flex justify-between items-center py-5 bg-white bg-opacity-90 backdrop-blur-md"
   >
     <!-- logo - start -->
     <a
@@ -73,7 +73,7 @@ export default class TheHeader extends Vue {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .link-active {
   a {
     &.nuxt-link-active {

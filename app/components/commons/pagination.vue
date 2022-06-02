@@ -63,7 +63,7 @@ export default class Pagination extends Vue {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .pagination-link {
   @apply -mt-px border-t-2 pt-4 px-4 inline-flex items-center text-sm leading-5 font-medium transition ease-in-out duration-150;
 

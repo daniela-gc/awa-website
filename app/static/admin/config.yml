@@ -81,11 +81,19 @@ collections:
     folder: 'app/content/staff'
     create: true
     format: 'json'
+    sort: 'published_at:asc'
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
       - { label: Title, name: title, widget: string }
       - { label: Role, name: role, widget: string, required: true }
       - { label: Bio, name: bio, widget: string, required: true }
+      - label: "Published at"
+        name: "publishedAt"
+        widget: "datetime"
+        default: 
+        date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm:ss" # e.g. 21:07:10
+        format: "LLL"
       - label: 'External Links'
         name: externalLinks
         widget: list
@@ -103,10 +111,19 @@ collections:
     folder: 'app/content/artists'
     create: true
     format: 'json'
+    sort: 'published_at:asc'
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
       - { label: Title, name: title, widget: string }
+      - { label: 'Published at', name: publishedAt, widget: date, format: 'Do MMM YYYY' }
       - { label: Bio, name: bio, widget: string, required: true }
+      - label: "Published at"
+        name: "publishedAt"
+        widget: "datetime"
+        default: 
+        date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm:ss" # e.g. 21:07:10
+        format: "LLL"
       - label: 'External Links'
         name: externalLinks
         widget: list

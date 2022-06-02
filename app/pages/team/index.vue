@@ -60,12 +60,17 @@
                 <p class="mb-4 text-gray-600">{{ staffMember.bio }}</p>
                 <p class="mb-2">
                   <a
-                    v-for="externalLink in staffMember.externalLinks"
-                    :key="externalLink.url"
+                    v-for="(externalLink, linkIndex) in staffMember.externalLinks"
+                    :key="linkIndex"
                     :href="externalLink.url"
                   >
                     <span class="hover:underline text-primary">{{ externalLink.name }}</span>
-                    <span class="text-gray-400">| &nbsp;</span>
+                    <span
+                      v-if="staffMember.externalLinks.length - 1 !== linkIndex"
+                      class="text-gray-400"
+                    >
+                      |
+                    </span>
                   </a>
                 </p>
               </div>
@@ -101,7 +106,9 @@
                     :href="externalLink.url"
                   >
                     <span class="hover:underline text-primary">{{ externalLink.name }}</span>
-                    <span class="text-gray-400">| &nbsp;</span>
+                    <span v-if="artist.externalLinks.length - 1 !== index" class="text-gray-400">
+                      | &nbsp;
+                    </span>
                   </a>
                 </p>
               </div>

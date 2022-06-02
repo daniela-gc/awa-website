@@ -176,7 +176,7 @@ export default class PortfolioIndex extends Vue {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 // .portfolio {
 //   .portfolioPiece {
 //     transition: all 0.2s cubic-bezier(0.64, 0, 0.35, 1);

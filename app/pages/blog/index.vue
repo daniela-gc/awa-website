@@ -83,7 +83,7 @@ export default class BlogIndex extends Vue {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .blog {
   .post {
     @apply shadow-md;
