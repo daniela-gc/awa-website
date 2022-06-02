@@ -10,6 +10,15 @@ backend:
 media_folder: 'app/static/images/uploads' # Media files will be stored in the repo under images/uploads
 public_folder: '/images/uploads'
 
+# URL to the published site
+site_url: https://silly-bombolone-eb69bf.netlify.app
+
+# The CMS UI will include a link in the fixed area at the top of the page with this URL
+display_url: https://silly-bombolone-eb69bf.netlify.app
+
+# Brands the CMS with our logo
+logo_url: https://imgur.com/2LBZtL8
+
 # Collections https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
   - label: Settings
@@ -81,19 +90,18 @@ collections:
     folder: 'app/content/staff'
     create: true
     format: 'json'
-    sort: 'published_at:asc'
+    sort: 'position:asc'
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
       - { label: Title, name: title, widget: string }
       - { label: Role, name: role, widget: string, required: true }
       - { label: Bio, name: bio, widget: string, required: true }
-      - label: "Published at"
-        name: "publishedAt"
-        widget: "datetime"
-        default: 
-        date_format: "DD.MM.YYYY" # e.g. 24.12.2021
-        time_format: "HH:mm:ss" # e.g. 21:07:10
-        format: "LLL"
+      - label: 'Position in page'
+        name: 'position'
+        widget: 'number'
+        value_type: 'int'
+        min: 1
+        step: 1
       - label: 'External Links'
         name: externalLinks
         widget: list
@@ -111,18 +119,17 @@ collections:
     folder: 'app/content/artists'
     create: true
     format: 'json'
-    sort: 'published_at:asc'
+    sort: 'position:asc'
     fields:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
       - { label: Title, name: title, widget: string }
       - { label: Bio, name: bio, widget: string, required: true }
-      - label: "Published at"
-        name: "publishedAt"
-        widget: "datetime"
-        default: 
-        date_format: "DD.MM.YYYY" # e.g. 24.12.2021
-        time_format: "HH:mm:ss" # e.g. 21:07:10
-        format: "LLL"
+      - label: 'Position in page'
+        name: 'position'
+        widget: 'number'
+        value_type: 'int'
+        min: 1
+        step: 1
       - label: 'External Links'
         name: externalLinks
         widget: list

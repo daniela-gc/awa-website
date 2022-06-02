@@ -37,7 +37,7 @@ interface StaffMember {
   role: string;
   bio: string;
   externalLinks?: string;
-  publishedAt: string;
+  position: number;
 }
 
 interface Artist {
@@ -45,5 +45,5 @@ interface Artist {
   featuredImage: string;
   bio: string;
   externalLinks?: string;
-  publishedAt: string;
+  position: number;
 }
