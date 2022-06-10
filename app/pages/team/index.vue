@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 2xl:mt-12">
+  <div class="mt-10 2xl:mt-12 mx-4 md:mx-10 xl:mx-16 2xl:mx-20">
     <!-- Tabs - start -->
     <ul class="flex border-b pb-2 mb-4">
       <li>
