@@ -5,12 +5,12 @@
     "socialMediaHandler": "its__merry__",
     "featuredImage": "/images/uploads/marvel.png"
   },
-  "PieceOfTheMonth": {
+  "pieceOfTheMonth": {
     "artistName": "Daniela",
     "petName": "Mya",
     "socialMediaLink": "https://www.instagram.com/skysurie/",
     "socialMediaHandler": "skysurie",
-    "featuredImage": "/images/uploads/daniela.jpg"
+    "featuredImage": "/images/uploads/mya_for_awa.jpg"
   },
   "staffHighlight": {
     "artistName": "Lutti",
@@ -24,12 +24,5 @@
     "socialMediaLink": "https://www.instagram.com/ziggatino",
     "socialMediaHandler": "ziggatino",
     "featuredImage": "/images/uploads/img_7764.jpg"
-  },
-  "pieceOfTheMonth": {
-    "artistName": "Daniela",
-    "petName": "Mya",
-    "socialMediaLink": "https://www.instagram.com/skysurie/",
-    "socialMediaHandler": "skysurie",
-    "featuredImage": "/images/uploads/mya_for_awa.jpg"
   }
 }

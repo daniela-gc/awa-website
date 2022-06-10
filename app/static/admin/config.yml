@@ -113,17 +113,17 @@ collections:
         value_type: 'int'
         min: 1
         step: 1
-  - name: 'artist_showcase'
-    label: 'OTMs'
+  - name: 'monthlyShowcase'
+    label: 'Monthly Showcase'
     files:
       - label: 'OTMs'
         name: 'otms'
-        file: 'app/content/artist_showcase/otms.json'
+        file: 'app/content/monthly_showcase/otms.json'
         fields:
           - label: 'Artist of the month'
             name: 'artistOfTheMonth'
             widget: 'object'
-            summary: '{{fields.name}}: {{fields.artistName}}'
+            summary: '{{fields.name}}'
             fields:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: 'Social media link', name: socialMediaLink, widget: string }
@@ -132,7 +132,7 @@ collections:
           - label: 'Piece of the month'
             name: 'pieceOfTheMonth'
             widget: 'object'
-            summary: '{{fields.name}}: {{fields.artistName}}'
+            summary: '{{fields.name}}'
             fields:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: "Pet's name", name: 'petName', widget: 'string' }
@@ -142,7 +142,7 @@ collections:
           - label: "Staff's highlight"
             name: 'staffHighlight'
             widget: 'object'
-            summary: '{{fields.name}}: {{fields.artistName}}'
+            summary: '{{fields.name}}'
             fields:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: "Pet's name", name: 'petName', widget: 'string' }
@@ -152,7 +152,7 @@ collections:
           - label: 'Mentor of the month'
             name: 'mentorOfTheMonth'
             widget: 'object'
-            summary: '{{fields.name}}: {{fields.artistName}}'
+            summary: '{{fields.name}}'
             fields:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: 'Social media link', name: socialMediaLink, widget: string }

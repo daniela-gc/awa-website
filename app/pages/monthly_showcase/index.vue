@@ -2,7 +2,7 @@
   <section>
     <!-- Title - start -->
     <div
-      class="py-4 md:mt-8 md:mb-16 pb-8 md:pb-10 mb-10 mx-4 md:mx-10 xl:mx-16 2xl:mx-20 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200"
+      class="py-4 md:mt-10 md:mb-16 pb-8 md:pb-10 mb-10 mx-4 md:mx-10 xl:mx-16 2xl:mx-20 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200"
     >
       <div class="flex flex-col md:flex-row items-center text-center md:text-left">
         <h1
@@ -10,9 +10,7 @@
         >
           Of The Months
         </h1>
-        <p
-          class="text-sm lg:text-base 2xl:text-lg text-gray-600 max-w-3xl sm:px-16 md:px-0 md:mr-12"
-        >
+        <p class="text-sm lg:text-base 2xl:text-lg text-gray-600 max-w-4xl sm:px-16 md:px-0">
           Every month we showcase exemplary artists and pieces from our community, check them out!
         </p>
       </div>
@@ -21,23 +19,25 @@
 
     <!-- Artist of the Month - start -->
     <div class="flex flex-col justify-center items-center mb-20">
-      <h2 class="text-primary font-display text-center text-4xl mb-10">Artist of the Month</h2>
-      <h3 class="text-3xl font-bold text-gray-600 text-center mb-4">
-        {{ otms.artistOfTheMonth.artistName }}
-      </h3>
-      <p class="text-center text-gray-500 mb-10">
-        Check out {{ otms.artistOfTheMonth.artistName }} at
-        <a
-          :href="otms.artistOfTheMonth.socialMediaLink"
-          target="_blank"
-          class="underline hover:text-primary transition-colors"
-          >@{{ otms.artistOfTheMonth.socialMediaHandler }}</a
-        >
-      </p>
+      <div class="text-center">
+        <h2 class="text-primary font-display text-4xl mb-10">Artist of the Month</h2>
+        <h3 class="text-3xl font-bold text-gray-600 mb-4">
+          {{ otms.artistOfTheMonth.artistName }}
+        </h3>
+        <p class="text-gray-500 mb-10">
+          Check out {{ otms.artistOfTheMonth.artistName }} at
+          <a
+            :href="otms.artistOfTheMonth.socialMediaLink"
+            target="_blank"
+            class="underline hover:text-primary transition-colors"
+            >@{{ otms.artistOfTheMonth.socialMediaHandler }}</a
+          >
+        </p>
+      </div>
       <a :href="otms.artistOfTheMonth.socialMediaLink" target="_blank">
         <img
           :alt="otms.artistOfTheMonth.artistName"
-          class="max-w-xl"
+          class="max-w-lg max-h-screen"
           :src="otms.artistOfTheMonth.featuredImage"
         />
       </a>
@@ -50,7 +50,7 @@
         <a :href="otms.pieceOfTheMonth.socialMediaLink" target="_blank">
           <img
             :alt="otms.pieceOfTheMonth.artistName"
-            class="max-w-xl"
+            class="max-w-lg"
             :src="otms.pieceOfTheMonth.featuredImage"
           />
         </a>
@@ -94,7 +94,7 @@
         <a :href="otms.staffHighlight.socialMediaLink" target="_blank">
           <img
             :alt="otms.staffHighlight.artistName"
-            class="max-w-xl"
+            class="max-w-lg"
             :src="otms.staffHighlight.featuredImage"
           />
         </a>
@@ -151,16 +151,16 @@ import { MetaInfo } from 'vue-meta';
     };
   },
 })
-export default class ShowcaseIndex extends Vue {
+export default class MonthlyShowcaseIndex extends Vue {
   otms: Otm[] = [];
 
   async asyncData({ store }: { store: any }): Promise<any> {
     const { otms } = store.state;
 
-    console.log(otms);
+    console.log(otms[0]);
 
     return {
-      otms: otms[0] || {},
+      otms: otms[0] || [],
     };
   }
 }

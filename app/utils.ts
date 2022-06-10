@@ -67,10 +67,10 @@ export default async function getContent({
       role: entry.role,
       bio: entry.bio,
       position: entry.position,
-      artistOfTheMonth: entry.staffHighlight,
-      pieceOfTheMonth: entry.staffHighlight,
+      artistOfTheMonth: entry.artistOfTheMonth,
+      pieceOfTheMonth: entry.pieceOfTheMonth,
       staffHighlight: entry.staffHighlight,
-      mentorOfTheMonth: entry.staffHighlight,
+      mentorOfTheMonth: entry.mentorOfTheMonth,
     });
   }
 

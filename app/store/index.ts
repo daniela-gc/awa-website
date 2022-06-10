@@ -47,8 +47,8 @@ interface Actions<S, R> extends ActionTree<S, R> {
 export const actions: Actions<State, State> = {
   async GET_OTMS_LIST({ commit }): Promise<void | Error> {
     // Use webpack to search the blog directory matching .json files
-    const context = await require.context('@/content/artist_showcase/', false, /\.json$/);
-    const otms = await getContent({ context, prefix: 'artist_showcase' });
+    const context = await require.context('@/content/monthly_showcase/', false, /\.json$/);
+    const otms = await getContent({ context, prefix: 'monthly_showcase' });
     commit('SET_OTMS', otms);
   },
 

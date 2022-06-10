@@ -4,27 +4,6 @@ declare global {
   }
 }
 
-interface Post {
-  title: string;
-  slug?: string;
-  excerpt?: string;
-  content: string;
-  publishedAt: string;
-  featuredImage?: string;
-  seoDescription?: string;
-  seoMetaImage?: string;
-}
-
-interface Page {
-  title: string;
-  subtitle?: string;
-  slug?: string;
-  content: string;
-  featuredImage?: string;
-  seoDescription?: string;
-  seoMetaImage?: string;
-}
-
 interface PortfolioPiece {
   title: string;
   featuredImage: string;
@@ -49,29 +28,29 @@ interface Artist {
 }
 interface Otm {
   artistOfTheMonth: {
-    artistName: string;
-    socialMediaLink: string;
-    socialMediaHandler: string
-    featuredImage: string;
+    artistName: string,
+    socialMediaLink: string,
+    socialMediaHandler: string,
+    featuredImage: string,
   }
   pieceOfTheMonth: {
-    artistName: string;
-    petName: string;
-    socialMediaLink: string;
-    socialMediaHandler: string
-    featuredImage: string;
+    artistName: string,
+    petName: string,
+    socialMediaLink: string,
+    socialMediaHandler: string,
+    featuredImage: string,
   }
   staffHighlight: {
-    artistName: string;
-    petName: string;
-    socialMediaLink: string;
-    socialMediaHandler: string
-    featuredImage: string;
+    artistName: string,
+    petName: string,
+    socialMediaLink: string,
+    socialMediaHandler: string,
+    featuredImage: string,
   }
   mentorOfTheMonth: {
-    artistName: string;
-    socialMediaLink: string;
-    socialMediaHandler: string
-    featuredImage: string;
+    artistName: string,
+    socialMediaLink: string,
+    socialMediaHandler: string,
+    featuredImage: string,
   }
 }
