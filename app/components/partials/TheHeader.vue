@@ -22,7 +22,7 @@
           <nuxt-link to="/team" class="block px-2 lg:px-4"> Team </nuxt-link>
         </li>
         <li class="link-active">
-          <a href="#" class="block px-2 lg:px-4"> Artist Showcase </a>
+          <a href="/showcase" class="block px-2 lg:px-4"> Monthly Showcase </a>
         </li>
         <li class="link-active">
           <a href="#" class="block px-2 lg:px-4"> Join Us </a>

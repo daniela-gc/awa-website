@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="2xl:mb-24">
     <section>
       <!-- Hero body - start-->
       <div

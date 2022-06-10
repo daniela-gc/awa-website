@@ -1,8 +1,4 @@
-export function createExcerpt({ text, length = 150 }: { text: string; length?: number }): string {
-  return text.split('', length).concat(['...']).join('');
-}
-
-export async function getContent({
+export default async function getContent({
   context,
   prefix,
 }: {
@@ -19,6 +15,32 @@ export async function getContent({
     role: string;
     bio: string;
     position: number;
+    artistOfTheMonth: {
+      artistName: string;
+      socialMediaLink: string;
+      socialMediaHandler: string;
+      featuredImage: string;
+    };
+    pieceOfTheMonth: {
+      artistName: string;
+      petName: string;
+      socialMediaLink: string;
+      socialMediaHandler: string;
+      featuredImage: string;
+    };
+    staffHighlight: {
+      artistName: string;
+      petName: string;
+      socialMediaLink: string;
+      socialMediaHandler: string;
+      featuredImage: string;
+    };
+    mentorOfTheMonth: {
+      artistName: string;
+      socialMediaLink: string;
+      socialMediaHandler: string;
+      featuredImage: string;
+    };
   }[] = [];
 
   // Get slugs
@@ -39,15 +61,16 @@ export async function getContent({
     content.push({
       slug,
       title: entry.title,
-      ...(prefix === 'blog' && {
-        excerpt: createExcerpt({ text: entry.content }),
-      }),
       featuredImage: entry.featuredImage,
       socialMediaLink: entry.socialMediaLink,
       externalLinks: entry.externalLinks,
       role: entry.role,
       bio: entry.bio,
       position: entry.position,
+      artistOfTheMonth: entry.staffHighlight,
+      pieceOfTheMonth: entry.staffHighlight,
+      staffHighlight: entry.staffHighlight,
+      mentorOfTheMonth: entry.staffHighlight,
     });
   }
 

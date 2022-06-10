@@ -47,3 +47,31 @@ interface Artist {
   externalLinks?: string;
   position: number;
 }
+interface Otm {
+  artistOfTheMonth: {
+    artistName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string
+    featuredImage: string;
+  }
+  pieceOfTheMonth: {
+    artistName: string;
+    petName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string
+    featuredImage: string;
+  }
+  staffHighlight: {
+    artistName: string;
+    petName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string
+    featuredImage: string;
+  }
+  mentorOfTheMonth: {
+    artistName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string
+    featuredImage: string;
+  }
+}

@@ -31,7 +31,6 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: 'Title Template', name: titleTemplate, widget: string }
-          - { label: 'Welcome Text', name: welcomeText, widget: markdown }
           - { label: Logo, name: logo, widget: image }
           - { label: Icon, name: icon, widget: image }
           - { label: 'Loading Color', name: loadingColor, widget: string, default: '#000000' }
@@ -45,45 +44,15 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: 'Short name', name: shortName, widget: string }
           - { label: Description, name: description, widget: text }
-          - { label: 'Theme color', name: themeColor, widget: string }
-          - { label: 'Background color', name: backgroundColor, widget: string }
           - { label: Lang, name: lang, widget: string, default: en }
-
-  - name: 'pages'
-    label: 'Pages'
-    folder: 'app/content/pages'
-    create: true
-    slug: '{{slug}}'
-    format: 'json'
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Subtitle, name: subtitle, widget: text, required: false }
-      - { label: Content, name: content, widget: markdown }
-      - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
-      - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
-      - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'app/content/blog'
-    create: true
-    slug: '{{slug}}'
-    format: 'json'
-    sort: 'published_at:desc'
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: 'Published At', name: publishedAt, widget: date, format: 'Do MMM YYYY' }
-      - { label: Content, name: content, widget: markdown }
-      - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
-      - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
-      - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
   - name: 'portfolio'
     label: 'Portfolio'
     folder: 'app/content/portfolio'
     create: true
     format: 'json'
     fields:
-      - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
-      - { label: Title, name: title, widget: string }
+      - { label: 'Piece', name: featuredImage, widget: image }
+      - { label: Name, name: title, widget: string }
       - { label: 'Social media link', name: socialMediaLink, widget: string }
   - name: 'staff'
     label: 'Staff'
@@ -92,10 +61,10 @@ collections:
     format: 'json'
     sort: 'position:asc'
     fields:
-      - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
-      - { label: Nombre, name: title, widget: string }
-      - { label: Role, name: role, widget: string, required: true }
-      - { label: Bio, name: bio, widget: string, required: true }
+      - { label: 'Image', name: featuredImage, widget: image }
+      - { label: Name, name: title, widget: string }
+      - { label: Role, name: role, widget: string }
+      - { label: Bio, name: bio, widget: string }
       - label: 'External Links'
         name: externalLinks
         widget: list
@@ -107,7 +76,7 @@ collections:
               name: 'name',
               widget: 'string',
             }
-          - { label: 'Link / URL', name: 'url', widget: 'string' }
+          - { label: 'Link / URL', name: 'url', widget: string }
       - label: 'Position in page'
         name: 'position'
         hint: 'Optional number to order the staff member in the Team page.'
@@ -116,15 +85,15 @@ collections:
         min: 1
         step: 1
   - name: 'artist'
-    label: 'Artist'
+    label: 'Artists'
     folder: 'app/content/artists'
     create: true
     format: 'json'
     sort: 'position:asc'
     fields:
-      - { label: 'Featured Image', name: featuredImage, widget: image, required: true }
+      - { label: 'Image', name: featuredImage, widget: image }
       - { label: Nombre, name: title, widget: string }
-      - { label: Bio, name: bio, widget: string, required: true }
+      - { label: Bio, name: bio, widget: string }
       - label: 'External Links'
         name: externalLinks
         widget: list
@@ -144,3 +113,48 @@ collections:
         value_type: 'int'
         min: 1
         step: 1
+  - name: 'artist_showcase'
+    label: 'OTMs'
+    files:
+      - label: 'OTMs'
+        name: 'otms'
+        file: 'app/content/artist_showcase/otms.json'
+        fields:
+          - label: 'Artist of the month'
+            name: 'artistOfTheMonth'
+            widget: 'object'
+            summary: '{{fields.name}}: {{fields.artistName}}'
+            fields:
+              - { label: "Artist's name", name: 'artistName', widget: string }
+              - { label: 'Social media link', name: socialMediaLink, widget: string }
+              - { label: 'Social media handler', name: socialMediaHandler, widget: string }
+              - { label: 'Piece', name: featuredImage, widget: image, allow_multiple: true }
+          - label: 'Piece of the month'
+            name: 'pieceOfTheMonth'
+            widget: 'object'
+            summary: '{{fields.name}}: {{fields.artistName}}'
+            fields:
+              - { label: "Artist's name", name: 'artistName', widget: string }
+              - { label: "Pet's name", name: 'petName', widget: 'string' }
+              - { label: 'Social media link', name: socialMediaLink, widget: string }
+              - { label: 'Social media handler', name: socialMediaHandler, widget: string }
+              - { label: 'Piece', name: featuredImage, widget: image }
+          - label: "Staff's highlight"
+            name: 'staffHighlight'
+            widget: 'object'
+            summary: '{{fields.name}}: {{fields.artistName}}'
+            fields:
+              - { label: "Artist's name", name: 'artistName', widget: string }
+              - { label: "Pet's name", name: 'petName', widget: 'string' }
+              - { label: 'Social media link', name: socialMediaLink, widget: string }
+              - { label: 'Social media handler', name: socialMediaHandler, widget: string }
+              - { label: 'Piece', name: featuredImage, widget: image }
+          - label: 'Mentor of the month'
+            name: 'mentorOfTheMonth'
+            widget: 'object'
+            summary: '{{fields.name}}: {{fields.artistName}}'
+            fields:
+              - { label: "Artist's name", name: 'artistName', widget: string }
+              - { label: 'Social media link', name: socialMediaLink, widget: string }
+              - { label: 'Social media handler', name: socialMediaHandler, widget: string }
+              - { label: 'Piece', name: featuredImage, widget: image }

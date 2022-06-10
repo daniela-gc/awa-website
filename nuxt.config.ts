@@ -1,5 +1,4 @@
 import { Configuration } from '@nuxt/types';
-import fg from 'fast-glob';
 import settings from './app/content/settings/general.json';
 import manifest from './app/content/settings/manifest.json';
 
@@ -67,13 +66,6 @@ const nuxtConfig: Configuration = {
 
   generate: {
     subFolders: false,
-
-    routes: [
-      ...fg.sync(['./app/content/blog/**.json', './app/content/pages/**.json']).map(url => ({
-        route: url.replace(/^.\/app\/content(\/pages)?|.json$/gi, ''),
-        payload: require(url),
-      })),
-    ],
   },
 
   target: 'static', // default is 'server'
@@ -117,8 +109,6 @@ const nuxtConfig: Configuration = {
     name: manifest.name,
     short_name: manifest.shortName,
     description: manifest.description,
-    theme_color: manifest.themeColor,
-    background_color: manifest.backgroundColor,
     lang: manifest.lang || 'en',
   },
 
