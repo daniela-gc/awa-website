@@ -2,5 +2,19 @@
   "featuredImage": "/images/uploads/terrafoxe.jpg",
   "title": "Terrafoxe",
   "bio": "A 21-year-old female digital artist based in Poland who loves drawing animals. She started drawing in the middle of 2019 and would love to continue creating and improving her art. She loves experimenting with styles and generally prefers a more stylized/cartoony approach.",
-  "externalLinks": ""
+  "externalLinks": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/terrafoxe/"
+    },
+    {
+      "url": "https://www.deviantart.com/terrafoxe",
+      "name": "DeviantArt"
+    },
+    {
+      "url": "https://paypal.me/Terrafoxe",
+      "name": "PayPal"
+    }
+  ],
+  "position": 1
 }

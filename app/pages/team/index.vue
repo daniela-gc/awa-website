@@ -44,7 +44,7 @@
           <div
             v-for="(staffMember, index) in staffMembers"
             :key="index"
-            class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/5 my-5 md:px-4 2xl:px-10 flex flex-row justify-center"
+            class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/4 my-5 md:px-4 2xl:px-10 flex flex-row justify-center"
           >
             <div class="staffMember self-start flex flex-col items-center">
               <a :href="staffMember.externalLinks" target="_blank">
@@ -89,7 +89,7 @@
           <div
             v-for="(artist, index) in artists"
             :key="index"
-            class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/5 my-4 md:px-4 flex flex-row justify-center"
+            class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/4 my-5 md:px-4 2xl:px-10 flex flex-row justify-center"
           >
             <div class="artist self-start flex flex-col items-center">
               <a :href="artist.externalLinks" target="_blank">
@@ -101,13 +101,16 @@
 
                 <p class="mb-2">
                   <a
-                    v-for="externalLink in artist.externalLinks"
-                    :key="externalLink.url"
+                    v-for="(externalLink, linkIndex) in artist.externalLinks"
+                    :key="linkIndex"
                     :href="externalLink.url"
                   >
                     <span class="hover:underline text-primary">{{ externalLink.name }}</span>
-                    <span v-if="artist.externalLinks.length - 1 !== index" class="text-gray-400">
-                      | &nbsp;
+                    <span
+                      v-if="artist.externalLinks.length - 1 !== linkIndex"
+                      class="text-gray-400"
+                    >
+                      |
                     </span>
                   </a>
                 </p>

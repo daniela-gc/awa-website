@@ -72,7 +72,7 @@ collections:
         label_singular: 'external link'
         fields:
           - {
-              label: 'Site name (i.e. Instagram, DeviantArt", Website)',
+              label: 'Site name (e.g. Instagram, DeviantArt, Website)',
               name: 'name',
               widget: 'string',
             }
@@ -81,6 +81,7 @@ collections:
         name: 'position'
         hint: 'Optional number to order the staff member in the Team page.'
         widget: 'number'
+        required: false
         value_type: 'int'
         min: 1
         step: 1
@@ -101,7 +102,7 @@ collections:
         label_singular: 'external link'
         fields:
           - {
-              label: 'Site name (i.e. Instagram, DeviantArt", Website)',
+              label: 'Site name (e.g. Instagram, DeviantArt, Website)',
               name: 'name',
               widget: 'string',
             }
@@ -110,6 +111,7 @@ collections:
         name: 'position'
         hint: 'Optional number to order the artist in the Team page.'
         widget: 'number'
+        required: false
         value_type: 'int'
         min: 1
         step: 1
