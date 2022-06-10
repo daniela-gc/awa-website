@@ -3,7 +3,7 @@
     "artistName": "Merry",
     "socialMediaLink": "https://www.instagram.com/its__merry__/",
     "socialMediaHandler": "its__merry__",
-    "featuredImage": "/images/uploads/daniela.jpg"
+    "featuredImage": "/images/uploads/marvel.png"
   },
   "PieceOfTheMonth": {
     "artistName": "Daniela",
@@ -17,12 +17,19 @@
     "petName": "Divya",
     "socialMediaLink": "https://www.instagram.com/dracopuella/",
     "socialMediaHandler": "dracopuella",
-    "featuredImage": "/images/uploads/daniela.jpg"
+    "featuredImage": "/images/uploads/img_1898.png"
   },
   "mentorOfTheMonth": {
     "artistName": "Ziggy",
     "socialMediaLink": "https://www.instagram.com/ziggatino",
     "socialMediaHandler": "ziggatino",
-    "featuredImage": "/images/uploads/daniela.jpg"
+    "featuredImage": "/images/uploads/img_7764.jpg"
+  },
+  "pieceOfTheMonth": {
+    "artistName": "Daniela",
+    "petName": "Mya",
+    "socialMediaLink": "https://www.instagram.com/skysurie/",
+    "socialMediaHandler": "skysurie",
+    "featuredImage": "/images/uploads/mya_for_awa.jpg"
   }
 }
