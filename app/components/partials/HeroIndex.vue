@@ -17,7 +17,7 @@
 
           <div class="flex justify-center lg:justify-start gap-2 lg:gap-4 mb-8 lg:mb-0">
             <a
-              href="#"
+              href="/request_art"
               class="bg-primary hover:bg-orange-500 active:bg-orange-500 text-white text-base md:text-lg font-semibold text-center rounded-lg outline-none transition duration-200 px-4 lg:px-5 xl:px-8 py-2 md:py-3"
               >Request Art</a
             >
