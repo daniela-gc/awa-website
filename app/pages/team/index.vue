@@ -9,7 +9,7 @@
           @keydown="toggleActiveTab('staff')"
           class="w-full text-2xl font-bold text-gray-600 px-6 py-2 my-2 hover:bg-gray-100 transition-colors duration-200"
           :class="{
-            'border-b-2 border-primary focus:border-primary active': staffTabIsActive,
+            'border-b-4 border-primary focus:border-primary active': staffTabIsActive,
           }"
           >Staff</a
         >
@@ -21,7 +21,7 @@
           @keydown="toggleActiveTab('artist')"
           class="w-full text-2xl font-bold text-gray-600 px-6 py-2 my-2 hover:bg-gray-100 transition-colors duration-200"
           :class="{
-            'border-b-2 border-primary focus:border-primary active': !staffTabIsActive,
+            'border-b-4 border-primary focus:border-primary active': !staffTabIsActive,
           }"
           >Artists</a
         >

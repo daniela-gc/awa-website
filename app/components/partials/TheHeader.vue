@@ -1,34 +1,41 @@
 <template>
-  <header class="sticky top-0 z-50 flex justify-between items-center py-5 bg-white">
+  <header class="sticky top-0 left-0 right-0 z-50 flex justify-between items-center py-5 bg-white">
     <!-- logo - start -->
     <a
       href="/"
       class="font-display tracking-wide inline-flex items-center text-gray-700 text-2xl md:text-3xl xl:text-4xl"
       aria-label="logo"
     >
-      Art While Apart
+      <div class="flex items-end">
+        <div class="mb-1">
+          <img src="/images/uploads/fox-icon.png" alt="fox-icon" class="w-8 md:w-10 max-w-xs" />
+        </div>
+        <div class="ml-3">Art While Apart</div>
+      </div>
     </a>
     <!-- logo - end -->
 
     <nav class="nav hidden font-bold lg:flex text-gray-700 text-md xl:text-lg">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
-        <li>
+        <li class="hover:text-primary transition-all">
           <nuxt-link to="/" class="block px-2 lg:px-4"> Home </nuxt-link>
         </li>
-        <li class="link-active">
+        <li class="link-active hover:text-primary transition-all">
           <nuxt-link to="/portfolio" class="block px-2 lg:px-4"> Portfolio </nuxt-link>
         </li>
-        <li class="link-active">
+        <li class="link-active hover:text-primary transition-all">
           <nuxt-link to="/team" class="block px-2 lg:px-4"> Team </nuxt-link>
         </li>
-        <li class="link-active">
-          <a href="/monthly_showcase" class="block px-2 lg:px-4"> Monthly Showcase </a>
+        <li class="link-active hover:text-primary transition-all">
+          <nuxt-link to="/monthly_showcase" class="block px-2 lg:px-4">
+            Monthly Showcase
+          </nuxt-link>
         </li>
-        <li class="link-active">
-          <a href="#" class="block px-2 lg:px-4"> Join Us </a>
+        <li class="link-active hover:text-primary transition-all">
+          <nuxt-link to="/join_us" class="block px-2 lg:px-4"> Join Us </nuxt-link>
         </li>
-        <li class="link-active">
-          <a href="#" class="block pl-2 lg:pl-4"> Request Art </a>
+        <li class="link-active hover:text-primary transition-all">
+          <nuxt-link to="/request_art" class="block pl-2 lg:pl-4"> Request Art </nuxt-link>
         </li>
       </ul>
     </nav>

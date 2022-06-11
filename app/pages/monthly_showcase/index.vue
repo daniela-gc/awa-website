@@ -157,8 +157,6 @@ export default class MonthlyShowcaseIndex extends Vue {
   async asyncData({ store }: { store: any }): Promise<any> {
     const { otms } = store.state;
 
-    console.log(otms[0]);
-
     return {
       otms: otms[0] || [],
     };
