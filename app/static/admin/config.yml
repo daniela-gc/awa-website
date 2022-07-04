@@ -130,13 +130,17 @@ collections:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: 'Social media link', name: socialMediaLink, widget: string }
               - { label: 'Social media handler', name: socialMediaHandler, widget: string }
-              - label: 'Piece'
-                name: 'featuredImage'
-                widget: 'image'
-                allow_multiple: true
-                media_library:
-                  config:
-                    multiple: true
+              - label: 'Pieces'
+                name: pieces
+                widget: list
+                max: 5
+                label_singular: 'piece'
+                fields:
+                  - {
+                      label: 'Image',
+                      name: 'featuredImage',
+                      widget: 'image',
+                    }
           - label: 'Piece of the month'
             name: 'pieceOfTheMonth'
             widget: 'object'

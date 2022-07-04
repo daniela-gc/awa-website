@@ -3,7 +3,20 @@
     "artistName": "Merry",
     "socialMediaLink": "https://www.instagram.com/its__merry__/",
     "socialMediaHandler": "its__merry__",
-    "featuredImage": "/images/uploads/marvel.png"
+    "pieces": [
+      {
+        "featuredImage": "/images/uploads/marvel.png"
+      },
+      {
+        "featuredImage": "/images/uploads/angel.png"
+      },
+      {
+        "featuredImage": "/images/uploads/leonardo.png"
+      },
+      {
+        "featuredImage": "/images/uploads/tiffy.png"
+      }
+    ]
   },
   "pieceOfTheMonth": {
     "artistName": "Daniela",
