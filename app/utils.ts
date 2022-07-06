@@ -19,7 +19,7 @@ export default async function getContent({
       artistName: string;
       socialMediaLink: string;
       socialMediaHandler: string;
-      featuredImage: string;
+      pieces: string;
     };
     pieceOfTheMonth: {
       artistName: string;

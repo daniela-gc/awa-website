@@ -70,7 +70,9 @@ const nuxtConfig: Configuration = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/vue-agile', mode: 'client' },
+  ],
 
   /*
    ** Nuxt.js modules
@@ -150,6 +152,8 @@ const nuxtConfig: Configuration = {
         useShortDoctype: true,
       },
     },
+
+    transpile: ['vue-agile'],
 
     publicPath: '/_nuxt/',
 

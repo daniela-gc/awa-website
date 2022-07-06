@@ -33,7 +33,8 @@
     "fast-glob": "^3.2.2",
     "nuxt": "^2.13.3",
     "nuxt-property-decorator": "^2.7.2",
-    "ts-node": "^8.10.2"
+    "ts-node": "^8.10.2",
+    "vue-agile": "^2.0.0"
   },
   "devDependencies": {
     "@babel/helper-call-delegate": "^7.10.4",

@@ -31,7 +31,7 @@ interface Otm {
     artistName: string,
     socialMediaLink: string,
     socialMediaHandler: string,
-    Pieces: string,
+    pieces: string,
   }
   pieceOfTheMonth: {
     artistName: string,
