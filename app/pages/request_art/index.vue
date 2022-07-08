@@ -18,44 +18,23 @@
     </div>
     <!-- Title - end -->
 
-    <!-- Art Examples - start -->
-    <div class="flex mb-16 justify-center items-center gap-2">
-      <div>
-        <img src="/images/uploads/kubo.jpg" alt="Kubo" class="w-full h-80 max-h-80" />
-      </div>
-      <div>
-        <img
-          src="/images/uploads/yogi.jpg"
-          alt="Yogi by Blue Centaurea"
-          class="w-auto h-80 max-h-80"
-        />
-      </div>
-      <div>
-        <img src="/images/uploads/img_1898.png" alt="Miette by Iris" class="w-auto h-80 max-h-80" />
-      </div>
-      <div>
-        <img
-          src="/images/uploads/maple_by_nicole.jpg"
-          alt="Maple by Nicole"
-          class="w-full h-80 max-h-80"
-        />
-      </div>
-      <div>
-        <img
-          src="/images/uploads/awa_brana_done.jpg"
-          alt="Lara by Rivu"
-          class="w-full h-80 max-h-80"
-        />
-      </div>
-      <div>
-        <img
-          src="/images/uploads/terrafoxe.jpg"
-          alt="Maggy by Ssivo"
-          class="w-full h-80 max-h-80"
-        />
-      </div>
+    <!-- Art Examples Slider - start -->
+    <div class="w-full mb-16">
+      <agile :options="sliderOptions">
+        <div
+          v-for="(art, index) in artExamples"
+          :key="index"
+          class="slide max-h-56 lg:max-h-72 flex items-center justify-evenly justify-items-center"
+        >
+          <img
+            :src="`/images/uploads/${art.fileName}`"
+            :alt="art.alt"
+            class="h-56 lg:h-72 w-auto px-1 object-scale-down"
+          />
+        </div>
+      </agile>
     </div>
-    <!-- Art Examples - end -->
+    <!-- Art Examples Slider - end -->
 
     <div class="flex justify-center items-start gap-24 mb-8">
       <!-- Body - start -->
@@ -273,5 +252,56 @@ import { MetaInfo } from 'vue-meta';
     };
   },
 })
-export default class MonthlyShowcaseIndex extends Vue {}
+export default class MonthlyShowcaseIndex extends Vue {
+  sliderOptions = {
+    navButtons: false,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 350,
+    centerMode: true,
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 6,
+        },
+      },
+    ],
+  };
+
+  artExamples = [
+    { fileName: 'kubo.jpg', alt: 'Kubo' },
+    { fileName: 'yogi.jpg', alt: 'Yogi by Blue Centaurea' },
+    { fileName: 'divya_by_lutti.png', alt: 'Divya by Lutti' },
+    { fileName: 'maple_by_nicole.jpg', alt: 'Maple by Nicole' },
+    { fileName: 'awa_brana_done.jpg', alt: 'Brana by @creative.impulse' },
+    { fileName: 'terrafoxe.jpg', alt: 'Art by Terrafoxe' },
+    { fileName: 'killer_by_ziggy.jpg', alt: 'Killer by Ziggy' },
+    { fileName: 'lara-by-rivu.png', alt: 'Lara by Rivu' },
+  ];
+
+  sliderOptions: sliderOptions;
+
+  artExamples: artExamples;
+}
 </script>
