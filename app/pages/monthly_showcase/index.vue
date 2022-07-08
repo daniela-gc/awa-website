@@ -20,11 +20,11 @@
     <!-- Artist of the Month - start -->
     <div class="flex flex-col justify-center items-center mb-20">
       <div class="text-center">
-        <h2 class="text-primary font-display text-4xl mb-10">Artist of the Month</h2>
+        <h2 class="text-primary font-display text-4xl mb-8">Artist of the Month</h2>
         <h3 class="text-3xl font-bold text-gray-600 mb-4">
           {{ otms.artistOfTheMonth.artistName }}
         </h3>
-        <div class="text-gray-500 mb-10">
+        <div class="text-gray-500 mb-8">
           Check out {{ otms.artistOfTheMonth.artistName }} at
           <a
             :href="otms.artistOfTheMonth.socialMediaLink"
@@ -36,7 +36,7 @@
       </div>
 
       <!-- Artist of the Month Slider - start -->
-      <div class="px-8 image-slider text-gray-400">
+      <div class="px-8 w-full max-w-4xl">
         <agile
           :nav-buttons="true"
           :dots="true"
@@ -51,48 +51,20 @@
           <div
             v-for="(piece, pieceIndex) in otms.artistOfTheMonth.pieces"
             :key="pieceIndex"
-            class="slide flex items-center justify-center justify-items-center text-primary max-h-screen mb-6"
+            class="slide text-primary max-h-screen mb-6"
           >
             <img
               :src="piece.featuredImage"
               :alt="otms.artistOfTheMonth.artistName"
-              class="object-scale-down slider-image flex items-center justify-center"
+              class="w-full object-scale-down slider-image flex items-center justify-center"
             />
           </div>
-          <template slot="prevButton"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              role="img"
-              class="text-gray-400"
-              width="32"
-              height="32"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="currentColor"
-                d="M15.125 21.1L6.7 12.7q-.15-.15-.212-.325q-.063-.175-.063-.375t.063-.375q.062-.175.212-.325l8.425-8.425q.35-.35.875-.35t.9.375q.375.375.375.875t-.375.875L9.55 12l7.35 7.35q.35.35.35.862q0 .513-.375.888t-.875.375q-.5 0-.875-.375Z"
-              ></path></svg
-          ></template>
-          <template slot="nextButton"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              role="img"
-              class="text-gray-400"
-              width="32"
-              height="32"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="currentColor"
-                d="M7.15 21.1q-.375-.375-.375-.888q0-.512.375-.887L14.475 12l-7.35-7.35q-.35-.35-.35-.875t.375-.9q.375-.375.888-.375q.512 0 .887.375l8.4 8.425q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325L8.9 21.125q-.35.35-.862.35q-.513 0-.888-.375Z"
-              ></path></svg
-          ></template>
+          <template slot="prevButton">
+            <IconArrowLeft class="text-gray-400 hover:text-gray-500 duration-300" />
+          </template>
+          <template slot="nextButton">
+            <IconArrowRight class="text-gray-400 hover:text-gray-500 duration-300" />
+          </template>
         </agile>
       </div>
       <!-- Artist of the Month Slider - end -->
@@ -189,10 +161,16 @@
 </template>
 
 <script lang="ts">
+import IconArrowLeft from '@/components/commons/icons/IconArrowLeft.vue';
+import IconArrowRight from '@/components/commons/icons/IconArrowRight.vue';
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
 
 @Component({
+  components: {
+    IconArrowLeft,
+    IconArrowRight,
+  },
   head(): MetaInfo {
     return {
       title: 'Monthly Showcase',
@@ -220,14 +198,8 @@ export default class MonthlyShowcaseIndex extends Vue {
 </script>
 
 <style lang="css">
-.image-slider {
-  max-width: 900px;
-  width: 100%;
-}
-
 .slider-image {
   height: 600px;
-  width: 100%;
 }
 
 .agile__dot {
@@ -247,5 +219,10 @@ export default class MonthlyShowcaseIndex extends Vue {
   margin: 0;
   padding: 0;
   transition-duration: 0.3s;
+}
+
+.agile__dot--current button,
+.agile__dot:hover button {
+  background-color: #7c7c7c;
 }
 </style>
