@@ -224,8 +224,35 @@
 
       <div class="border-t border-white opacity-25"></div>
 
-      <div class="flex items-center justify-items-center justify-between pt-8 pb-12">
-        <div class="text-orange-100 text-sm">
+      <div
+        class="flex flex-col lg:flex-row items-center justify-items-center lg:justify-between pt-8 pb-12"
+      >
+        <div class="text-orange-100 text-center lg:hidden mb-5 lg:mb-0 text-sm md:text-base">
+          <a
+            href="https://www.artwhileapart.org/privacy-policy"
+            target="_blank"
+            class="hover:underline hover:text-white"
+          >
+            Privacy Policy</a
+          >
+          <span>|</span>
+          <a
+            href="https://www.artwhileapart.org/privacy-policy"
+            target="_blank"
+            class="hover:underline hover:text-white"
+          >
+            Terms of Service</a
+          >
+          <span>|</span>
+          <a
+            href="https://www.artwhileapart.org/privacy-policy"
+            target="_blank"
+            class="hover:underline hover:text-white"
+          >
+            House Rules
+          </a>
+        </div>
+        <div class="text-orange-100 text-sm text-center lg:text-left">
           <p class="mb-1">
             AWA logo made by
             <a
@@ -255,7 +282,7 @@
             >
           </p>
         </div>
-        <div class="text-orange-100 text-center">
+        <div class="text-orange-100 text-center hidden lg:block">
           <a
             href="https://www.artwhileapart.org/privacy-policy"
             target="_blank"
@@ -263,7 +290,7 @@
           >
             Privacy Policy</a
           >
-          <span class="mx-2">|</span>
+          <span class="mx-1">|</span>
           <a
             href="https://www.artwhileapart.org/privacy-policy"
             target="_blank"
@@ -271,7 +298,7 @@
           >
             Terms of Service</a
           >
-          <span class="mx-2">|</span>
+          <span class="mx-1">|</span>
           <a
             href="https://www.artwhileapart.org/privacy-policy"
             target="_blank"
@@ -280,7 +307,9 @@
             House Rules
           </a>
         </div>
-        <div class="text-orange-100 text-sm">© {{ new Date().getFullYear() }} Art While Apart.</div>
+        <div class="text-orange-100 text-sm mt-5 lg:mt-0">
+          © {{ new Date().getFullYear() }} Art While Apart.
+        </div>
       </div>
     </footer>
   </div>
