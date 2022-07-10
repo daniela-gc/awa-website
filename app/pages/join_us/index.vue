@@ -107,7 +107,7 @@
 
     <div class="flex flex-col justify-center items-center px-20 text-gray-700 text-justify">
       <div class="max-w-3xl">
-        <p class="mb-8 font-bold">What do we NOT accept</p>
+        <p class="mb-8 font-bold text-lg text-center">Artwork we do NOT accept</p>
         <ul class="mb-8 list-disc space-y-2">
           <li>
             <a
@@ -159,14 +159,46 @@
     <!-- Body - end -->
 
     <!-- Not accepted examples - start -->
-    <div class="flex flex-col justify-center items-center px-20 text-gray-600 text-justify my-10">
-      <p class="max-w-3xl">Examples of artwork we do NOT accept</p>
+    <div class="flex flex-col justify-center items-center text-gray-600 text-justify mt-10 mb-16">
+      <p class="max-w-3xl mb-4 font-bold text-gray-500">Examples of artwork we do not accept</p>
+      <!-- Bad Art Examples Slider - start -->
+      <div class="w-full">
+        <agile
+          :options="badExamplesSliderOptions"
+          @after-change="(e) => (currentBadExampleSlide = e.currentSlide)"
+          class="art-examples-slide px-10 lg:px-20"
+        >
+          <div
+            v-for="(art, index) in badArtExamples"
+            :key="index"
+            class="slide w-full flex items-center justify-items-center justify-evenly mb-5"
+          >
+            <img
+              :src="art"
+              :alt="art.split('/').pop()"
+              class="h-48 md:h-54 lg:h-64 max-h-48 md:max-h-54 lg:max-h-64 w-auto object-cover object-center"
+            />
+          </div>
+          <template slot="prevButton">
+            <IconArrowLeft class="text-gray-400 hover:text-gray-500 duration-300" />
+          </template>
+          <template slot="nextButton">
+            <IconArrowRight class="text-gray-400 hover:text-gray-500 duration-300" />
+          </template>
+          <template slot="caption">{{ badExamplesCaptions[currentBadExampleSlide] }}</template>
+        </agile>
+      </div>
+      <!-- Bad Art Examples Slider - end -->
     </div>
     <!-- Not accepted examples - end -->
 
-    <div class="flex flex-col justify-center items-center px-20 text-gray-700 text-justify mb-20">
+    <div class="px-10 lg:px-20 mb-16">
+      <hr />
+    </div>
+
+    <div class="flex flex-col justify-center items-center px-20 text-gray-700 text-justify mb-12">
       <div class="max-w-3xl">
-        <p class="mb-8 font-bold">What we accept</p>
+        <p class="mb-8 font-bold text-lg text-center">Artwork we accept</p>
         <p>
           Artists should have a solid foundation of anatomy, composition, shading, and painting
           technique. For examples of what we do accept, check out the pieces shared below.
@@ -175,21 +207,50 @@
     </div>
 
     <!-- Accepted examples - start -->
-    <div class="flex flex-col justify-center items-center px-20 text-gray-600 text-justify mb-24">
-      <p class="max-w-3xl">Examples of artwork we accept</p>
+    <div class="flex flex-col justify-center items-center text-gray-600 text-justify mb-10">
+      <p class="max-w-3xl mb-4 font-bold text-gray-500">Examples of artwork we accept</p>
+      <!-- Good Art Examples Slider - start -->
+      <div class="w-full mb-16">
+        <agile :options="goodExamplesSliderOptions" class="art-examples-slide px-10 lg:px-20">
+          <div
+            v-for="(art, index) in goodArtExamples"
+            :key="index"
+            class="slide w-full flex items-center justify-items-center justify-evenly mb-5"
+          >
+            <img
+              :src="art"
+              :alt="art.split('/').pop()"
+              class="h-48 max-h-48 md:h-54 md:max-h-54 lg:max-h-64 lg:h-64 xl:max-h-72 xl:h-72 w-full object-scale-down object-center"
+            />
+          </div>
+          <template slot="prevButton">
+            <IconArrowLeft class="text-gray-400 hover:text-gray-500 duration-300" />
+          </template>
+          <template slot="nextButton">
+            <IconArrowRight class="text-gray-400 hover:text-gray-500 duration-300" />
+          </template>
+        </agile>
+      </div>
+      <!-- Good Art Examples Slider - end -->
     </div>
     <!-- Accepted examples - end -->
   </section>
 </template>
 
 <script lang="ts">
+import IconArrowLeft from '@/components/commons/icons/IconArrowLeft.vue';
+import IconArrowRight from '@/components/commons/icons/IconArrowRight.vue';
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
 
 @Component({
+  components: {
+    IconArrowLeft,
+    IconArrowRight,
+  },
   head(): MetaInfo {
     return {
-      title: 'Monthly Showcase',
+      title: 'Join Us',
       meta: [
         {
           hid: 'description',
@@ -200,5 +261,131 @@ import { MetaInfo } from 'vue-meta';
     };
   },
 })
-export default class MonthlyShowcaseIndex extends Vue {}
+export default class JoinUsIndex extends Vue {
+  badExamplesSliderOptions = {
+    navButtons: true,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    speed: 350,
+    centerMode: true,
+    slidesToShow: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1700,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+    ],
+  };
+
+  goodExamplesSliderOptions = {
+    navButtons: true,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    speed: 350,
+    centerMode: true,
+    slidesToShow: 1,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1530,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 1700,
+        settings: {
+          slidesToShow: 6,
+        },
+      },
+    ],
+  };
+
+  badArtExamples = require
+    .context('/app/assets/images/bad_art_examples/', false)
+    .keys()
+    .map(require.context('/app/assets/images/bad_art_examples/', false));
+
+  badExamplesCaptions = [
+    'Poor lighting, anatomy, and painting technique.',
+    'Poor painting technique, lighting, and anatomy.',
+    'Direct paint over: shows no understanding of composition, anatomy or background. Filtered art.',
+    'Poor composition and lighting.',
+    'Poor painting technique, anatomy, and lighting.',
+    'Poor lighting, painting technique, and anatomy.',
+    'Poor anatomy, lighting, and painting technique.',
+    'Poor anatomy, painting technique, and lighting.',
+    'Poor painting technique, lighting, and anatomy.',
+  ];
+
+  currentBadExampleSlide = 0;
+
+  goodArtExamples = require
+    .context('/app/assets/images/good_art_examples/', false)
+    .keys()
+    .map(require.context('/app/assets/images/good_art_examples/', false));
+
+  badExamplesSliderOptions: badExamplesSliderOptions;
+
+  goodExamplesSliderOptions: goodExamplesSliderOptions;
+
+  badArtExamples: goodArtExamples;
+
+  badExamplesCaptions: badExamplesCaptions;
+
+  goodArtExamples: goodArtExamples;
+
+  currentBadExampleSlide: currentBadExampleSlide;
+}
 </script>
+
+<style lang="css">
+.art-examples-slide .agile__nav-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.art-examples-slide .agile__nav-button--prev {
+  left: 25px;
+}
+
+.art-examples-slide .agile__nav-button--next {
+  right: 25px;
+}
+
+.art-examples-slide .agile__caption {
+  text-align: center;
+  color: #78716c;
+}
+
+.art-examples-slide .slide {
+  display: flex !important;
+  justify-items: center !important;
+  justify-content: space-evenly !important;
+}
+</style>

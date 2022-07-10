@@ -11,165 +11,37 @@
           Of The Months
         </h1>
         <p class="text-sm lg:text-base 2xl:text-lg text-gray-600 max-w-4xl sm:px-16 md:px-0">
-          Every month we showcase exemplary artists and pieces from our community, check them out!
+          Every month we showcase exemplary artists and pieces from our community, check out
+          {{ new Date().toLocaleString('en-us', { month: 'long' }) }}'s OTMs!
         </p>
       </div>
     </div>
     <!-- Title - end -->
 
-    <!-- Artist of the Month - start -->
-    <div class="flex flex-col justify-center items-center mb-20">
-      <div class="text-center">
-        <h2 class="text-primary font-display text-4xl mb-8">Artist of the Month</h2>
-        <h3 class="text-3xl font-bold text-gray-600 mb-4">
-          {{ otms.artistOfTheMonth.artistName }}
-        </h3>
-        <div class="text-gray-500 mb-8">
-          Check out {{ otms.artistOfTheMonth.artistName }} at
-          <a
-            :href="otms.artistOfTheMonth.socialMediaLink"
-            target="_blank"
-            class="underline hover:text-primary transition-colors"
-            >@{{ otms.artistOfTheMonth.socialMediaHandler }}</a
-          >
-        </div>
-      </div>
+    <ArtistOtmSlideShow :artist-of-the-month="otms.artistOfTheMonth" />
 
-      <!-- Artist of the Month Slider - start -->
-      <div class="px-8 w-full max-w-4xl">
-        <agile
-          :nav-buttons="true"
-          :dots="true"
-          :fade="true"
-          :center-mode="true"
-          :autoplay="true"
-          :autoplay-speed="2500"
-          :speed="350"
-          :pause-on-dots-hover="true"
-          timing="ease-in-out"
-        >
-          <div
-            v-for="(piece, pieceIndex) in otms.artistOfTheMonth.pieces"
-            :key="pieceIndex"
-            class="slide text-primary max-h-screen mb-6"
-          >
-            <img
-              :src="piece.featuredImage"
-              :alt="otms.artistOfTheMonth.artistName"
-              class="w-full object-scale-down slider-image flex items-center justify-center"
-            />
-          </div>
-          <template slot="prevButton">
-            <IconArrowLeft class="text-gray-400 hover:text-gray-500 duration-300" />
-          </template>
-          <template slot="nextButton">
-            <IconArrowRight class="text-gray-400 hover:text-gray-500 duration-300" />
-          </template>
-        </agile>
-      </div>
-      <!-- Artist of the Month Slider - end -->
-    </div>
-    <!-- Artist of the Month - end -->
+    <PieceOfTheMonth :piece-of-the-month="otms.pieceOfTheMonth" />
 
-    <!-- Piece of the Month - start -->
-    <div class="w-full flex flex-row items-center justify-evenly py-16 bg-gray-50">
-      <div>
-        <a :href="otms.pieceOfTheMonth.socialMediaLink" target="_blank">
-          <img
-            :alt="otms.pieceOfTheMonth.artistName"
-            class="max-w-lg"
-            :src="otms.pieceOfTheMonth.featuredImage"
-          />
-        </a>
-      </div>
-      <div>
-        <h2 class="text-primary font-display text-center text-4xl mb-10">Piece of the Month</h2>
-        <h3 class="text-3xl font-bold text-gray-600 text-center mb-4">
-          {{ otms.pieceOfTheMonth.petName }} by {{ otms.pieceOfTheMonth.artistName }}
-        </h3>
-        <div class="text-center text-gray-500 mb-8">
-          Check out {{ otms.pieceOfTheMonth.artistName }} at
-          <a
-            :href="otms.pieceOfTheMonth.socialMediaLink"
-            target="_blank"
-            class="underline hover:text-primary transition-colors"
-            >@{{ otms.pieceOfTheMonth.socialMediaHandler }}</a
-          >
-        </div>
-      </div>
-    </div>
-    <!-- Piece of the Month - end -->
+    <StaffHighlight :staff-highlight="otms.staffHighlight" />
 
-    <!-- Staff's Highlight - start -->
-    <div class="flex flex-row items-center justify-evenly py-16">
-      <div>
-        <h2 class="text-primary font-display text-center text-4xl mb-10">Staff's Highlight</h2>
-        <h3 class="text-3xl font-bold text-gray-600 text-center mb-4">
-          {{ otms.staffHighlight.petName }} by {{ otms.staffHighlight.artistName }}
-        </h3>
-        <div class="text-center text-gray-500 mb-8">
-          Check out {{ otms.staffHighlight.artistName }} at
-          <a
-            :href="otms.staffHighlight.socialMediaLink"
-            target="_blank"
-            class="underline hover:text-primary transition-colors"
-            >@{{ otms.staffHighlight.socialMediaHandler }}</a
-          >
-        </div>
-      </div>
-      <div>
-        <a :href="otms.staffHighlight.socialMediaLink" target="_blank">
-          <img
-            :alt="otms.staffHighlight.artistName"
-            class="max-w-lg"
-            :src="otms.staffHighlight.featuredImage"
-          />
-        </a>
-      </div>
-    </div>
-    <!-- Staff's Highlight - end -->
-
-    <!-- Mentor of the month - start -->
-    <div class="flex flex-row items-center justify-evenly pt-16 pb-32 bg-gray-50">
-      <div>
-        <a :href="otms.mentorOfTheMonth.socialMediaLink" target="_blank">
-          <img
-            :alt="otms.mentorOfTheMonth.artistName"
-            class="max-w-xl"
-            :src="otms.mentorOfTheMonth.featuredImage"
-          />
-        </a>
-      </div>
-      <div>
-        <h2 class="text-primary font-display text-center text-4xl mb-10">Mentor of the month</h2>
-        <h3 class="text-3xl font-bold text-gray-600 text-center mb-4">
-          {{ otms.mentorOfTheMonth.artistName }}
-        </h3>
-        <div class="text-center text-gray-500 mb-8">
-          Check out {{ otms.mentorOfTheMonth.artistName }} at
-          <a
-            :href="otms.mentorOfTheMonth.socialMediaLink"
-            target="_blank"
-            class="underline hover:text-primary transition-colors"
-            >@{{ otms.mentorOfTheMonth.socialMediaHandler }}</a
-          >
-        </div>
-      </div>
-    </div>
-    <!-- Mentor of the month - end -->
+    <MentorOfTheMonth :mentor-of-the-month="otms.mentorOfTheMonth" />
   </section>
 </template>
 
 <script lang="ts">
-import IconArrowLeft from '@/components/commons/icons/IconArrowLeft.vue';
-import IconArrowRight from '@/components/commons/icons/IconArrowRight.vue';
+import ArtistOtmSlideShow from '@/components/commons/otms/ArtistOtmSlideshow.vue';
+import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
+import StaffHighlight from '@/components/commons/otms/StaffHighlight.vue';
+import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
 
 @Component({
   components: {
-    IconArrowLeft,
-    IconArrowRight,
+    ArtistOtmSlideShow,
+    PieceOfTheMonth,
+    StaffHighlight,
+    MentorOfTheMonth,
   },
   head(): MetaInfo {
     return {
@@ -198,15 +70,15 @@ export default class MonthlyShowcaseIndex extends Vue {
 </script>
 
 <style lang="css">
-.slider-image {
+.artist-slide .slider-image {
   height: 600px;
 }
 
-.agile__dot {
+.artist-slide .agile__dot {
   margin: 0 10px;
 }
 
-.agile__dot button {
+.artist-slide .agile__dot button {
   background-color: #c1c1c1;
   border: none;
   border-radius: 50%;
@@ -221,8 +93,8 @@ export default class MonthlyShowcaseIndex extends Vue {
   transition-duration: 0.3s;
 }
 
-.agile__dot--current button,
-.agile__dot:hover button {
+.artist-slide .agile__dot--current button,
+.artist-slide .agile__dot:hover button {
   background-color: #7c7c7c;
 }
 </style>

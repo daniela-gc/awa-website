@@ -19,17 +19,17 @@
     <!-- Title - end -->
 
     <!-- Art Examples Slider - start -->
-    <div class="w-full mb-16">
+    <div class="w-full px-4 lg:px-12 mb-16">
       <agile :options="sliderOptions">
         <div
           v-for="(art, index) in artExamples"
           :key="index"
-          class="slide max-h-56 lg:max-h-72 flex items-center justify-evenly justify-items-center"
+          class="slide w-full flex items-center justify-items-center justify-evenly"
         >
           <img
-            :src="`/images/uploads/${art.fileName}`"
-            :alt="art.alt"
-            class="h-56 lg:h-72 w-auto px-1 object-scale-down"
+            :src="art"
+            :alt="art.split('/').pop()"
+            class="h-48 max-h-48 md:h-54 md:max-h-54 lg:max-h-64 lg:h-64 xl:max-h-72 xl:h-72 w-full object-scale-down object-center"
           />
         </div>
       </agile>
@@ -241,7 +241,7 @@ import { MetaInfo } from 'vue-meta';
 @Component({
   head(): MetaInfo {
     return {
-      title: 'Monthly Showcase',
+      title: 'Request Art',
       meta: [
         {
           hid: 'description',
@@ -252,7 +252,7 @@ import { MetaInfo } from 'vue-meta';
     };
   },
 })
-export default class MonthlyShowcaseIndex extends Vue {
+export default class RequestArtIndex extends Vue {
   sliderOptions = {
     navButtons: false,
     dots: false,
@@ -263,25 +263,25 @@ export default class MonthlyShowcaseIndex extends Vue {
     slidesToShow: 2,
     responsive: [
       {
-        breakpoint: 650,
+        breakpoint: 640,
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 1000,
+        breakpoint: 768,
         settings: {
           slidesToShow: 4,
         },
       },
       {
-        breakpoint: 1200,
+        breakpoint: 1530,
         settings: {
           slidesToShow: 5,
         },
       },
       {
-        breakpoint: 1600,
+        breakpoint: 1760,
         settings: {
           slidesToShow: 6,
         },
@@ -289,16 +289,10 @@ export default class MonthlyShowcaseIndex extends Vue {
     ],
   };
 
-  artExamples = [
-    { fileName: 'kubo.jpg', alt: 'Kubo' },
-    { fileName: 'yogi.jpg', alt: 'Yogi by Blue Centaurea' },
-    { fileName: 'divya_by_lutti.png', alt: 'Divya by Lutti' },
-    { fileName: 'maple_by_nicole.jpg', alt: 'Maple by Nicole' },
-    { fileName: 'awa_brana_done.jpg', alt: 'Brana by @creative.impulse' },
-    { fileName: 'terrafoxe.jpg', alt: 'Art by Terrafoxe' },
-    { fileName: 'killer_by_ziggy.jpg', alt: 'Killer by Ziggy' },
-    { fileName: 'lara-by-rivu.png', alt: 'Lara by Rivu' },
-  ];
+  artExamples = require
+    .context('/app/assets/images/good_art_examples/', false)
+    .keys()
+    .map(require.context('/app/assets/images/good_art_examples/', false));
 
   sliderOptions: sliderOptions;
 

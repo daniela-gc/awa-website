@@ -160,9 +160,9 @@
 
             <div>
               <a
-                href="#"
+                href="/monthly_showcase"
                 class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
-                >Artist Showcase</a
+                >Monthly Showcase</a
               >
             </div>
           </nav>
@@ -178,7 +178,7 @@
           <nav class="flex flex-col gap-3 sm:gap-4">
             <div>
               <a
-                href="#"
+                href="/join_us"
                 class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Join Us</a
               >
@@ -186,7 +186,7 @@
 
             <div>
               <a
-                href="#"
+                href="/request_art"
                 class="text-gray-200 hover:text-gray-100 active:text-primary transition duration-100 hover:underline"
                 >Request Art</a
               >
@@ -223,8 +223,64 @@
       </div>
 
       <div class="border-t border-white opacity-25"></div>
-      <div class="text-orange-100 text-sm text-center py-8">
-        © 2022 - Art While Apart. All rights reserved.
+
+      <div class="flex items-center justify-items-center justify-between pt-8 pb-12">
+        <div class="text-orange-100 text-sm">
+          <p class="mb-1">
+            AWA logo made by
+            <a
+              href="https://www.instagram.com/whimsyandshenanigans"
+              target="_blank"
+              class="underline hover:text-white"
+              >@whimsyandshenanigans</a
+            >
+          </p>
+          <p class="mb-1">
+            Paintbrush logo made by
+            <a
+              href="https://www.instagram.com/ziggatino"
+              target="_blank"
+              class="underline hover:text-white"
+              >@ziggatino</a
+            >
+          </p>
+          <p>
+            Fox icon created by
+            <a
+              href="https://www.flaticon.com/free-icons/fox"
+              title="fox icons"
+              target="_blank"
+              class="underline hover:text-white"
+              >Freepik - Flaticon</a
+            >
+          </p>
+        </div>
+        <div class="text-orange-100 text-center">
+          <a
+            href="https://www.artwhileapart.org/privacy-policy"
+            target="_blank"
+            class="hover:underline hover:text-white"
+          >
+            Privacy Policy</a
+          >
+          <span class="mx-2">|</span>
+          <a
+            href="https://www.artwhileapart.org/privacy-policy"
+            target="_blank"
+            class="hover:underline hover:text-white"
+          >
+            Terms of Service</a
+          >
+          <span class="mx-2">|</span>
+          <a
+            href="https://www.artwhileapart.org/privacy-policy"
+            target="_blank"
+            class="hover:underline hover:text-white"
+          >
+            House Rules
+          </a>
+        </div>
+        <div class="text-orange-100 text-sm">© {{ new Date().getFullYear() }} Art While Apart.</div>
       </div>
     </footer>
   </div>

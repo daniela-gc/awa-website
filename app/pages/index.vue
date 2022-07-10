@@ -2,7 +2,7 @@
   <div class="mt-12 lg:mt-20 2xl:mt-12">
     <!-- Our Mission - start -->
     <section
-      class="flex flex-col lg:flex-row items-center gap-4 mt-20 2xl:mt-0 pt-10 pb-12 lg:py-16 mb-12 md:mb-12 lg:mb-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
+      class="flex flex-col lg:flex-row items-center gap-4 mt-20 2xl:mt-0 pt-10 pb-12 lg:py-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
     >
       <div class="w-full 2xl:w-9/12 mb-4 flex justify-center lg:justify-start 2xl:pl-10">
         <img
@@ -46,7 +46,7 @@
     <!-- Our Mission - end -->
 
     <!-- Rescue logos - start -->
-    <section class="px-10 my-20 lg:mb-32 flex justify-center">
+    <section class="px-10 my-20 lg:my-32 flex justify-center">
       <div class="w-full 2xl:w-9/12 md:px-12">
         <h2
           class="font-display text-gray-700 text-3xl lg:text-4xl font-medium text-center mb-4 md:mb-10"
@@ -114,64 +114,38 @@
     <!-- rescue logos - end -->
 
     <!-- OTMs - start -->
-    <section
-      class="flex flex-col lg:flex-row items-center pt-10 lg:pt-20 pb-12 lg:py-12 mb-12 md:mb-16 lg:mb-28 px-12 sm:px-16 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
-    >
+    <!-- Title - start -->
+    <section class="bg-primary mb-20">
       <div
-        class="w-full mb-4 flex flex-col gap-8 lg:flex-row justify-start lg:justify-between md:pl-4 2xl:pl-20"
+        class="py-10 md:py-12 mx-4 md:mx-10 xl:mx-16 2xl:mx-20 flex flex-col md:flex-row md:items-center md:justify-around"
       >
-        <!-- Content - start -->
-        <div class="w-full text-gray-700 text-base lg:text-lg">
-          <h2 class="font-display font-medium text-3xl lg:text-4xl mb-8 flex justify-start">
+        <div class="flex flex-col md:flex-row items-center text-center md:text-left">
+          <h1
+            class="font-display text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white md:mr-24 mb-4 md:mb-0"
+          >
             Of The Months
-          </h2>
-          <p class="mb-5 max-w-lg">
+          </h1>
+          <p class="text-sm lg:text-base 2xl:text-xl text-white max-w-5xl sm:px-16 md:px-0">
             Every month we showcase exemplary artists and pieces from our community, check out
             {{ new Date().toLocaleString('en-us', { month: 'long' }) }}'s OTMs!
           </p>
-          <div class="flex items-center mt-2 mb-10 lg:mb-0">
-            <nuxt-link to="/portfolio" class="font-bold text-primary hover:underline mr-1"
-              >Ver OTM's</nuxt-link
-            >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              role="img"
-              class="text-primary"
-              width="32"
-              height="32"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="currentColor"
-                d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z"
-              ></path>
-            </svg>
-          </div>
+          <IconArrowDown class="text-white md:ml-12" />
         </div>
-        <!-- Content - end -->
-
-        <!-- image - start -->
-        <div class="w-full flex flex-col items-center">
-          <div class="w-full max-w-md xl:max-w-lg">
-            <img
-              src="/images/uploads/lara-by-rivu.png"
-              loading="lazy"
-              alt="Art While Apart alt logo"
-              class="w-full max-w-md lg:max-w-none"
-            />
-          </div>
-          <p class="text-center mt-3 font-semibold text-gray-500">Lara by Rivu</p>
-        </div>
-        <!-- image - end -->
       </div>
     </section>
+    <!-- Title - end -->
+
+    <ArtistOtmSlideShow :artist-of-the-month="otms.artistOfTheMonth" />
+
+    <PieceOfTheMonth :piece-of-the-month="otms.pieceOfTheMonth" />
+
+    <StaffHighlight :staff-highlight="otms.staffHighlight" />
+
+    <MentorOfTheMonth :mentor-of-the-month="otms.mentorOfTheMonth" />
     <!-- OTMs - end -->
 
     <!-- CTA - start -->
-    <div class="bg-white mb-20 lg:mb-32 lg:mx-6 px-10">
+    <div class="bg-white mt-8 mb-20 lg:mb-32 lg:mx-6 px-10">
       <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
         <div class="flex bg-gray-100/60 rounded-lg justify-center md:justify-start overflow-hidden">
           <!-- image - start -->
@@ -216,8 +190,47 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import ArtistOtmSlideShow from '@/components/commons/otms/ArtistOtmSlideshow.vue';
+import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
+import StaffHighlight from '@/components/commons/otms/StaffHighlight.vue';
+import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
+import IconArrowDown from '@/components/commons/icons/IconArrowDown.vue';
+import { Component, Vue } from 'nuxt-property-decorator';
+import { MetaInfo } from 'vue-meta';
+
+@Component({
   layout: 'home',
-};
+  components: {
+    ArtistOtmSlideShow,
+    PieceOfTheMonth,
+    StaffHighlight,
+    MentorOfTheMonth,
+    IconArrowDown,
+  },
+  head(): MetaInfo {
+    return {
+      title: 'Home',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'A collaborative effort to bring people and animals closer together through art.',
+        },
+      ],
+    };
+  },
+})
+export default class HomeIndex extends Vue {
+  otms: Otm[] = [];
+
+  async asyncData({ store }: { store: any }): Promise<any> {
+    const { otms } = store.state;
+
+    return {
+      otms: otms[0] || [],
+    };
+  }
+}
 </script>
