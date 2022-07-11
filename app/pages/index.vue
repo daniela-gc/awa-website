@@ -4,12 +4,12 @@
     <section
       class="flex flex-col lg:flex-row items-center gap-4 mt-20 2xl:mt-0 pt-10 pb-12 lg:py-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
     >
-      <div class="w-full 2xl:w-9/12 mb-4 flex justify-center lg:justify-start 2xl:pl-10">
+      <div class="w-full 2xl:w-9/12 mb-6 lg:mb-0 flex justify-center lg:justify-start 2xl:pl-10">
         <img
           src="/images/uploads/awa-alt-logo-rainbow.png"
           loading="lazy"
           alt="Art While Apart alt logo"
-          class="w-full max-w-xs"
+          class="w-full max-w-xs px-6 sm:px-0"
         />
       </div>
       <div class="w-full max-w-2xl lg:max-w-none text-gray-700 text-base lg:text-lg 2xl:pr-10">
@@ -46,10 +46,10 @@
     <!-- Our Mission - end -->
 
     <!-- Rescue logos - start -->
-    <section class="px-10 my-20 lg:my-32 flex justify-center">
+    <section class="px-10 mt-20 mb-24 lg:mt-28 lg:mb-36 flex justify-center">
       <div class="w-full 2xl:w-9/12 md:px-12">
         <h2
-          class="font-display text-gray-700 text-3xl lg:text-4xl font-medium text-center mb-4 md:mb-10"
+          class="font-display text-gray-700 text-3xl lg:text-4xl font-medium text-center mb-5 md:mb-10"
         >
           Our Animal Rescue Partners
         </h2>
@@ -117,25 +117,23 @@
     <!-- Title - start -->
     <section class="bg-primary mb-20">
       <div
-        class="py-10 md:py-12 mx-4 md:mx-10 xl:mx-16 2xl:mx-20 flex flex-col md:flex-row md:items-center md:justify-around"
+        class="pt-8 pb-6 md:py-12 mx-4 md:mx-10 xl:mx-16 2xl:mx-16 flex flex-col md:flex-row md:items-center md:justify-around"
       >
         <div class="flex flex-col md:flex-row items-center text-center md:text-left">
-          <h1
-            class="font-display text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white md:mr-24 mb-4 md:mb-0"
+          <h1 class="font-display text-4xl 2xl:text-5xl text-white mb-5 md:mb-0">Of The Months</h1>
+          <p
+            class="text-base lg:text-lg 2xl:text-xl text-white max-w-lg md:max-w-md lg:max-w-xl xl:max-w-3xl 2xl:max-w-4xl mx-2 md:mx-12 lg:px-16"
           >
-            Of The Months
-          </h1>
-          <p class="text-sm lg:text-base 2xl:text-xl text-white max-w-5xl sm:px-16 md:px-0">
             Every month we showcase exemplary artists and pieces from our community, check out
             {{ new Date().toLocaleString('en-us', { month: 'long' }) }}'s OTMs!
           </p>
-          <IconArrowDown class="text-white md:ml-12" />
+          <IconArrowDown class="text-white mt-5 md:mt-0" />
         </div>
       </div>
     </section>
     <!-- Title - end -->
 
-    <ArtistOtmSlideShow :artist-of-the-month="otms.artistOfTheMonth" />
+    <ArtistOfTheMonth :artist-of-the-month="otms.artistOfTheMonth" />
 
     <PieceOfTheMonth :piece-of-the-month="otms.pieceOfTheMonth" />
 
@@ -145,9 +143,9 @@
     <!-- OTMs - end -->
 
     <!-- CTA - start -->
-    <div class="bg-white mt-8 mb-20 lg:mb-32 lg:mx-6 px-10">
+    <div class="bg-white my-20 lg:my-28 lg:mx-6 px-3 lg:px-10">
       <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-        <div class="flex bg-gray-100/60 rounded-lg justify-center md:justify-start overflow-hidden">
+        <div class="flex bg-gray-100 rounded-lg justify-center md:justify-start overflow-hidden">
           <!-- image - start -->
           <div class="w-full md:w-7/12 lg:w-1/2 hidden md:block bg-gray-200 relative">
             <img
@@ -191,7 +189,7 @@
 </template>
 
 <script lang="ts">
-import ArtistOtmSlideShow from '@/components/commons/otms/ArtistOtmSlideshow.vue';
+import ArtistOfTheMonth from '@/components/commons/otms/ArtistOfTheMonth.vue';
 import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
 import StaffHighlight from '@/components/commons/otms/StaffHighlight.vue';
 import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
@@ -202,7 +200,7 @@ import { MetaInfo } from 'vue-meta';
 @Component({
   layout: 'home',
   components: {
-    ArtistOtmSlideShow,
+    ArtistOfTheMonth,
     PieceOfTheMonth,
     StaffHighlight,
     MentorOfTheMonth,

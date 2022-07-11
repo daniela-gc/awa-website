@@ -19,7 +19,7 @@
     <!-- Title - end -->
 
     <!-- Art Examples Slider - start -->
-    <div class="w-full px-4 lg:px-12 mb-16">
+    <div class="w-full px-4 lg:px-12 mb-12 xl:mb-16">
       <agile :options="sliderOptions">
         <div
           v-for="(art, index) in artExamples"
@@ -36,13 +36,15 @@
     </div>
     <!-- Art Examples Slider - end -->
 
-    <div class="flex justify-center items-start gap-24 mb-8">
+    <div
+      class="flex flex-col-reverse lg:flex-row justify-center items-center lg:items-start lg:gap-20 mb-8 mx-6 lg:mx-10"
+    >
       <!-- Body - start -->
       <div
         class="flex flex-col justify-center items-center text-gray-700 text-justify leading-relaxed"
       >
-        <div class="max-w-xl">
-          <h2 class="text-2xl font-bold mb-8">Digital Pet Portrait Request</h2>
+        <div class="max-w-xl lg:max-w-xl">
+          <h2 class="text-2xl font-bold mb-8 text-left">Digital Pet Portrait Request</h2>
           <p class="mb-6">
             If you're interested in receiving free digital art of your pet, fill out our form. It's
             recommended that you upload pictures with relatively good lighting that show your pet's
@@ -83,7 +85,7 @@
       <!-- Body - end -->
 
       <!-- Request Form - start -->
-      <div class="flex flex-col justify-center items-center text-center mb-10 mt-2">
+      <div class="flex flex-col justify-center items-center text-center mb-16 lg:mb-10 mt-2">
         <div
           class="max-w-xl block py-10 px-8 bg-white rounded-lg border border-gray-200 border-l-4 border-l-primary shadow-md"
         >

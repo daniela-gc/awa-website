@@ -225,9 +225,9 @@
       <div class="border-t border-white opacity-25"></div>
 
       <div
-        class="flex flex-col lg:flex-row items-center justify-items-center lg:justify-between pt-8 pb-12"
+        class="flex flex-col lg:flex-row items-center justify-items-center lg:justify-between py-8"
       >
-        <div class="text-orange-100 text-center lg:hidden mb-5 lg:mb-0 text-sm md:text-base">
+        <div class="text-orange-100 text-center lg:hidden mb-6 lg:mb-0 text-sm md:text-base">
           <a
             href="https://www.artwhileapart.org/privacy-policy"
             target="_blank"
@@ -307,7 +307,7 @@
             House Rules
           </a>
         </div>
-        <div class="text-orange-100 text-sm mt-5 lg:mt-0">
+        <div class="text-orange-100 text-sm mt-6 lg:mt-0">
           © {{ new Date().getFullYear() }} Art While Apart.
         </div>
       </div>

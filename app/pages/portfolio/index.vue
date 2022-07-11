@@ -110,11 +110,15 @@
       <div
         v-for="(portfolioPiece, index) in portfolioPieces"
         :key="index"
-        class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/5 my-4 md:px-4 flex flex-row justify-center"
+        class="w-full md:w-1/2 lg:w-4/12 2xl:w-3/12 my-4 md:px-3 flex flex-row justify-center"
       >
         <div class="portfolioPiece self-start">
           <a :href="portfolioPiece.socialMediaLink" target="_blank">
-            <img :alt="portfolioPiece.title" class="max-h-64" :src="portfolioPiece.featuredImage" />
+            <img
+              :alt="portfolioPiece.title"
+              class="max-h-full md:max-h-72 lg:max-h-96"
+              :src="portfolioPiece.featuredImage"
+            />
           </a>
           <div class="py-3 bg-white">
             <h2 class="mb-2 text-gray-600">{{ portfolioPiece.title }}</h2>

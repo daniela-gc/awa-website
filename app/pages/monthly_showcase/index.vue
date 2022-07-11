@@ -18,18 +18,20 @@
     </div>
     <!-- Title - end -->
 
-    <ArtistOtmSlideShow :artist-of-the-month="otms.artistOfTheMonth" />
+    <ArtistOfTheMonth :artist-of-the-month="otms.artistOfTheMonth" />
 
     <PieceOfTheMonth :piece-of-the-month="otms.pieceOfTheMonth" />
 
     <StaffHighlight :staff-highlight="otms.staffHighlight" />
 
     <MentorOfTheMonth :mentor-of-the-month="otms.mentorOfTheMonth" />
+
+    <div class="py-5 bg-gray-50"></div>
   </section>
 </template>
 
 <script lang="ts">
-import ArtistOtmSlideShow from '@/components/commons/otms/ArtistOtmSlideshow.vue';
+import ArtistOfTheMonth from '@/components/commons/otms/ArtistOfTheMonth.vue';
 import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
 import StaffHighlight from '@/components/commons/otms/StaffHighlight.vue';
 import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
@@ -38,7 +40,7 @@ import { MetaInfo } from 'vue-meta';
 
 @Component({
   components: {
-    ArtistOtmSlideShow,
+    ArtistOfTheMonth,
     PieceOfTheMonth,
     StaffHighlight,
     MentorOfTheMonth,
@@ -68,33 +70,3 @@ export default class MonthlyShowcaseIndex extends Vue {
   }
 }
 </script>
-
-<style lang="css">
-.artist-slide .slider-image {
-  height: 600px;
-}
-
-.artist-slide .agile__dot {
-  margin: 0 10px;
-}
-
-.artist-slide .agile__dot button {
-  background-color: #c1c1c1;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  display: block;
-  height: 12px;
-  width: 12px;
-  font-size: 0;
-  line-height: 0;
-  margin: 0;
-  padding: 0;
-  transition-duration: 0.3s;
-}
-
-.artist-slide .agile__dot--current button,
-.artist-slide .agile__dot:hover button {
-  background-color: #7c7c7c;
-}
-</style>

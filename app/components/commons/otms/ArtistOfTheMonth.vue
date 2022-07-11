@@ -18,7 +18,7 @@
     </div>
 
     <!-- Artist of the Month Slider - start -->
-    <div class="px-8 w-full max-w-4xl">
+    <div class="px-4 lg:px-8 w-full max-w-4xl">
       <agile
         :nav-buttons="true"
         :dots="true"
@@ -29,17 +29,17 @@
         :speed="350"
         :pause-on-dots-hover="true"
         timing="ease-in-out"
-        class="artist-slide"
+        class="artist-slide h-full"
       >
         <div
           v-for="(piece, pieceIndex) in artistOfTheMonth.pieces"
           :key="pieceIndex"
-          class="slide text-primary max-h-screen mb-6"
+          class="slide text-primary max-h-full mb-6"
         >
           <img
             :src="piece.featuredImage"
             :alt="artistOfTheMonth.artistName"
-            class="w-full object-scale-down slider-image flex items-center justify-center"
+            class="w-full object-scale-down object-center slider-image flex items-center justify-center"
           />
         </div>
         <template slot="prevButton">
@@ -66,7 +66,37 @@ import { Component, Vue, Prop } from 'nuxt-property-decorator';
     IconArrowRight,
   },
 })
-export default class ArtistOtmSlideshow extends Vue {
+export default class ArtistOfTheMonth extends Vue {
   @Prop({ required: true, type: Object }) readonly artistOfTheMonth!: array;
 }
 </script>
+
+<style lang="css">
+.artist-slide .slider-image {
+  height: 560px;
+}
+
+.artist-slide .agile__dot {
+  margin: 0 10px;
+}
+
+.artist-slide .agile__dot button {
+  background-color: #c1c1c1;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  width: 12px;
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.3s;
+}
+
+.artist-slide .agile__dot--current button,
+.artist-slide .agile__dot:hover button {
+  background-color: #7c7c7c;
+}
+</style>

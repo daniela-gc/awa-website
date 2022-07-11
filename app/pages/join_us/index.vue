@@ -4,13 +4,13 @@
     <div
       class="py-4 md:mt-10 mb-10 md:mb-16 pb-8 md:pb-10 mx-4 md:mx-10 xl:mx-16 2xl:mx-20 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200"
     >
-      <div class="flex flex-col md:flex-row items-center text-center md:text-left">
-        <h1
-          class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-700 md:mr-24 mb-4 md:mb-0"
-        >
+      <div class="flex flex-col md:flex-row items-center justify-center text-center md:text-left">
+        <h1 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-700 md:mr-24 mb-4 md:mb-0">
           Join Us
         </h1>
-        <p class="text-sm lg:text-base 2xl:text-lg text-gray-600 max-w-4xl sm:px-16 md:px-0">
+        <p
+          class="text-base 2xl:text-lg text-gray-600 max-w-2xl md:max-w-lg lg:max-w-2xl xl:max-w-4xl px-2 sm:px-16 md:px-0"
+        >
           Are you a digital artist with a generous heart and some spare time? This might be the
           right place for you!
         </p>
@@ -19,7 +19,7 @@
     <!-- Title - end -->
 
     <!-- Introduction - start -->
-    <div class="flex flex-row justify-center mb-24 gap-4">
+    <div class="flex flex-col lg:flex-row justify-center mb-20 gap-12 lg:gap-4">
       <div class="flex flex-col justify-center items-center">
         <div class="px-8 text-gray-600 text-justify text-lg">
           <p class="max-w-lg mb-4">
@@ -38,12 +38,12 @@
         </div>
       </div>
       <!-- Application - start -->
-      <div class="flex flex-col justify-center items-center px-20 text-gray-700">
+      <div class="flex flex-col justify-center items-center px-10 lg:px-20 text-gray-700">
         <div class="max-w-xl">
           <div
             class="block py-10 px-10 bg-white rounded-lg border border-gray-200 border-l-4 border-l-primary shadow-md"
           >
-            <h2 class="font-bold text-3xl text-center mb-8 text-gray-700">
+            <h2 class="font-bold text-2xl md:text-3xl text-center mb-8 text-gray-700">
               <nuxt-link to="#application">Artist Application</nuxt-link>
             </h2>
             <p class="mb-8 text-gray-500 text-justify">
@@ -68,10 +68,10 @@
 
     <!-- Body - start -->
     <div
-      class="flex flex-col justify-center items-center px-20 py-14 mb-10 text-gray-700 text-justify bg-gray-100/75"
+      class="flex flex-col justify-center items-center px-8 lg:px-20 py-14 mb-10 text-gray-700 text-justify bg-gray-100/75"
     >
       <div class="max-w-3xl">
-        <p class="text-lg font-bold mb-10 text-center">Requirements for prospective applicants</p>
+        <p class="text-xl font-bold mb-10 text-center">Requirements for prospective applicants</p>
         <p class="mb-8">AWA does, however, have some requirements for prospective applicants.</p>
         <p class="mb-8">
           Although AWA is a charitable service, we do still have quality standards to not only
@@ -105,7 +105,9 @@
       </div>
     </div>
 
-    <div class="flex flex-col justify-center items-center px-20 text-gray-700 text-justify">
+    <div
+      class="flex flex-col justify-center items-center pl-12 pr-8 lg:px-20 text-gray-700 text-justify"
+    >
       <div class="max-w-3xl">
         <p class="mb-8 font-bold text-lg text-center">Artwork we do NOT accept</p>
         <ul class="mb-8 list-disc space-y-2">
@@ -176,7 +178,7 @@
             <img
               :src="art"
               :alt="art.split('/').pop()"
-              class="h-48 md:h-54 lg:h-64 max-h-48 md:max-h-54 lg:max-h-64 w-auto object-cover object-center"
+              class="h-80 max-h-96 md:h-54 md:max-h-54 lg:h-64 lg:max-h-64 w-auto object-cover object-center"
             />
           </div>
           <template slot="prevButton">
@@ -196,7 +198,9 @@
       <hr />
     </div>
 
-    <div class="flex flex-col justify-center items-center px-20 text-gray-700 text-justify mb-12">
+    <div
+      class="flex flex-col justify-center items-center px-8 lg:px-20 text-gray-700 text-justify mb-12"
+    >
       <div class="max-w-3xl">
         <p class="mb-8 font-bold text-lg text-center">Artwork we accept</p>
         <p>
@@ -211,7 +215,10 @@
       <p class="max-w-3xl mb-4 font-bold text-gray-500">Examples of artwork we accept</p>
       <!-- Good Art Examples Slider - start -->
       <div class="w-full mb-16">
-        <agile :options="goodExamplesSliderOptions" class="art-examples-slide px-10 lg:px-20">
+        <agile
+          :options="goodExamplesSliderOptions"
+          class="art-examples-slide px-5 lg:px-12 2xl:px-16"
+        >
           <div
             v-for="(art, index) in goodArtExamples"
             :key="index"
@@ -220,7 +227,7 @@
             <img
               :src="art"
               :alt="art.split('/').pop()"
-              class="h-48 max-h-48 md:h-54 md:max-h-54 lg:max-h-64 lg:h-64 xl:max-h-72 xl:h-72 w-full object-scale-down object-center"
+              class="h-96 max-h-96 sm:h-80 sm:max-h-80 lg:max-h-72 lg:h-72 xl:max-h-72 xl:h-72 w-full object-scale-down object-center"
             />
           </div>
           <template slot="prevButton">
@@ -272,7 +279,7 @@ export default class JoinUsIndex extends Vue {
     slidesToShow: 1,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
         },
@@ -302,9 +309,15 @@ export default class JoinUsIndex extends Vue {
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 920,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
         },
       },
       {
@@ -371,11 +384,11 @@ export default class JoinUsIndex extends Vue {
 }
 
 .art-examples-slide .agile__nav-button--prev {
-  left: 25px;
+  left: 18px;
 }
 
 .art-examples-slide .agile__nav-button--next {
-  right: 25px;
+  right: 18px;
 }
 
 .art-examples-slide .agile__caption {
