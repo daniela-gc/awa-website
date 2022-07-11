@@ -11,6 +11,8 @@
           <img
             src="~assets/images/awa_logos/fox-icon.png"
             alt="fox-icon"
+            width="64"
+            height="64"
             class="w-8 md:w-10 max-w-xs"
           />
         </div>

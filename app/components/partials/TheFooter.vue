@@ -220,6 +220,8 @@
           <img
             src="~assets/images/awa_logos/awa-logo.png"
             loading="lazy"
+            width="2000"
+            height="1645"
             alt="Art While Apart logo"
           />
         </div>
