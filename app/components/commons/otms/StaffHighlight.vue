@@ -23,9 +23,10 @@
     <div class="w-full flex items-center justify-center">
       <a :href="staffHighlight.socialMediaLink" target="_blank">
         <img
-          :alt="staffHighlight.artistName"
-          class="w-auto object-scale-down object-center otm-image"
           :src="staffHighlight.featuredImage"
+          :alt="staffHighlight.artistName"
+          loading="lazy"
+          class="w-auto object-scale-down object-center otm-image"
         />
       </a>
     </div>

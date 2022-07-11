@@ -49,9 +49,10 @@
             <div class="staffMember self-start flex flex-col items-center">
               <a :href="staffMember.externalLinks" target="_blank">
                 <img
-                  :alt="staffMember.title"
-                  class="mb-1 h-auto"
                   :src="staffMember.featuredImage"
+                  :alt="staffMember.title"
+                  loading="lazy"
+                  class="mb-1 h-auto"
                 />
               </a>
               <div class="py-3 bg-white">
@@ -93,7 +94,12 @@
           >
             <div class="artist self-start flex flex-col items-center">
               <a :href="artist.externalLinks" target="_blank">
-                <img :alt="artist.title" class="h-auto mb-1" :src="artist.featuredImage" />
+                <img
+                  :alt="artist.title"
+                  class="h-auto mb-1"
+                  :src="artist.featuredImage"
+                  loading="lazy"
+                />
               </a>
               <div class="py-3 bg-white">
                 <h2 class="mb-4 text-gray-600 font-bold text-lg">{{ artist.title }}</h2>

@@ -41,7 +41,11 @@
 
         <!-- image - start -->
         <div class="logo-width self-center mt-5 mb-10 lg:mb-0 2xl:mb-4">
-          <img src="/images/uploads/awa-logo.png" loading="lazy" alt="Art While Apart logo" />
+          <img
+            src="~assets/images/awa_logos/awa-logo.png"
+            loading="lazy"
+            alt="Art While Apart logo"
+          />
         </div>
         <!-- image - end -->
       </div>

@@ -217,7 +217,11 @@
         <div
           class="col-span-2 md:col-span-1 place-self-center md:place-self-end max-w-xs sm:max-w-sm md:max-w-xs mt-12 md:mt-0"
         >
-          <img src="/images/uploads/awa-logo.png" loading="lazy" alt="Art While Apart logo" />
+          <img
+            src="~assets/images/awa_logos/awa-logo.png"
+            loading="lazy"
+            alt="Art While Apart logo"
+          />
         </div>
         <!-- image - end -->
       </div>

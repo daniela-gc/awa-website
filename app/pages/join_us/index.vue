@@ -178,6 +178,7 @@
             <img
               :src="art"
               :alt="art.split('/').pop()"
+              loading="lazy"
               class="h-80 max-h-96 md:h-54 md:max-h-54 lg:h-64 lg:max-h-64 w-auto object-cover object-center"
             />
           </div>
@@ -227,6 +228,7 @@
             <img
               :src="art"
               :alt="art.split('/').pop()"
+              loading="lazy"
               class="h-96 max-h-96 sm:h-80 sm:max-h-80 lg:max-h-72 lg:h-72 xl:max-h-72 xl:h-72 w-full object-scale-down object-center"
             />
           </div>

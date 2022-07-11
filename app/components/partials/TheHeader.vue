@@ -8,7 +8,11 @@
     >
       <div class="flex items-end">
         <div class="mb-1">
-          <img src="/images/uploads/fox-icon.png" alt="fox-icon" class="w-8 md:w-10 max-w-xs" />
+          <img
+            src="~assets/images/awa_logos/fox-icon.png"
+            alt="fox-icon"
+            class="w-8 md:w-10 max-w-xs"
+          />
         </div>
         <div class="ml-3">Art While Apart</div>
       </div>

@@ -7,6 +7,7 @@
       <a :href="mentorOfTheMonth.socialMediaLink" target="_blank">
         <img
           :alt="mentorOfTheMonth.artistName"
+          loading="lazy"
           class="w-auto object-scale-down object-center otm-image"
           :src="mentorOfTheMonth.featuredImage"
         />

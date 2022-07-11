@@ -6,7 +6,7 @@
     >
       <div class="w-full 2xl:w-9/12 mb-6 lg:mb-0 flex justify-center lg:justify-start 2xl:pl-10">
         <img
-          src="/images/uploads/awa-alt-logo-rainbow.png"
+          src="~assets/images/awa_logos/awa-alt-logo-rainbow.png"
           loading="lazy"
           alt="Art While Apart alt logo"
           class="w-full max-w-xs px-6 sm:px-0"
@@ -61,7 +61,7 @@
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://bestfriends.org/" target="_blank">
               <img
-                src="/images/uploads/best-friends-logo.png"
+                src="~assets/images/rescue_logos/best-friends-logo.png"
                 loading="lazy"
                 alt="Best Friends logo"
                 class="h-20 lg:h-24"
@@ -74,7 +74,7 @@
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://www.torontohumanesociety.com/" target="_blank">
               <img
-                src="/images/uploads/ths-logo.png"
+                src="~assets/images/rescue_logos/ths-logo.png"
                 loading="lazy"
                 alt="Toronto Humane Society logo"
                 class="h-20 lg:h-24"
@@ -87,7 +87,7 @@
           <div class="flex justify-center mb-8 sm:mb-0">
             <a href="https://www.horseplushumanesociety.org/" target="_blank">
               <img
-                src="/images/uploads/hph-logo.png"
+                src="~assets/images/rescue_logos/hph-logo.png"
                 loading="lazy"
                 alt="Horse Plus Humane Society logo"
                 class="h-20 lg:h-24"
@@ -100,7 +100,7 @@
           <div class="flex justify-center">
             <a href="https://niagaradogrescue.com/" target="_blank">
               <img
-                src="/images/uploads/niagaradogrescue-logo.png"
+                src="~assets/images/rescue_logos/niagaradogrescue-logo.png"
                 loading="lazy"
                 alt="Niagara Dog Rescue logo"
                 class="h-20 lg:h-24"

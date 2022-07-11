@@ -6,9 +6,10 @@
     <div class="w-full flex items-center justify-center">
       <a :href="pieceOfTheMonth.socialMediaLink" target="_blank">
         <img
-          :alt="pieceOfTheMonth.artistName"
-          class="w-auto object-scale-down object-center otm-image"
           :src="pieceOfTheMonth.featuredImage"
+          :alt="pieceOfTheMonth.artistName"
+          loading="lazy"
+          class="w-auto object-scale-down object-center otm-image"
         />
       </a>
     </div>

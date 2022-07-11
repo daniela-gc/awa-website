@@ -115,9 +115,10 @@
         <div class="portfolioPiece self-start">
           <a :href="portfolioPiece.socialMediaLink" target="_blank">
             <img
-              :alt="portfolioPiece.title"
-              class="max-h-full md:max-h-72 lg:max-h-96"
               :src="portfolioPiece.featuredImage"
+              :alt="portfolioPiece.title"
+              loading="lazy"
+              class="max-h-full md:max-h-72 lg:max-h-96"
             />
           </a>
           <div class="py-3 bg-white">
