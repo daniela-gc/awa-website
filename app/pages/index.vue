@@ -8,6 +8,8 @@
         <img
           src="~assets/images/awa_logos/awa-alt-logo-rainbow.png"
           loading="lazy"
+          width="800"
+          height="788"
           alt="Art While Apart alt logo"
           class="w-full max-w-xs px-6 sm:px-0"
         />
