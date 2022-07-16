@@ -41,6 +41,9 @@ export default async function getContent({
       socialMediaHandler: string;
       featuredImage: string;
     };
+    privacyPolicyText: string;
+    termsOfServiceText: string;
+    houseRulesText: string;
   }[] = [];
 
   // Get slugs
@@ -71,6 +74,9 @@ export default async function getContent({
       pieceOfTheMonth: entry.pieceOfTheMonth,
       staffHighlight: entry.staffHighlight,
       mentorOfTheMonth: entry.mentorOfTheMonth,
+      privacyPolicyText: entry.privacyPolicyText,
+      termsOfServiceText: entry.termsOfServiceText,
+      houseRulesText: entry.houseRulesText,
     });
   }
 

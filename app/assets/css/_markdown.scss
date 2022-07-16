@@ -29,7 +29,11 @@
 }
 
 .markdown a {
-  @apply text-blue-600 font-semibold;
+  @apply text-primary;
+}
+
+.markdown a:hover {
+  @apply underline;
 }
 
 .markdown strong a {

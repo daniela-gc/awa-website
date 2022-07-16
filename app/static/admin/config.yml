@@ -169,3 +169,24 @@ collections:
               - { label: 'Social media link', name: socialMediaLink, widget: string }
               - { label: 'Social media handler', name: socialMediaHandler, widget: string }
               - { label: 'Piece', name: featuredImage, widget: image }
+  - name: 'footerPages'
+    label: 'Footer Pages'
+    files:
+      - label: 'Privacy Policy'
+        name: 'privacyPolicy'
+        format: json
+        file: 'app/content/privacy_policy/privacy_policy.json'
+        fields:
+          - { label: 'Privacy Policy', name: privacyPolicyText, widget: markdown }
+      - label: 'Terms of Service'
+        name: 'termsOfService'
+        format: json
+        file: 'app/content/terms_of_service/terms_of_service.json'
+        fields:
+          - { label: 'Terms of Service', name: termsOfServiceText, widget: markdown }
+      - label: 'House Rules'
+        name: 'houseRules'
+        format: json
+        file: 'app/content/house_rules/house_rules.json'
+        fields:
+          - { label: 'House Rules', name: houseRulesText, widget: markdown }

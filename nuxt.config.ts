@@ -83,6 +83,8 @@ const nuxtConfig: Configuration = {
   markdownit: {
     preset: 'default',
 
+    runtime: true,
+
     injected: true,
 
     // Convert '\n' in paragraphs into <br>

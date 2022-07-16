@@ -234,29 +234,21 @@
         class="flex flex-col lg:flex-row items-center justify-items-center lg:justify-between py-8"
       >
         <div class="text-orange-100 text-center lg:hidden mb-6 lg:mb-0 text-sm md:text-base">
-          <a
-            href="https://www.artwhileapart.org/privacy-policy"
-            target="_blank"
-            class="hover:underline hover:text-white"
-          >
-            Privacy Policy</a
+          <nuxt-link to="/privacy_policy" target="_blank" class="hover:underline hover:text-white">
+            Privacy Policy</nuxt-link
           >
           <span>|</span>
-          <a
-            href="https://www.artwhileapart.org/privacy-policy"
+          <nuxt-link
+            to="/terms_of_service"
             target="_blank"
             class="hover:underline hover:text-white"
           >
-            Terms of Service</a
+            Terms of Service</nuxt-link
           >
           <span>|</span>
-          <a
-            href="https://www.artwhileapart.org/privacy-policy"
-            target="_blank"
-            class="hover:underline hover:text-white"
-          >
+          <nuxt-link to="/house_rules" target="_blank" class="hover:underline hover:text-white">
             House Rules
-          </a>
+          </nuxt-link>
         </div>
         <div class="text-orange-100 text-sm text-center lg:text-left">
           <p class="mb-1">
@@ -289,29 +281,21 @@
           </p>
         </div>
         <div class="text-orange-100 text-center hidden lg:block">
-          <a
-            href="https://www.artwhileapart.org/privacy-policy"
-            target="_blank"
-            class="hover:underline hover:text-white"
-          >
-            Privacy Policy</a
+          <nuxt-link to="/privacy_policy" target="_blank" class="hover:underline hover:text-white">
+            Privacy Policy</nuxt-link
           >
           <span class="mx-1">|</span>
-          <a
-            href="https://www.artwhileapart.org/privacy-policy"
+          <nuxt-link
+            to="/terms_of_service"
             target="_blank"
             class="hover:underline hover:text-white"
           >
-            Terms of Service</a
+            Terms of Service</nuxt-link
           >
           <span class="mx-1">|</span>
-          <a
-            href="https://www.artwhileapart.org/privacy-policy"
-            target="_blank"
-            class="hover:underline hover:text-white"
-          >
+          <nuxt-link to="/house_rules" target="_blank" class="hover:underline hover:text-white">
             House Rules
-          </a>
+          </nuxt-link>
         </div>
         <div class="text-orange-100 text-sm mt-6 lg:mt-0">
           © {{ new Date().getFullYear() }} Art While Apart.

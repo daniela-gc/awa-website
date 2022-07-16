@@ -54,3 +54,15 @@ interface Otm {
     featuredImage: string,
   }
 }
+
+interface PrivacyPolicy {
+  privacyPolicyText: string;
+}
+
+interface TermsOfService {
+  termsOfServiceText: string;
+}
+
+interface HouseRules {
+  houseRulesText: string;
+}
