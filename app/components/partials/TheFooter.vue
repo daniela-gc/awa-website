@@ -234,19 +234,15 @@
         class="flex flex-col lg:flex-row items-center justify-items-center lg:justify-between py-8"
       >
         <div class="text-orange-100 text-center lg:hidden mb-6 lg:mb-0 text-sm md:text-base">
-          <nuxt-link to="/privacy_policy" target="_blank" class="hover:underline hover:text-white">
+          <nuxt-link to="/privacy_policy" class="hover:underline hover:text-white">
             Privacy Policy</nuxt-link
           >
           <span>|</span>
-          <nuxt-link
-            to="/terms_of_service"
-            target="_blank"
-            class="hover:underline hover:text-white"
-          >
+          <nuxt-link to="/terms_of_service" class="hover:underline hover:text-white">
             Terms of Service</nuxt-link
           >
           <span>|</span>
-          <nuxt-link to="/house_rules" target="_blank" class="hover:underline hover:text-white">
+          <nuxt-link to="/house_rules" class="hover:underline hover:text-white">
             House Rules
           </nuxt-link>
         </div>
@@ -255,7 +251,6 @@
             AWA logo made by
             <a
               href="https://www.instagram.com/whimsyandshenanigans"
-              target="_blank"
               class="underline hover:text-white"
               >@whimsyandshenanigans</a
             >
@@ -274,26 +269,21 @@
             <a
               href="https://www.flaticon.com/free-icons/fox"
               title="fox icons"
-              target="_blank"
               class="underline hover:text-white"
               >Freepik - Flaticon</a
             >
           </p>
         </div>
         <div class="text-orange-100 text-center hidden lg:block">
-          <nuxt-link to="/privacy_policy" target="_blank" class="hover:underline hover:text-white">
+          <nuxt-link to="/privacy_policy" class="hover:underline hover:text-white">
             Privacy Policy</nuxt-link
           >
           <span class="mx-1">|</span>
-          <nuxt-link
-            to="/terms_of_service"
-            target="_blank"
-            class="hover:underline hover:text-white"
-          >
+          <nuxt-link to="/terms_of_service" class="hover:underline hover:text-white">
             Terms of Service</nuxt-link
           >
           <span class="mx-1">|</span>
-          <nuxt-link to="/house_rules" target="_blank" class="hover:underline hover:text-white">
+          <nuxt-link to="/house_rules" class="hover:underline hover:text-white">
             House Rules
           </nuxt-link>
         </div>
