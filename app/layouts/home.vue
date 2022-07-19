@@ -1,6 +1,6 @@
 <template>
   <main class="mt-1 md:mt-4">
-    <the-header class="px-8 md:px-12 xl:px-16 2xl:px-24" />
+    <the-header class="px-5 sm:px-8 md:px-12 xl:px-16 2xl:px-24" />
     <div class="main-wrapper">
       <hero-index />
       <div class="is-flex-grow-1"></div>

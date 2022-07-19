@@ -57,10 +57,6 @@ const nuxtConfig: Configuration = {
    */
   css: ['@/assets/css/main.scss'],
 
-  styleResources: {
-    scss: ['~assets/css/_variables.scss', '~assets/css/_mixins.scss'],
-  },
-
   generate: {
     subFolders: false,
   },

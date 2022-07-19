@@ -9,7 +9,7 @@
 }
 
 .markdown {
-  @apply text-gray-900 leading-normal break-words;
+  @apply text-sm md:text-base text-gray-900 leading-normal break-words;
 }
 
 .markdown > * + * {
@@ -17,11 +17,11 @@
 }
 
 .markdown li + li {
-  @apply mt-1;
+  @apply mt-1 text-sm md:text-base;
 }
 
 .markdown li > p + p {
-  @apply mt-6;
+  @apply mt-6 text-sm md:text-base;
 }
 
 .markdown strong {
@@ -41,31 +41,31 @@
 }
 
 .markdown h1 {
-  @apply leading-tight text-5xl font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight text-4xl md:text-5xl font-semibold mb-4 mt-6 pb-2;
 }
 
 .markdown h2 {
-  @apply leading-tight text-4xl font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight text-3xl md:text-4xl font-semibold mb-4 mt-6 pb-2;
 }
 
 .markdown h3 {
-  @apply leading-snug text-2xl font-semibold mb-4 mt-6;
+  @apply leading-snug text-xl md:text-2xl font-semibold mb-4 mt-6;
 }
 
 .markdown h4 {
-  @apply leading-none text-lg font-semibold mb-4 mt-6;
+  @apply leading-none text-base md:text-lg font-semibold mb-4 mt-6;
 }
 
 .markdown h5 {
-  @apply leading-tight text-base font-semibold mb-4 mt-6;
+  @apply leading-tight text-sm md:text-base font-semibold mb-4 mt-6;
 }
 
 .markdown h6 {
-  @apply leading-tight text-sm font-semibold text-gray-600 mb-4 mt-6;
+  @apply leading-tight text-xs md:text-sm font-semibold text-gray-600 mb-4 mt-6;
 }
 
 .markdown blockquote {
-  @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
+  @apply text-sm md:text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
 }
 
 .markdown code {
@@ -81,11 +81,11 @@
 }
 
 .markdown ul {
-  @apply text-base pl-8 list-disc;
+  @apply pl-8 list-disc text-sm md:text-base;
 }
 
 .markdown ol {
-  @apply text-base pl-8 list-decimal;
+  @apply pl-8 list-decimal text-sm md:text-base;
 }
 
 .markdown kbd {
@@ -93,7 +93,7 @@
 }
 
 .markdown table {
-  @apply text-base border-gray-600;
+  @apply text-sm md:text-base border-gray-600;
 }
 
 .markdown th {

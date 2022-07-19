@@ -4,7 +4,7 @@ backend:
   branch: master
 
 # Set to true to use the CMS locally (with the default proxy server port)
-local_backend: false
+local_backend: true
 
 # Publish mode https://www.netlifycms.org/docs/configuration-options/#publish-mode
 # publish_mode: editorial_workflow
@@ -24,38 +24,15 @@ logo_url: https://imgur.com/2LBZtL8.png
 
 # Collections https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
-  - label: Settings
-    name: settings
-    files:
-      - label: General
-        name: general
-        format: json
-        file: 'app/content/settings/general.json'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: 'Title Template', name: titleTemplate, widget: string }
-          - { label: Logo, name: logo, widget: image }
-          - { label: Icon, name: icon, widget: image }
-          - { label: 'Loading Color', name: loadingColor, widget: string, default: '#000000' }
-          - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
-          - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
-      - label: Manifest
-        name: manifest
-        format: json
-        file: 'app/content/settings/manifest.json'
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: 'Short name', name: shortName, widget: string }
-          - { label: Description, name: description, widget: text }
-          - { label: Lang, name: lang, widget: string, default: en }
   - name: 'portfolio'
     label: 'Portfolio'
+    label_singular: 'Portfolio piece'
     folder: 'app/content/portfolio'
     create: true
     format: 'json'
     fields:
       - { label: 'Piece', name: featuredImage, widget: image }
-      - { label: Name, name: title, widget: string }
+      - { label: 'Title', name: title, widget: string }
       - { label: 'Social media link', name: socialMediaLink, widget: string }
   - name: 'staff'
     label: 'Staff'
@@ -65,21 +42,22 @@ collections:
     sort: 'position:asc'
     fields:
       - { label: 'Image', name: featuredImage, widget: image }
-      - { label: Name, name: title, widget: string }
+      - { label: "Artist's name", name: title, widget: string }
       - { label: Role, name: role, widget: string }
       - { label: Bio, name: bio, widget: string }
       - label: 'External Links'
+        label_singular: 'external link'
         name: externalLinks
         widget: list
         max: 5
-        label_singular: 'external link'
+        hint: "FOR E-MAILS: Please add 'mailto:' without the quotes in front of the email adress, so that the link works."
         fields:
           - {
               label: 'Site name (e.g. Instagram, DeviantArt, Website)',
               name: 'name',
               widget: 'string',
             }
-          - { label: 'Link / URL', name: 'url', widget: string }
+          - { label: 'Link', name: 'url', widget: string }
       - label: 'Position in page'
         name: 'position'
         hint: 'Optional number to order the staff member in the Team page.'
@@ -90,26 +68,28 @@ collections:
         step: 1
   - name: 'artist'
     label: 'Artists'
+    label_singular: 'Artist'
     folder: 'app/content/artists'
     create: true
     format: 'json'
     sort: 'position:asc'
     fields:
       - { label: 'Image', name: featuredImage, widget: image }
-      - { label: Nombre, name: title, widget: string }
-      - { label: Bio, name: bio, widget: string }
+      - { label: "Artist's name", name: title, widget: string }
+      - { label: 'Bio', name: bio, widget: string }
       - label: 'External Links'
+        label_singular: 'external link'
         name: externalLinks
         widget: list
         max: 5
-        label_singular: 'external link'
+        hint: "FOR E-MAILS: Please add 'mailto:' without the quotes in front of the email adress, so that the link works."
         fields:
           - {
               label: 'Site name (e.g. Instagram, DeviantArt, Website)',
               name: 'name',
               widget: 'string',
             }
-          - { label: 'Link / URL', name: 'url', widget: 'string' }
+          - { label: 'Link', name: 'url', widget: 'string' }
       - label: 'Position in page'
         name: 'position'
         hint: 'Optional number to order the artist in the Team page.'
@@ -133,7 +113,7 @@ collections:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: 'Social media link', name: socialMediaLink, widget: string }
               - { label: 'Social media handler', name: socialMediaHandler, widget: string }
-              - label: 'Pieces'
+              - label: 'Pieces (Max 5)'
                 name: pieces
                 widget: list
                 max: 5

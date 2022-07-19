@@ -1,0 +1,20 @@
+{
+  "title": "Laughingowls",
+  "bio": "21-year-old self-taught hobby artist who uses digital art mediums and mainly draws animals, but can do other creatures too. ",
+  "featuredImage": "/images/uploads/somalis.jpeg",
+  "externalLinks": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/laughing.owls/"
+    },
+    {
+      "name": "DeviantArt",
+      "url": "https://deviantart.com/laughingowls"
+    },
+    {
+      "name": "E-mail",
+      "url": "mailto:laughingowlsdraws@gmail.com"
+    }
+  ],
+  "position": 2
+}

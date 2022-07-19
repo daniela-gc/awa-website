@@ -6,7 +6,7 @@
         <a
           href="#"
           @click="toggleActiveTab('staff')"
-          @keydown="toggleActiveTab('staff')"
+          aria-hidden="true"
           class="w-full text-2xl font-bold text-gray-600 px-6 py-2 my-2 hover:bg-gray-100 transition-colors duration-200"
           :class="{
             'border-b-4 border-primary focus:border-primary active': staffTabIsActive,
@@ -18,7 +18,7 @@
         <a
           href="#"
           @click="toggleActiveTab('artist')"
-          @keydown="toggleActiveTab('artist')"
+          aria-hidden="true"
           class="w-full text-2xl font-bold text-gray-600 px-6 py-2 my-2 hover:bg-gray-100 transition-colors duration-200"
           :class="{
             'border-b-4 border-primary focus:border-primary active': !staffTabIsActive,
@@ -166,7 +166,7 @@ export default class TeamIndex extends Vue {
 
   staffTabIsActive = true;
 
-  toggleActiveTab(tab: string): boolean {
+  toggleActiveTab(tab: string): void {
     this.staffTabIsActive = tab === 'staff';
   }
 
@@ -180,14 +180,24 @@ export default class TeamIndex extends Vue {
       return range - perPage < indexPage && indexPage <= range;
     });
 
-    staffMembers.sort(({ position: a }, { position: b }) => a - b);
+    // Sort staff members alphabetically. If a member doesn't have position (undefined), it's placed last
+    staffMembers.sort(
+      ({ position: a }, { position: b }) =>
+        (a === undefined) - (b === undefined) || +(a > b) || -(a < b)
+    );
 
     const artists = store.state.artists.filter((artist, index) => {
       const indexPage = index + 1;
       return range - perPage < indexPage && indexPage <= range;
     });
 
-    artists.sort(({ position: a }, { position: b }) => a - b);
+    // Sort artists alphabetically. If an artist doesn't have position (undefined), it's placed last
+    artists.sort(
+      ({ position: a }, { position: b }) =>
+        (a === (undefined || '')) - (b === (undefined || '')) || +(a > b) || -(a < b)
+    );
+
+    console.log(artists);
 
     return {
       currentPage: page,

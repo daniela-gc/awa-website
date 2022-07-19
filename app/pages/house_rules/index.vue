@@ -18,7 +18,7 @@
     <!-- Title - end -->
 
     <!-- House Rules Markdown - start -->
-    <div class="footer-page max-w-4xl pb-28">
+    <div class="footer-page max-w-4xl pb-28 px-8 sm:px-10 lg:px-2">
       <div class="markdown" v-html="$md.render(houseRules)"></div>
     </div>
     <!-- House Rules Markdown - end -->

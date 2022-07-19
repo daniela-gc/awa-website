@@ -21,7 +21,7 @@
     <!-- Introduction - start -->
     <div class="flex flex-col lg:flex-row justify-center mb-20 gap-12 lg:gap-4">
       <div class="flex flex-col justify-center items-center">
-        <div class="px-8 text-gray-600 text-justify text-lg">
+        <div class="px-8 text-gray-600 text-justify text-base md:text-lg">
           <p class="max-w-lg mb-4">
             <strong>Art While Apart</strong> offers digital artists a warm space to grow and work on
             their art skills. Artists are given as much time as they like to complete
@@ -382,15 +382,15 @@ export default class JoinUsIndex extends Vue {
   cursor: pointer;
   height: 100%;
   position: absolute;
-  top: 0;
+  top: -25px;
 }
 
 .art-examples-slide .agile__nav-button--prev {
-  left: 18px;
+  left: 16px;
 }
 
 .art-examples-slide .agile__nav-button--next {
-  right: 18px;
+  right: 16px;
 }
 
 .art-examples-slide .agile__caption {

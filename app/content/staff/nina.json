@@ -1,0 +1,20 @@
+{
+  "featuredImage": "/images/uploads/bild204.jpg",
+  "bio": "Nina is 20 years old and from Germany. She mainly draws horses, but really enjoys trying different animals! ",
+  "title": "Nina",
+  "role": "Administrator",
+  "externalLinks": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/nina.letters/"
+    },
+    {
+      "name": "Paypal",
+      "url": "https://paypal.me/drawingpon"
+    },
+    {
+      "name": "E-mail",
+      "url": "mailto:nina.letterss@gmail.com"
+    }
+  ]
+}
