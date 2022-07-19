@@ -66,9 +66,7 @@
                 src="~assets/images/rescue_logos/best-friends-logo.png"
                 loading="lazy"
                 alt="Best Friends logo"
-                width="400"
-                height="404"
-                class="w-full h-20 max-h-20 lg:h-24 lg:max-h-24"
+                class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
           </div>
@@ -81,9 +79,7 @@
                 src="~assets/images/rescue_logos/ths-logo.png"
                 loading="lazy"
                 alt="Toronto Humane Society logo"
-                width="663"
-                height="306"
-                class="w-full h-20 max-h-20 lg:h-24 lg:max-h-24"
+                class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
           </div>
@@ -96,9 +92,7 @@
                 src="~assets/images/rescue_logos/hph-logo.png"
                 loading="lazy"
                 alt="Horse Plus Humane Society logo"
-                width="240"
-                height="220"
-                class="w-full h-20 max-h-20 lg:h-24 lg:max-h-24"
+                class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
           </div>
@@ -111,9 +105,7 @@
                 src="~assets/images/rescue_logos/niagaradogrescue-logo.png"
                 loading="lazy"
                 alt="Niagara Dog Rescue logo"
-                width="129"
-                height="104"
-                class="h-20 lg:h-24"
+                class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
           </div>
