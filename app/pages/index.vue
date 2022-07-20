@@ -30,16 +30,25 @@
         <p>
           AWA has also now expanded to include rescue pet portraits. By partnering with rescues such
           as the
-          <a href="https://bestfriends.org/" class="text-primary hover:underline"
+          <a href="https://bestfriends.org/" target="_blank" class="text-primary hover:underline"
             >Best Friends Animal Society</a
           >,
-          <a href="https://www.torontohumanesociety.com/" class="text-primary hover:underline"
+          <a
+            href="https://www.torontohumanesociety.com/"
+            target="_blank"
+            class="text-primary hover:underline"
             >Toronto Humane Society</a
           >,
-          <a href="https://www.horseplushumanesociety.org/" class="text-primary hover:underline"
+          <a
+            href="https://www.horseplushumanesociety.org/"
+            target="_blank"
+            class="text-primary hover:underline"
             >Horse Plus Humane Society</a
           >, and
-          <a href="https://niagaradogrescue.com/" class="text-primary hover:underline"
+          <a
+            href="https://niagaradogrescue.com/"
+            target="_blank"
+            class="text-primary hover:underline"
             >Niagara Dog Rescue</a
           >, we aim to increase pet exposure in order to help connect them to their forever homes.
         </p>
