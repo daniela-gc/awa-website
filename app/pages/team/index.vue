@@ -197,8 +197,6 @@ export default class TeamIndex extends Vue {
         (a === (undefined || '')) - (b === (undefined || '')) || +(a > b) || -(a < b)
     );
 
-    console.log(artists);
-
     return {
       currentPage: page,
       totalPages: Math.ceil(
