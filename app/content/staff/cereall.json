@@ -12,5 +12,6 @@
       "name": "Paypal"
     }
   ],
-  "featuredImage": "/images/uploads/cereal.jpg"
+  "featuredImage": "/images/uploads/cereal.jpg",
+  "position": 4
 }
