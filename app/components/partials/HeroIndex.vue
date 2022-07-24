@@ -42,6 +42,7 @@
         <!-- image - start -->
         <div class="logo-width self-center mt-5 mb-10 lg:mb-0 2xl:mb-4">
           <nuxt-img
+            format="webp"
             sizes="xs:100vw md:500px xl:600px xxl:800px"
             preload
             src="/images/awa_logos/awa-logo.png"

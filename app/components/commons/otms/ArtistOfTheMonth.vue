@@ -37,6 +37,7 @@
           class="slide text-primary max-h-full mb-6"
         >
           <nuxt-img
+            format="webp"
             sizes="xs:100vw lg:850px"
             placeholder
             :src="piece.featuredImage"

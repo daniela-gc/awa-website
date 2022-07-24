@@ -13,6 +13,7 @@
         <div class="flex items-end">
           <div class="mb-1">
             <nuxt-img
+              format="webp"
               sizes="xs:36px md:40px"
               preload
               src="/images/awa_logos/fox-icon.png"

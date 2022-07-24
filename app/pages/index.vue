@@ -6,6 +6,7 @@
     >
       <div class="w-full 2xl:w-9/12 mb-6 lg:mb-0 flex justify-center lg:justify-start 2xl:pl-10">
         <nuxt-img
+          format="webp"
           sizes="xs:100vw sm:320px"
           placeholder
           loading="lazy"
@@ -74,6 +75,7 @@
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://bestfriends.org/" target="_blank">
               <nuxt-img
+                format="webp"
                 src="/images/rescue_logos/best-friends-logo.png"
                 loading="lazy"
                 alt="Best Friends logo"
@@ -87,6 +89,7 @@
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://www.torontohumanesociety.com/" target="_blank">
               <nuxt-img
+                format="webp"
                 src="/images/rescue_logos/ths-logo.png"
                 loading="lazy"
                 alt="Toronto
@@ -101,6 +104,7 @@
           <div class="flex justify-center mb-8 sm:mb-0">
             <a href="https://www.horseplushumanesociety.org/" target="_blank">
               <nuxt-img
+                format="webp"
                 src="/images/rescue_logos/hph-logo.png"
                 loading="lazy"
                 alt="Horse Plus
@@ -115,6 +119,7 @@
           <div class="flex justify-center">
             <a href="https://niagaradogrescue.com/" target="_blank">
               <nuxt-img
+                format="webp"
                 src="/images/rescue_logos/niagaradogrescue-logo.png"
                 loading="lazy"
                 alt="Niagara Dog Rescue logo"
@@ -164,6 +169,7 @@
           <!-- image - start -->
           <div class="w-full md:w-7/12 lg:w-1/2 hidden md:block bg-gray-200 relative">
             <nuxt-img
+              format="webp"
               sizes="xs:350px md:550px xl:750px"
               placeholder
               loading="lazy"

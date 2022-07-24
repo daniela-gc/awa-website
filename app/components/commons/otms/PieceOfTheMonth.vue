@@ -6,6 +6,7 @@
     <div class="w-full flex items-center justify-center">
       <a :href="pieceOfTheMonth.socialMediaLink" target="_blank">
         <nuxt-img
+          format="webp"
           sizes="xs:100vw md:500px"
           placeholder
           loading="lazy"

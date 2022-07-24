@@ -23,6 +23,7 @@
     <div class="w-full flex items-center justify-center">
       <a :href="staffHighlight.socialMediaLink" target="_blank">
         <nuxt-img
+          format="webp"
           sizes="xs:100vw md:500px"
           placeholder
           :src="staffHighlight.featuredImage"
