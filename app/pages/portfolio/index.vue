@@ -115,6 +115,7 @@
             <nuxt-img
               format="webp"
               quality="90"
+              sizes="xs:100vw md:450px xxl:400px"
               :src="portfolioPiece.featuredImage"
               :alt="portfolioPiece.title"
               class="w-full object-cover object-center aspect-square"

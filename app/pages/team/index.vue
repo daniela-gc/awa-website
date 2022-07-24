@@ -51,6 +51,7 @@
                 <nuxt-img
                   format="webp"
                   quality="90"
+                  sizes="xs:100vw md:500px xxl:400px"
                   :src="staffMember.featuredImage"
                   :alt="staffMember.title"
                   loading="lazy"
@@ -103,6 +104,7 @@
                 <nuxt-img
                   format="webp"
                   quality="90"
+                  sizes="xs:100vw md:500px xxl:400px"
                   :alt="artist.title"
                   class="mb-1 w-full object-cover object-center aspect-square"
                   :src="artist.featuredImage"
