@@ -52,7 +52,7 @@
                   :src="staffMember.featuredImage"
                   :alt="staffMember.title"
                   loading="lazy"
-                  class="mb-1 h-auto"
+                  class="mb-1 w-full object-cover object-center aspect-square"
                 />
               </a>
               <div class="py-3 bg-white">
@@ -78,7 +78,11 @@
             </div>
           </div>
         </div>
-        <Pagination v-if="totalPages > 1" :current-page="currentPage" :total-pages="totalPages" />
+        <mugen-scroll :handler="getStaffMembers" :should-handle="!loadingStaff">
+          <div class="flex items-center justify-center mb-24" v-if="showSpinnerStaff">
+            <icon-spinner />
+          </div>
+        </mugen-scroll>
       </div>
       <!-- Staff tab content - start -->
 
@@ -96,7 +100,7 @@
               <a :href="artist.externalLinks[0].url" target="_blank">
                 <img
                   :alt="artist.title"
-                  class="h-auto mb-1"
+                  class="mb-1 w-full object-cover object-center aspect-square"
                   :src="artist.featuredImage"
                   loading="lazy"
                 />
@@ -124,7 +128,11 @@
             </div>
           </div>
         </div>
-        <Pagination v-if="totalPages > 1" :current-page="currentPage" :total-pages="totalPages" />
+        <mugen-scroll :handler="getArtists" :should-handle="!loadingArtists">
+          <div class="flex items-center justify-center mb-24" v-if="showSpinnerArtists">
+            <icon-spinner />
+          </div>
+        </mugen-scroll>
       </div>
       <!-- Artist tab content - end -->
     </div>
@@ -134,14 +142,14 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
-
-const Pagination = () => import('@/components/commons/pagination.vue');
+import MugenScroll from 'vue-mugen-scroll';
+import IconSpinner from '@/components/commons/icons/IconSpinner.vue';
 
 @Component({
   components: {
-    Pagination,
+    MugenScroll,
+    IconSpinner,
   },
-
   head(): MetaInfo {
     return {
       title: 'Our Team',
@@ -156,55 +164,62 @@ const Pagination = () => import('@/components/commons/pagination.vue');
   },
 })
 export default class TeamIndex extends Vue {
-  currentPage!: number;
-
-  totalPages!: number;
-
   staffMembers: StaffMember[] = [];
 
   artists: Artist[] = [];
 
   staffTabIsActive = true;
 
+  loadingArtists = false;
+
+  piecesNumberArtists = 12;
+
+  showSpinnerArtists = true;
+
+  loadingStaff = false;
+
+  piecesNumberStaff = 12;
+
+  showSpinnerStaff = true;
+
   toggleActiveTab(tab: string): void {
     this.staffTabIsActive = tab === 'staff';
   }
 
-  async asyncData({ params, store }: { params: any; store: any }): Promise<any> {
-    const page: number = params.page ? parseInt(params.page, 10) : 1;
-    const { perPage }: { perPage: number } = store.state;
-    const range = page * perPage;
+  getStaffMembers(): void {
+    this.loadingStaff = true;
 
-    const staffMembers = store.state.staffMembers.filter((staffMember, index) => {
-      const indexPage = index + 1;
-      return range - perPage < indexPage && indexPage <= range;
-    });
-
-    // Sort staff members alphabetically. If a member doesn't have position (undefined), it's placed last
-    staffMembers.sort(
+    const allStaff = this.$store.state.staffMembers.sort(
       ({ position: a }, { position: b }) =>
         (a === undefined) - (b === undefined) || +(a > b) || -(a < b)
     );
 
-    const artists = store.state.artists.filter((artist, index) => {
-      const indexPage = index + 1;
-      return range - perPage < indexPage && indexPage <= range;
+    this.staffMembers = allStaff.filter((staffMember, index) => {
+      return index + 1 <= this.piecesNumberStaff;
     });
+    this.piecesNumberStaff += 12;
+    if (this.piecesNumberStaff >= this.$store.state.staffMembers.length) {
+      this.showSpinnerStaff = false;
+    }
+    this.loadingStaff = false;
+  }
 
-    // Sort artists alphabetically. If an artist doesn't have position (undefined), it's placed last
-    artists.sort(
+  getArtists(): void {
+    this.loadingArtists = true;
+
+    const allArtists = this.$store.state.artists.sort(
       ({ position: a }, { position: b }) =>
         (a === (undefined || '')) - (b === (undefined || '')) || +(a > b) || -(a < b)
     );
 
-    return {
-      currentPage: page,
-      totalPages: Math.ceil(
-        (store.state.staffMembers.length + store.state.artists.length) / perPage
-      ),
-      staffMembers: staffMembers || [],
-      artists: artists || [],
-    };
+    this.artists = allArtists.filter((artist, index) => {
+      return index + 1 <= this.piecesNumberArtists;
+    });
+    this.piecesNumberArtists += 12;
+    if (this.piecesNumberArtists >= this.$store.state.artists.length) {
+      this.showSpinnerArtists = false;
+    }
+    this.loadingArtists = false;
   }
 }
 </script>

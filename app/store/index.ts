@@ -4,27 +4,25 @@ import Vue from 'vue';
 import getContent from '@/utils';
 
 export interface State {
-  perPage: number;
   portfolioPieces: PortfolioPiece[];
   staffMembers: StaffMember[];
   artists: Artist[];
   otms: Otm[];
-  privacyPolicy: PrivacyPolicy;
-  termsOfService: TermsOfService;
-  houseRules: HouseRules;
+  privacyPolicy: PrivacyPolicy[];
+  termsOfService: TermsOfService[];
+  houseRules: HouseRules[];
   route?: Route;
 }
 
 // Initial State
 export const appState = {
-  perPage: 25,
   portfolioPieces: [],
   staffMembers: [],
   artists: [],
   otms: [],
-  privacyPolicy: {},
-  termsOfService: {},
-  houseRules: {},
+  privacyPolicy: [],
+  termsOfService: [],
+  houseRules: [],
 };
 
 export const mutations: MutationTree<State> = {

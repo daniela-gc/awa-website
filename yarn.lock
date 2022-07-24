@@ -5077,6 +5077,11 @@ electron-to-chromium@^1.4.118:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.136.tgz#b6a3595a9c29d6d8f60e092d40ac24f997e4e7ef"
   integrity sha512-GnITX8rHnUrIVnTxU9UlsTnSemHUA2iF+6QrRqxFbp/mf0vfuSc/goEyyQhUX3TUUCE3mv/4BNuXOtaJ4ur0eA==
 
+element-in-view@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/element-in-view/-/element-in-view-0.1.0.tgz#662f41f9a8d3b8ca4587c1ddb427b7d27af88bc9"
+  integrity sha512-bMX/nPADfY8Mgs70kG+SGJ4vo7GCOsQaFVhUHG738gzRG6OrKCp2ZbV63LE5jsgEh8tDqxvXvLeslel5HF6lrA==
+
 elliptic@^6.5.3:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
@@ -11826,6 +11831,11 @@ throat@^5.0.0:
   resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
   integrity sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA==
 
+throttleit@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/throttleit/-/throttleit-1.0.0.tgz#9e785836daf46743145a5984b6268d828528ac6c"
+  integrity sha512-rkTVqu6IjfQ/6+uNuuc3sZek4CEYxTJom3IktzgdSxcZqdARuebbA/f4QmAxMQIxqq9ZLEUkSYqvuk1I6VKq4g==
+
 through2@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -12483,6 +12493,14 @@ vue-meta@^2.4.0:
   integrity sha512-XEeZUmlVeODclAjCNpWDnjgw+t3WA6gdzs6ENoIAgwO1J1d5p1tezDhtteLUFwcaQaTtayRrsx7GL6oXp/m2Jw==
   dependencies:
     deepmerge "^4.2.2"
+
+vue-mugen-scroll@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/vue-mugen-scroll/-/vue-mugen-scroll-0.2.6.tgz#f1c90a8363a8966b3217524f3e97f76b0b817303"
+  integrity sha512-6FOBzotc8p/GDQZYkEdenxPydDvABUuxqMese6Zv4fpEZf7CjNSabRtAeBUtg+339Z9iKMdpzussbqFHCRXVqA==
+  dependencies:
+    element-in-view "^0.1.0"
+    throttleit "^1.0.0"
 
 vue-no-ssr@^1.1.1:
   version "1.1.1"

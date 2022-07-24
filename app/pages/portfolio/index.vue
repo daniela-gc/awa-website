@@ -1,7 +1,7 @@
 <template>
-  <section class="portfolio mx-4 md:mx-10 xl:mx-16 2xl:mx-20">
+  <section class="mx-4 md:mx-10 xl:mx-16 2xl:mx-20">
     <div
-      class="py-4 md:mt-8 md:mb-16 pb-8 md:pb-10 mb-10 2xl:mx-6 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200"
+      class="py-4 md:mt-8 mb-5 md:mb-10 pb-8 md:pb-10 2xl:mx-6 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200"
     >
       <!-- Title - start -->
       <div class="flex flex-col md:flex-row items-center text-center md:text-left">
@@ -104,21 +104,18 @@
       <!-- social - end -->
     </div>
 
-    <div
-      class="flex flex-wrap md:-mx-4 pb-16 justify-center md:justify-start text-center md:text-left"
-    >
+    <div class="flex flex-wrap pb-16 justify-center md:justify-start text-center md:text-left">
       <div
         v-for="(portfolioPiece, index) in portfolioPieces"
         :key="index"
-        class="w-full md:w-1/2 lg:w-4/12 2xl:w-3/12 my-4 md:px-3 flex flex-row justify-center"
+        class="w-full md:w-1/2 lg:w-3/12 2xl:w-1/5 md:px-4 my-5 flex flex-row justify-center"
       >
-        <div class="portfolioPiece self-start">
+        <div class="self-start">
           <a :href="portfolioPiece.socialMediaLink" target="_blank">
             <img
               :src="portfolioPiece.featuredImage"
               :alt="portfolioPiece.title"
-              loading="lazy"
-              class="max-h-full md:max-h-72 lg:max-h-96"
+              class="w-full object-cover object-center aspect-square"
             />
           </a>
           <div class="py-3 bg-white">
@@ -127,21 +124,25 @@
         </div>
       </div>
     </div>
-    <Pagination v-if="totalPages > 1" :current-page="currentPage" :total-pages="totalPages" />
+    <mugen-scroll :handler="getPortfolioPieces" :should-handle="!loading">
+      <div class="flex items-center justify-center mb-24" v-if="showSpinner">
+        <icon-spinner />
+      </div>
+    </mugen-scroll>
   </section>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
-
-const Pagination = () => import('@/components/commons/pagination.vue');
+import MugenScroll from 'vue-mugen-scroll';
+import IconSpinner from '@/components/commons/icons/IconSpinner.vue';
 
 @Component({
   components: {
-    Pagination,
+    MugenScroll,
+    IconSpinner,
   },
-
   head(): MetaInfo {
     return {
       title: 'Portfolio',
@@ -156,38 +157,24 @@ const Pagination = () => import('@/components/commons/pagination.vue');
   },
 })
 export default class PortfolioIndex extends Vue {
-  currentPage!: number;
-
-  totalPages!: number;
-
   portfolioPieces: PortfolioPiece[] = [];
 
-  async asyncData({ params, store }: { params: any; store: any }): Promise<any> {
-    const page: number = params.page ? parseInt(params.page, 10) : 1;
-    const { perPage }: { perPage: number } = store.state;
-    const range = page * perPage;
+  loading = false;
 
-    const portfolioPieces = store.state.portfolioPieces.filter((portfolioPiece, index) => {
-      const indexPage = index + 1;
-      return range - perPage < indexPage && indexPage <= range;
+  piecesNumber = 15;
+
+  showSpinner = true;
+
+  getPortfolioPieces(): void {
+    this.loading = true;
+    this.portfolioPieces = this.$store.state.portfolioPieces.filter((portfolioPiece, index) => {
+      return index + 1 <= this.piecesNumber;
     });
-
-    return {
-      currentPage: page,
-      totalPages: Math.ceil(store.state.portfolioPieces.length / perPage),
-      portfolioPieces: portfolioPieces || [],
-    };
+    this.piecesNumber += 15;
+    if (this.piecesNumber >= this.$store.state.portfolioPieces.length) {
+      this.showSpinner = false;
+    }
+    this.loading = false;
   }
 }
 </script>
-
-<style lang="scss" scoped>
-// .portfolio {
-//   .portfolioPiece {
-//     transition: all 0.2s cubic-bezier(0.64, 0, 0.35, 1);
-//     &:hover {
-//       @apply shadow-lg;
-//     }
-//   }
-// }
-</style>
