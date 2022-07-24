@@ -37,6 +37,8 @@
           class="slide text-primary max-h-full mb-6"
         >
           <nuxt-img
+            sizes="xs:100vw lg:850px"
+            placeholder
             :src="piece.featuredImage"
             :alt="artistOfTheMonth.artistName"
             class="w-full object-scale-down object-center slider-image flex items-center justify-center"

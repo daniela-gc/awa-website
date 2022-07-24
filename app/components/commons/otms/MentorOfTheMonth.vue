@@ -6,10 +6,12 @@
     <div class="w-full flex items-center justify-center">
       <a :href="mentorOfTheMonth.socialMediaLink" target="_blank">
         <nuxt-img
-          :alt="mentorOfTheMonth.artistName"
+          sizes="xs:100vw md:500px"
+          placeholder
           loading="lazy"
-          class="w-auto object-scale-down object-center otm-image"
           :src="mentorOfTheMonth.featuredImage"
+          :alt="mentorOfTheMonth.artistName"
+          class="w-auto object-scale-down object-center otm-image"
         />
       </a>
     </div>

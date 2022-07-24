@@ -6,8 +6,10 @@
     >
       <div class="w-full 2xl:w-9/12 mb-6 lg:mb-0 flex justify-center lg:justify-start 2xl:pl-10">
         <nuxt-img
-          src="/images/awa_logos/awa-alt-logo-rainbow.png"
+          sizes="xs:100vw sm:320px"
+          placeholder
           loading="lazy"
+          src="/images/awa_logos/awa-alt-logo-rainbow.png"
           width="800"
           height="788"
           alt="Art While Apart alt logo"
@@ -162,8 +164,10 @@
           <!-- image - start -->
           <div class="w-full md:w-7/12 lg:w-1/2 hidden md:block bg-gray-200 relative">
             <nuxt-img
-              src="/images/uploads/cat-photo.jpeg"
+              sizes="xs:350px md:550px xl:750px"
+              placeholder
               loading="lazy"
+              src="/images/uploads/cat-photo.jpeg"
               alt="Cat photo"
               class="w-full h-full object-cover object-center absolute inset-0"
             />

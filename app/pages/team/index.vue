@@ -52,16 +52,17 @@
                   format="webp"
                   quality="90"
                   sizes="xs:100vw md:500px xxl:400px"
+                  placeholder
                   :src="staffMember.featuredImage"
                   :alt="staffMember.title"
                   loading="lazy"
                   class="mb-1 w-full object-cover object-center aspect-square"
                 />
               </a>
-              <div class="py-3 bg-white">
+              <div class="py-2 bg-white">
                 <h2 class="mb-1 text-gray-600 font-bold text-lg">{{ staffMember.title }}</h2>
-                <p class="mb-5 text-primary font-semibold">{{ staffMember.role }}</p>
-                <p class="mb-4 text-gray-600">{{ staffMember.bio }}</p>
+                <p class="mb-4 text-primary font-semibold">{{ staffMember.role }}</p>
+                <p class="mb-3 text-gray-600">{{ staffMember.bio }}</p>
                 <p class="mb-2">
                   <a
                     v-for="(externalLink, linkIndex) in staffMember.externalLinks"
@@ -105,15 +106,16 @@
                   format="webp"
                   quality="90"
                   sizes="xs:100vw md:500px xxl:400px"
+                  placeholder
                   :alt="artist.title"
                   class="mb-1 w-full object-cover object-center aspect-square"
                   :src="artist.featuredImage"
                   loading="lazy"
                 />
               </a>
-              <div class="py-3 bg-white">
+              <div class="py-2 bg-white">
                 <h2 class="mb-4 text-gray-600 font-bold text-lg">{{ artist.title }}</h2>
-                <p class="mb-4 text-gray-600">{{ artist.bio }}</p>
+                <p class="mb-3 text-gray-600">{{ artist.bio }}</p>
 
                 <p class="mb-2">
                   <a

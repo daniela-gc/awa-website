@@ -6,9 +6,11 @@
     <div class="w-full flex items-center justify-center">
       <a :href="pieceOfTheMonth.socialMediaLink" target="_blank">
         <nuxt-img
+          sizes="xs:100vw md:500px"
+          placeholder
+          loading="lazy"
           :src="pieceOfTheMonth.featuredImage"
           :alt="pieceOfTheMonth.artistName"
-          loading="lazy"
           class="w-auto object-scale-down object-center otm-image"
         />
       </a>
