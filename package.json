@@ -44,6 +44,7 @@
     "@babel/runtime-corejs2": "^7.10.4",
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
+    "@nuxt/image": "^0.7.1",
     "@nuxt/typescript-build": "^1.0.3",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "@types/jest": "^26.0.3",

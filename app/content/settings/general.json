@@ -1,8 +1,8 @@
 {
   "title": "AWA",
   "titleTemplate": "| Art While Apart",
-  "logo": "~assets/images/awa_logos/awa-logo.png",
-  "icon": "~assets/images/awa_logos/fox-icon.png",
+  "logo": "/images/awa_logos/awa-logo.png",
+  "icon": "/images/awa_logos/fox-icon.png",
   "loadingColor": "#ED8937",
   "seoDescription": "A collaborative effort to bring people and animals closer together through art.",
   "seoMetaImage": ""

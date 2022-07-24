@@ -22,7 +22,7 @@
     </div>
     <div class="w-full flex items-center justify-center">
       <a :href="staffHighlight.socialMediaLink" target="_blank">
-        <img
+        <nuxt-img
           :src="staffHighlight.featuredImage"
           :alt="staffHighlight.artistName"
           loading="lazy"

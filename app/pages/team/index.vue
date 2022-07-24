@@ -48,7 +48,9 @@
           >
             <div class="staffMember self-start flex flex-col items-center">
               <a :href="staffMember.externalLinks[0].url" target="_blank">
-                <img
+                <nuxt-img
+                  format="webp"
+                  quality="90"
                   :src="staffMember.featuredImage"
                   :alt="staffMember.title"
                   loading="lazy"
@@ -98,7 +100,9 @@
           >
             <div class="artist self-start flex flex-col items-center">
               <a :href="artist.externalLinks[0].url" target="_blank">
-                <img
+                <nuxt-img
+                  format="webp"
+                  quality="90"
                   :alt="artist.title"
                   class="mb-1 w-full object-cover object-center aspect-square"
                   :src="artist.featuredImage"

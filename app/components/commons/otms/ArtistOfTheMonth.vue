@@ -36,7 +36,7 @@
           :key="pieceIndex"
           class="slide text-primary max-h-full mb-6"
         >
-          <img
+          <nuxt-img
             :src="piece.featuredImage"
             :alt="artistOfTheMonth.artistName"
             class="w-full object-scale-down object-center slider-image flex items-center justify-center"

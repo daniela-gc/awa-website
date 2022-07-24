@@ -292,9 +292,9 @@ export default class RequestArtIndex extends Vue {
   };
 
   artExamples = require
-    .context('/app/assets/images/good_art_examples/', false)
+    .context('/app/static/images/good_art_examples/', false)
     .keys()
-    .map(require.context('/app/assets/images/good_art_examples/', false));
+    .map(require.context('/app/static/images/good_art_examples/', false));
 
   sliderOptions: sliderOptions;
 

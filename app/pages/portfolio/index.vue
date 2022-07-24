@@ -112,7 +112,9 @@
       >
         <div class="self-start">
           <a :href="portfolioPiece.socialMediaLink" target="_blank">
-            <img
+            <nuxt-img
+              format="webp"
+              quality="90"
               :src="portfolioPiece.featuredImage"
               :alt="portfolioPiece.title"
               class="w-full object-cover object-center aspect-square"

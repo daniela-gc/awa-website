@@ -338,9 +338,9 @@ export default class JoinUsIndex extends Vue {
   };
 
   badArtExamples = require
-    .context('/app/assets/images/bad_art_examples/', false)
+    .context('/app/static/images/bad_art_examples/', false)
     .keys()
-    .map(require.context('/app/assets/images/bad_art_examples/', false));
+    .map(require.context('/app/static/images/bad_art_examples/', false));
 
   badExamplesCaptions = [
     'Poor lighting, anatomy, and painting technique.',
@@ -357,9 +357,9 @@ export default class JoinUsIndex extends Vue {
   currentBadExampleSlide = 0;
 
   goodArtExamples = require
-    .context('/app/assets/images/good_art_examples/', false)
+    .context('/app/static/images/good_art_examples/', false)
     .keys()
-    .map(require.context('/app/assets/images/good_art_examples/', false));
+    .map(require.context('/app/static/images/good_art_examples/', false));
 
   badExamplesSliderOptions: badExamplesSliderOptions;
 

@@ -5,7 +5,7 @@
   >
     <div class="w-full flex items-center justify-center">
       <a :href="pieceOfTheMonth.socialMediaLink" target="_blank">
-        <img
+        <nuxt-img
           :src="pieceOfTheMonth.featuredImage"
           :alt="pieceOfTheMonth.artistName"
           loading="lazy"

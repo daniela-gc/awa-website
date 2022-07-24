@@ -102,6 +102,11 @@ const nuxtConfig: Configuration = {
     ],
   },
 
+  image: {
+    dir: 'app/static',
+    domains: ['media.discordapp.net', 'cdn.discordapp.com']
+  },
+
   manifest: {
     name: manifest.name,
     short_name: manifest.shortName,
@@ -131,6 +136,7 @@ const nuxtConfig: Configuration = {
     ],
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
 
   build: {

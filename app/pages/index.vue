@@ -5,8 +5,8 @@
       class="flex flex-col lg:flex-row items-center gap-4 mt-20 2xl:mt-0 pt-10 pb-12 lg:py-16 px-10 lg:px-12 xl:px-32 2xl:px-48 bg-gray-100/60"
     >
       <div class="w-full 2xl:w-9/12 mb-6 lg:mb-0 flex justify-center lg:justify-start 2xl:pl-10">
-        <img
-          src="~assets/images/awa_logos/awa-alt-logo-rainbow.png"
+        <nuxt-img
+          src="/images/awa_logos/awa-alt-logo-rainbow.png"
           loading="lazy"
           width="800"
           height="788"
@@ -71,8 +71,8 @@
           <!-- logo - start -->
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://bestfriends.org/" target="_blank">
-              <img
-                src="~assets/images/rescue_logos/best-friends-logo.png"
+              <nuxt-img
+                src="/images/rescue_logos/best-friends-logo.png"
                 loading="lazy"
                 alt="Best Friends logo"
                 class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
@@ -84,10 +84,11 @@
           <!-- logo - start -->
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://www.torontohumanesociety.com/" target="_blank">
-              <img
-                src="~assets/images/rescue_logos/ths-logo.png"
+              <nuxt-img
+                src="/images/rescue_logos/ths-logo.png"
                 loading="lazy"
-                alt="Toronto Humane Society logo"
+                alt="Toronto
+              Humane Society logo"
                 class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
@@ -97,10 +98,11 @@
           <!-- logo - start -->
           <div class="flex justify-center mb-8 sm:mb-0">
             <a href="https://www.horseplushumanesociety.org/" target="_blank">
-              <img
-                src="~assets/images/rescue_logos/hph-logo.png"
+              <nuxt-img
+                src="/images/rescue_logos/hph-logo.png"
                 loading="lazy"
-                alt="Horse Plus Humane Society logo"
+                alt="Horse Plus
+              Humane Society logo"
                 class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
@@ -110,8 +112,8 @@
           <!-- logo - start -->
           <div class="flex justify-center">
             <a href="https://niagaradogrescue.com/" target="_blank">
-              <img
-                src="~assets/images/rescue_logos/niagaradogrescue-logo.png"
+              <nuxt-img
+                src="/images/rescue_logos/niagaradogrescue-logo.png"
                 loading="lazy"
                 alt="Niagara Dog Rescue logo"
                 class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
@@ -159,7 +161,7 @@
         <div class="flex bg-gray-100 rounded-lg justify-center md:justify-start overflow-hidden">
           <!-- image - start -->
           <div class="w-full md:w-7/12 lg:w-1/2 hidden md:block bg-gray-200 relative">
-            <img
+            <nuxt-img
               src="/images/uploads/cat-photo.jpeg"
               loading="lazy"
               alt="Cat photo"

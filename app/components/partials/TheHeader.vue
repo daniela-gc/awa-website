@@ -12,8 +12,9 @@
       >
         <div class="flex items-end">
           <div class="mb-1">
-            <img
-              src="~assets/images/awa_logos/fox-icon.png"
+            <nuxt-img
+              preload
+              src="/images/awa_logos/fox-icon.png"
               alt="fox-icon"
               width="64"
               height="64"
