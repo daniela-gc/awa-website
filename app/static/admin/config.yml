@@ -14,12 +14,12 @@ media_folder: 'app/static/images/uploads' # Media files will be stored in the re
 public_folder: '/images/uploads'
 
 # URL to the published site
-site_url: https://silly-bombolone-eb69bf.netlify.app
+site_url: https://artwhileapart.netlify.app
 
 # The CMS UI will include a link in the fixed area at the top of the page with this URL
-display_url: https://silly-bombolone-eb69bf.netlify.app
+display_url: https://artwhileapart.netlify.app
 
-# Brands the CMS with our logo
+# Brands the CMS with the logo
 logo_url: https://imgur.com/2LBZtL8.png
 
 # Collections https://www.netlifycms.org/docs/configuration-options/#collections
