@@ -1,0 +1,19 @@
+{
+  "bio": "Eli is a 22-year-old UI/UX Designer who draws mostly animals in her free time. She especially loves to draw cats.",
+  "title": "Eli",
+  "featuredImage": "/images/uploads/eli.jpg",
+  "externalLinks": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/nightyart"
+    },
+    {
+      "name": "DeviantArt",
+      "url": "https://www.deviantart.com/nightyart"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://paypal.me/nightyart"
+    }
+  ]
+}

@@ -47,7 +47,10 @@
             class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/4 my-5 md:px-4 2xl:px-10 flex flex-row justify-center"
           >
             <div class="staffMember self-start flex flex-col items-center">
-              <a :href="staffMember.externalLinks[0].url" target="_blank">
+              <a
+                :href="staffMember.externalLinks[0] ? staffMember.externalLinks[0].url : '#'"
+                target="_blank"
+              >
                 <nuxt-img
                   format="webp"
                   quality="90"
@@ -56,7 +59,7 @@
                   :src="staffMember.featuredImage"
                   :alt="staffMember.title"
                   loading="lazy"
-                  class="mb-1 w-full object-cover object-center aspect-square"
+                  class="mb-1 w-full object-cover object-center aspect-square max-w-lg"
                 />
               </a>
               <div class="py-2 bg-white">
@@ -101,14 +104,17 @@
             class="w-full md:w-1/2 lg:w-4/12 2xl:w-1/4 my-5 md:px-4 2xl:px-10 flex flex-row justify-center"
           >
             <div class="artist self-start flex flex-col items-center">
-              <a :href="artist.externalLinks[0].url" target="_blank">
+              <a
+                :href="artist.externalLinks[0] ? artist.externalLinks[0].url : '#'"
+                target="_blank"
+              >
                 <nuxt-img
                   format="webp"
                   quality="90"
                   sizes="xs:100vw md:500px xxl:400px"
                   placeholder
                   :alt="artist.title"
-                  class="mb-1 w-full object-cover object-center aspect-square"
+                  class="mb-1 w-full object-cover object-center aspect-square max-w-lg"
                   :src="artist.featuredImage"
                   loading="lazy"
                 />

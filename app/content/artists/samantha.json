@@ -1,0 +1,23 @@
+{
+  "bio": "Samantha is a freelance artist from Ontario, Canada. She loves to paint living things, especially cats and people.",
+  "title": "Samantha",
+  "featuredImage": "/images/uploads/samantha.jpg",
+  "externalLinks": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/samanthastahlke"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://paypal.me/charlatanofdoom"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/samanthastahlke/"
+    },
+    {
+      "name": "Website",
+      "url": "https://stahlke.art/"
+    }
+  ]
+}

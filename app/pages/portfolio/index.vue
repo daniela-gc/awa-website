@@ -119,7 +119,7 @@
               placeholder
               :src="portfolioPiece.featuredImage"
               :alt="portfolioPiece.title"
-              class="w-full object-cover object-center aspect-square"
+              class="w-full object-cover object-center aspect-square max-w-lg"
             />
           </a>
           <div class="py-3 bg-white">
