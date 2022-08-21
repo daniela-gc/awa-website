@@ -1,41 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Merry",
-    "socialMediaLink": "https://www.instagram.com/its__merry__/",
-    "socialMediaHandler": "its__merry__",
+    "artistName": "Glyph",
+    "socialMediaLink": "https://www.instagram.com/glyphasaurus/",
+    "socialMediaHandler": "glyphasaurus",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/marvel.png"
+        "featuredImage": "/images/uploads/kodak_niagara_dog_rescue.jpg"
       },
       {
-        "featuredImage": "/images/uploads/angel.png"
+        "featuredImage": "/images/uploads/wally_best_friends_animal_society.jpg"
       },
       {
-        "featuredImage": "/images/uploads/leonardo.png"
+        "featuredImage": "/images/uploads/kella_niagara_dog_rescue.jpg"
       },
       {
-        "featuredImage": "/images/uploads/tiffy.png"
+        "featuredImage": "/images/uploads/dagger_best_friends_animal_society.jpg"
+      },
+      {
+        "featuredImage": "/images/uploads/persephone_horse_plus_humane_society.jpg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Daniela",
-    "petName": "Mya",
-    "socialMediaLink": "https://www.instagram.com/skysurie/",
-    "socialMediaHandler": "skysurie",
-    "featuredImage": "/images/uploads/mya-by-daniela.jpg"
+    "artistName": "Luccain",
+    "petName": "Rubi",
+    "socialMediaLink": "https://www.instagram.com/luccain.art/",
+    "socialMediaHandler": "luccain.art",
+    "featuredImage": "/images/uploads/rubi-by-luccain.jpg"
   },
   "staffHighlight": {
-    "artistName": "Lutti",
-    "petName": "Divya",
-    "socialMediaLink": "https://www.instagram.com/dracopuella/",
-    "socialMediaHandler": "dracopuella",
-    "featuredImage": "/images/uploads/divya_by_lutti.png"
+    "artistName": "Iris",
+    "petName": "Boogie",
+    "socialMediaLink": "https://www.instagram.com/iris80_draws",
+    "socialMediaHandler": "iris80_draws",
+    "featuredImage": "/images/uploads/boogie-by-iris.jpg"
   },
   "mentorOfTheMonth": {
-    "artistName": "Ziggy",
-    "socialMediaLink": "https://www.instagram.com/ziggatino",
-    "socialMediaHandler": "ziggatino",
-    "featuredImage": "/images/uploads/killer_by_ziggy.jpg"
+    "artistName": "Chel",
+    "socialMediaLink": "https://www.instagram.com/Chellosia",
+    "socialMediaHandler": "Chellosia",
+    "featuredImage": "/images/uploads/mentor-otm-chel.jpg"
   }
 }
