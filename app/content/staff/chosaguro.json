@@ -1,6 +1,6 @@
 {
   "title": "Chosaguro",
-  "role": "Operations Management",
+  "role": "Administrator",
   "bio": "Chosaguro is a hobbyist artist with a cartoony style from Brazil. She draws mainly canines and felines, but loves experimenting and trying to draw all sorts of animals.",
   "externalLinks": [
     {
@@ -21,5 +21,5 @@
     }
   ],
   "featuredImage": "/images/uploads/chosaguro.png",
-  "position": 9
+  "position": 5
 }
