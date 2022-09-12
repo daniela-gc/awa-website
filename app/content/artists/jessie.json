@@ -1,0 +1,19 @@
+{
+  "featuredImage": "/images/uploads/jessie.jpg",
+  "title": "Jessie",
+  "bio": "Jessie is a 21-year-old French Canadian self-taught artist. She has a cartoony style inspired by both comics and animation. Her dream is to become a character designer for the animation industry. She mostly wants to bring joy to the people around her through her art.",
+  "externalLinks": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/jessiesgril/"
+    },
+    {
+      "name": "Paypal",
+      "url": "https://www.paypal.me/jessielavoie"
+    },
+    {
+      "name": "DeviantArt",
+      "url": "https://www.deviantart.com/jessiesgril"
+    }
+  ]
+}
