@@ -1,44 +1,32 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Glyph",
-    "socialMediaLink": "https://www.instagram.com/glyphasaurus/",
-    "socialMediaHandler": "glyphasaurus",
+    "artistName": "Chel",
+    "socialMediaLink": "https://www.instagram.com/Chellosia",
+    "socialMediaHandler": "Chellosia",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/kodak_niagara_dog_rescue.jpg"
-      },
-      {
-        "featuredImage": "/images/uploads/wally_best_friends_animal_society.jpg"
-      },
-      {
-        "featuredImage": "/images/uploads/kella_niagara_dog_rescue.jpg"
-      },
-      {
-        "featuredImage": "/images/uploads/dagger_best_friends_animal_society.jpg"
-      },
-      {
-        "featuredImage": "/images/uploads/persephone_horse_plus_humane_society.jpg"
+        "featuredImage": "/images/uploads/mentor-otm-chel.jpg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Luccain",
-    "petName": "Rubi",
-    "socialMediaLink": "https://www.instagram.com/luccain.art/",
-    "socialMediaHandler": "luccain.art",
-    "featuredImage": "/images/uploads/rubi-by-luccain.jpg"
+    "artistName": "Julia",
+    "petName": "Rosie",
+    "socialMediaLink": "https://www.instagram.com/artbyjuliapulia/",
+    "socialMediaHandler": "artbyjuliapulia",
+    "featuredImage": "/images/uploads/rosie.jpg"
   },
   "staffHighlight": {
-    "artistName": "Iris",
-    "petName": "Boogie",
-    "socialMediaLink": "https://www.instagram.com/iris80_draws",
-    "socialMediaHandler": "iris80_draws",
-    "featuredImage": "/images/uploads/boogie-by-iris.jpg"
+    "artistName": "Lara",
+    "petName": "Odette",
+    "socialMediaLink": "https://www.instagram.com/taaro_peinture",
+    "socialMediaHandler": "taaro_peinture",
+    "featuredImage": "/images/uploads/odette.jpg"
   },
   "mentorOfTheMonth": {
-    "artistName": "Chel",
-    "socialMediaLink": "https://www.instagram.com/Chellosia",
-    "socialMediaHandler": "Chellosia",
-    "featuredImage": "/images/uploads/mentor-otm-chel.jpg"
+    "artistName": "Luccain",
+    "socialMediaLink": "http://instagram.com/luccain.art",
+    "socialMediaHandler": "luccain.art",
+    "featuredImage": "/images/uploads/rubi-by-luccain.jpg"
   }
 }
