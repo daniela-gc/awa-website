@@ -1,0 +1,16 @@
+{
+  "featuredImage": "/images/uploads/tiffany.jpg",
+  "title": "Tiffany Burkey",
+  "role": "Media Coordinator",
+  "bio": "Tiffany is a graduate of Maryland Institute College of Art with a BFA in Illustration. She has loved animals her entire life and enjoys spreading this love with her art.",
+  "externalLinks": [
+    {
+      "url": "https://paypal.me/tiffanyburkeyart?country.x=US&locale.x=en_US",
+      "name": "Paypal"
+    },
+    {
+      "url": "mailto:tiffanyburkeyart@gmail.com",
+      "name": "E-mail"
+    }
+  ]
+}
