@@ -47,12 +47,18 @@
             target="_blank"
             class="text-primary hover:underline"
             >Horse Plus Humane Society</a
-          >, and
+          >,
           <a
             href="https://niagaradogrescue.com/"
             target="_blank"
             class="text-primary hover:underline"
             >Niagara Dog Rescue</a
+          >, and
+          <a
+            href="https://www.luckydoganimalrescue.org"
+            target="_blank"
+            class="text-primary hover:underline"
+            >Lucky Dog Animal Rescue</a
           >, we aim to increase pet exposure in order to help connect them to their forever homes.
         </p>
       </div>
@@ -61,16 +67,14 @@
 
     <!-- Rescue logos - start -->
     <section class="px-10 mt-20 mb-24 lg:mt-28 lg:mb-36 flex justify-center">
-      <div class="w-full 2xl:w-9/12 md:px-12">
+      <div class="w-full 2xl:w-10/12 md:px-12">
         <h2
           class="font-display text-gray-700 text-3xl lg:text-4xl font-medium text-center mb-5 md:mb-10"
         >
           Our Animal Rescue Partners
         </h2>
 
-        <div
-          class="lg:h-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 content-evenly border-t border-b py-8"
-        >
+        <div class="grid grid-cols-1 sm:grid-cols-3 content-evenly border-t border-b py-8">
           <!-- logo - start -->
           <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
             <a href="https://bestfriends.org/" target="_blank">
@@ -86,7 +90,7 @@
           <!-- logo - end -->
 
           <!-- logo - start -->
-          <div class="flex justify-center mb-8 sm:mb-6 lg:mb-0">
+          <div class="flex justify-center mb-8">
             <a href="https://www.torontohumanesociety.com/" target="_blank">
               <nuxt-img
                 format="webp"
@@ -101,7 +105,7 @@
           <!-- logo - end -->
 
           <!-- logo - start -->
-          <div class="flex justify-center mb-8 sm:mb-0">
+          <div class="flex justify-center mb-8">
             <a href="https://www.horseplushumanesociety.org/" target="_blank">
               <nuxt-img
                 format="webp"
@@ -116,13 +120,27 @@
           <!-- logo - end -->
 
           <!-- logo - start -->
-          <div class="flex justify-center">
+          <div class="flex justify-center mb-8">
             <a href="https://niagaradogrescue.com/" target="_blank">
               <nuxt-img
                 format="webp"
                 src="/images/rescue_logos/niagaradogrescue-logo.png"
                 loading="lazy"
                 alt="Niagara Dog Rescue logo"
+                class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
+              />
+            </a>
+          </div>
+          <!-- logo - end -->
+
+          <!-- logo - start -->
+          <div class="sm:col-span-2 lg:col-span-1 flex justify-center">
+            <a href="https://www.luckydoganimalrescue.org" target="_blank">
+              <nuxt-img
+                format="webp"
+                src="/images/rescue_logos/lucky-dog-logo.png"
+                loading="lazy"
+                alt="Lucky Dog Animal Rescue logo"
                 class="w-auto h-20 max-h-20 lg:h-24 lg:max-h-24"
               />
             </a>
