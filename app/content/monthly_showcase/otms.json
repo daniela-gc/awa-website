@@ -1,41 +1,41 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Chel",
-    "socialMediaLink": "https://www.instagram.com/Chellosia",
-    "socialMediaHandler": "Chellosia",
+    "artistName": "Captain",
+    "socialMediaLink": "https://instagram.com/capnshibe",
+    "socialMediaHandler": "capnshibe",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/mentor-otm-chel.jpg"
+        "featuredImage": "/images/uploads/sampson-by-capnshibe.png"
       },
       {
-        "featuredImage": "/images/uploads/esther_by_chel.jpg"
+        "featuredImage": "/images/uploads/millennium-by-capnshibe.png"
       },
       {
-        "featuredImage": "/images/uploads/xiao_san_by_chel.jpg"
+        "featuredImage": "/images/uploads/lemon-by-capnshibe.png"
       },
       {
-        "featuredImage": "/images/uploads/broomfield_by_chel.jpg"
+        "featuredImage": "/images/uploads/nellie-by-capnshibe.png"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Julia",
-    "petName": "Rosie",
-    "socialMediaLink": "https://www.instagram.com/artbyjuliapulia/",
-    "socialMediaHandler": "artbyjuliapulia",
-    "featuredImage": "/images/uploads/julia-otm.jpg"
+    "artistName": "Grumpymedusa",
+    "petName": "Fidget",
+    "socialMediaLink": "https://www.instagram.com/grumpymedusa",
+    "socialMediaHandler": "grumpymedusa",
+    "featuredImage": "/images/uploads/fidget-by-grumpymedusa.png"
   },
   "staffHighlight": {
-    "artistName": "Lara",
-    "petName": "Odette",
-    "socialMediaLink": "https://www.instagram.com/taaro_peinture",
-    "socialMediaHandler": "taaro_peinture",
-    "featuredImage": "/images/uploads/odette.jpg"
+    "artistName": "Laughingowls",
+    "petName": "Fiby",
+    "socialMediaLink": "https://instagram.com/laughing.owls",
+    "socialMediaHandler": "laughing.owls",
+    "featuredImage": "/images/uploads/fiby-by-owlie.png"
   },
   "mentorOfTheMonth": {
-    "artistName": "Luccain",
-    "socialMediaLink": "http://instagram.com/luccain.art",
-    "socialMediaHandler": "luccain.art",
-    "featuredImage": "/images/uploads/rubi-by-luccain.jpg"
+    "artistName": "Chel",
+    "socialMediaLink": "https://www.instagram.com/Chellosia",
+    "socialMediaHandler": "Chellosia",
+    "featuredImage": "/images/uploads/bridgerton-by-chel"
   }
 }
