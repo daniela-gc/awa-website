@@ -1,41 +1,38 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Captain",
-    "socialMediaLink": "https://instagram.com/capnshibe",
-    "socialMediaHandler": "capnshibe",
+    "artistName": "Supersquirrel",
+    "socialMediaLink": "https://instagram.com/shashi_line_of_action",
+    "socialMediaHandler": "shashi_line_of_action",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/sampson-by-capnshibe.png"
+        "featuredImage": "/images/uploads/supersquirrel3.jpg"
       },
       {
-        "featuredImage": "/images/uploads/millennium-by-capnshibe.png"
+        "featuredImage": "/images/uploads/supersquirrel2.jpg"
       },
       {
-        "featuredImage": "/images/uploads/lemon-by-capnshibe.png"
-      },
-      {
-        "featuredImage": "/images/uploads/nellie-by-capnshibe.png"
+        "featuredImage": "/images/uploads/supersquirrel1.jpg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Grumpymedusa",
-    "petName": "Fidget",
-    "socialMediaLink": "https://www.instagram.com/grumpymedusa",
-    "socialMediaHandler": "grumpymedusa",
-    "featuredImage": "/images/uploads/fidget-by-grumpymedusa.png"
+    "artistName": "Outter's Space ",
+    "petName": "Tatanka",
+    "socialMediaLink": "https://www.instagram.com/outters_space/",
+    "socialMediaHandler": "outters_space",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1062945262387068948/Tatanka_cat.jpg?width=530&height=662"
   },
   "staffHighlight": {
-    "artistName": "Laughingowls",
-    "petName": "Fiby",
-    "socialMediaLink": "https://instagram.com/laughing.owls",
-    "socialMediaHandler": "laughing.owls",
-    "featuredImage": "/images/uploads/fiby-by-owlie.png"
+    "artistName": "MistyGold",
+    "petName": "Luna",
+    "socialMediaLink": "https://www.instagram.com/mistygoldart/",
+    "socialMediaHandler": "mistygoldart",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1068658206261391501/hedgy.png?width=663&height=663"
   },
   "mentorOfTheMonth": {
-    "artistName": "Chel",
-    "socialMediaLink": "https://www.instagram.com/Chellosia",
-    "socialMediaHandler": "Chellosia",
-    "featuredImage": "/images/uploads/bridgerton-by-chel"
+    "artistName": "Steampunkcorgi",
+    "socialMediaLink": "https://www.instagram.com/steampunkcorgi/",
+    "socialMediaHandler": "steampunkcorgi",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1037069290643410954/walter-awa-01-11-22.png?width=497&height=663"
   }
 }
