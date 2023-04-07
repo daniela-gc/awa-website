@@ -1,38 +1,38 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Supersquirrel",
-    "socialMediaLink": "https://instagram.com/shashi_line_of_action",
-    "socialMediaHandler": "shashi_line_of_action",
+    "artistName": "Iris",
+    "socialMediaLink": "https://www.instagram.com/iris80_draws/",
+    "socialMediaHandler": "iris80_draws",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/supersquirrel3.jpg"
+        "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1070679775993139200/IMG_4829.png"
       },
       {
-        "featuredImage": "/images/uploads/supersquirrel2.jpg"
+        "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1078459992316858378/IMG_5139.png?width=507&height=676"
       },
       {
-        "featuredImage": "/images/uploads/supersquirrel1.jpg"
+        "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1040604935991078963/IMG_4177.png?width=507&height=676"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Outter's Space ",
-    "petName": "Tatanka",
-    "socialMediaLink": "https://www.instagram.com/outters_space/",
-    "socialMediaHandler": "outters_space",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1062945262387068948/Tatanka_cat.jpg?width=530&height=662"
+    "artistName": "Neefe",
+    "petName": "Azul",
+    "socialMediaLink": "https://www.instagram.com/itsneefe/",
+    "socialMediaHandler": "Itsneefe",
+    "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1082982113856462948/IMG_8914.jpg"
   },
   "staffHighlight": {
-    "artistName": "MistyGold",
-    "petName": "Luna",
-    "socialMediaLink": "https://www.instagram.com/mistygoldart/",
-    "socialMediaHandler": "mistygoldart",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1068658206261391501/hedgy.png?width=663&height=663"
+    "artistName": "Eikryh",
+    "petName": "Bianca",
+    "socialMediaLink": "https://www.instagram.com/eikryh/",
+    "socialMediaHandler": "Eikryh",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1088862390508064868/IMG_2847.png?width=531&height=676"
   },
   "mentorOfTheMonth": {
-    "artistName": "Steampunkcorgi",
-    "socialMediaLink": "https://www.instagram.com/steampunkcorgi/",
-    "socialMediaHandler": "steampunkcorgi",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1037069290643410954/walter-awa-01-11-22.png?width=497&height=663"
+    "artistName": "Whimsyandshenanigans",
+    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans/",
+    "socialMediaHandler": "Whimsyandshenanigans",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1088963442070794350/Lipton_Fresh_Teas_Kit-tea.jpg?width=483&height=676"
   }
 }
