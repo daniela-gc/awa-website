@@ -1,38 +1,38 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Lea",
-    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans/",
-    "socialMediaHandler": "whimsyandshenanigans",
+    "artistName": "Mirbon",
+    "socialMediaLink": "https://www.instagram.com/mirbon.art/",
+    "socialMediaHandler": "mirbon.art",
     "pieces": [
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1098672744159248504/Timmys_Tummy_5x7.jpg?width=507&height=676"
+        "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1083744309238566963/doggofrenawav2.jpg"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1092914416963571873/Toby_and_Shiba.jpg?width=483&height=676"
+        "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1078341281316610128/kokkiealt.jpg"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1091103875794215132/Artoo_Deetoo_the_GSD.jpg?width=483&height=676"
+        "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1069177295249616936/awapupper.jpg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Alex",
-    "petName": "Compass, Axis and Globe",
-    "socialMediaLink": "https://www.instagram.com/alex_pahomov123/",
-    "socialMediaHandler": "alex_pahomov123",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1098987505002496051/compass_axis_globe.png?width=901&height=676"
+    "artistName": "Mirbon",
+    "petName": "Bo",
+    "socialMediaLink": "https://www.instagram.com/mirbon.art/",
+    "socialMediaHandler": "mirbon.art",
+    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1107382479414898688/awa_pupper_2.jpg"
   },
   "staffHighlight": {
-    "artistName": "Sofia",
-    "petName": "Fiyero",
-    "socialMediaLink": "https://www.instagram.com/sofiafelicioart/",
-    "socialMediaHandler": "sofiafelicioart",
-    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1100469925686022144/FIYERO.png"
+    "artistName": "Aubrie",
+    "petName": "Nymeria",
+    "socialMediaLink": "instagram.com/scribble_puppies2",
+    "socialMediaHandler": "scribble_puppies2",
+    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1112168568272977940/IMG_8850.png"
   },
   "mentorOfTheMonth": {
-    "artistName": "Alex",
-    "socialMediaLink": "https://www.instagram.com/alex_pahomov123/",
-    "socialMediaHandler": "alex_pahomov123",
-    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1087755205514379314/shiro.png"
+    "artistName": "SteampunkCorgi",
+    "socialMediaLink": "www.instagram.com/steampunkcorgi/",
+    "socialMediaHandler": "steampunkcorgi",
+    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1037069290643410954/walter-awa-01-11-22.png"
   }
 }
