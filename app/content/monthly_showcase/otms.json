@@ -25,19 +25,19 @@
   "staffPortraitHighlight": {
     "artistName": "Aubrie",
     "petName": "Nymeria",
-    "socialMediaLink": "instagram.com/scribble_puppies2",
+    "socialMediaLink": "https://www.instagram.com/scribble_puppies2",
     "socialMediaHandler": "scribble_puppies2",
     "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1112168568272977940/IMG_8850.png"
   },
   "staffMemberHighlight": {
     "artistName": "TheArtOfBird",
-    "socialMediaLink": "instagram.com/the.art.of.bird",
+    "socialMediaLink": "https://www.instagram.com/the.art.of.bird",
     "socialMediaHandler": "the.art.of.bird",
     "featuredImage": "/images/uploads/ember-by-the-art-of-bird.png"
   },
   "mentorOfTheMonth": {
     "artistName": "SteampunkCorgi",
-    "socialMediaLink": "www.instagram.com/steampunkcorgi/",
+    "socialMediaLink": "https://www.instagram.com/steampunkcorgi/",
     "socialMediaHandler": "steampunkcorgi",
     "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1037069290643410954/walter-awa-01-11-22.png"
   }
