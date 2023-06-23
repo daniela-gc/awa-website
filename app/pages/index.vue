@@ -175,14 +175,16 @@
 
     <PieceOfTheMonth :piece-of-the-month="otms.pieceOfTheMonth" />
 
-    <StaffHighlight :staff-highlight="otms.staffHighlight" />
+    <StaffPortraitHighlight :staff-portrait-highlight="otms.staffPortraitHighlight" />
+
+    <StaffMemberHighlight :staff-member-highlight="otms.staffMemberHighlight" />
 
     <MentorOfTheMonth :mentor-of-the-month="otms.mentorOfTheMonth" />
     <!-- OTMs - end -->
 
     <!-- CTA - start -->
-    <div class="bg-white my-20 lg:my-28 lg:mx-6 px-3 lg:px-10">
-      <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+    <div class="bg-white mb-20 mt-10 lg:mb-28 lg:mt-12 lg:mx-6 px-3 lg:px-10">
+      <div class="max-w-screen-2xl px-4 md:px-8 mx-auto border-t border-gray-300 pt-14">
         <div class="flex bg-gray-100 rounded-lg justify-center md:justify-start overflow-hidden">
           <!-- image - start -->
           <div class="w-full md:w-7/12 lg:w-1/2 hidden md:block bg-gray-200 relative">
@@ -230,11 +232,13 @@
 </template>
 
 <script lang="ts">
-import ArtistOfTheMonth from '@/components/commons/otms/ArtistOfTheMonth.vue';
-import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
-import StaffHighlight from '@/components/commons/otms/StaffHighlight.vue';
-import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
 import IconArrowDown from '@/components/commons/icons/IconArrowDown.vue';
+import ArtistOfTheMonth from '@/components/commons/otms/ArtistOfTheMonth.vue';
+import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
+import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
+import StaffMemberHighlight from '@/components/commons/otms/StaffMemberHighlight.vue';
+import StaffPortraitHighlight from '@/components/commons/otms/StaffPortraitHighlight.vue';
+
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
 
@@ -243,7 +247,8 @@ import { MetaInfo } from 'vue-meta';
   components: {
     ArtistOfTheMonth,
     PieceOfTheMonth,
-    StaffHighlight,
+    StaffPortraitHighlight,
+    StaffMemberHighlight,
     MentorOfTheMonth,
     IconArrowDown,
   },

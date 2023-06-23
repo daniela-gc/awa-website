@@ -22,7 +22,9 @@
 
     <PieceOfTheMonth :piece-of-the-month="otms.pieceOfTheMonth" />
 
-    <StaffHighlight :staff-highlight="otms.staffHighlight" />
+    <StaffPortraitHighlight :staff-portrait-highlight="otms.staffPortraitHighlight" />
+
+    <StaffMemberHighlight :staff-member-highlight="otms.staffMemberHighlight" />
 
     <MentorOfTheMonth :mentor-of-the-month="otms.mentorOfTheMonth" />
 
@@ -32,9 +34,10 @@
 
 <script lang="ts">
 import ArtistOfTheMonth from '@/components/commons/otms/ArtistOfTheMonth.vue';
-import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
-import StaffHighlight from '@/components/commons/otms/StaffHighlight.vue';
 import MentorOfTheMonth from '@/components/commons/otms/MentorOfTheMonth.vue';
+import PieceOfTheMonth from '@/components/commons/otms/PieceOfTheMonth.vue';
+import StaffMemberHighlight from '@/components/commons/otms/StaffMemberHighlight.vue';
+import StaffPortraitHighlight from '@/components/commons/otms/StaffPortraitHighlight.vue';
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
 
@@ -42,7 +45,8 @@ import { MetaInfo } from 'vue-meta';
   components: {
     ArtistOfTheMonth,
     PieceOfTheMonth,
-    StaffHighlight,
+    StaffPortraitHighlight,
+    StaffMemberHighlight,
     MentorOfTheMonth,
   },
   head(): MetaInfo {

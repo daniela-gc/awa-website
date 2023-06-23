@@ -27,7 +27,7 @@
 - **Website Pages** (app/pages): In this folder you'll find all the website pages.
 - **Layouts** (app/layouts): There are two layouts, home and default. The home layout is made so that the hero section of the home page fills the whole height of the device. The default layout is used in all other pages of the webiste.
 - **Netlify CMS Content** (app/content): In this folder you'll find all the JSON files used by the CMS. If someone edits, creates or removes a file through Netlify CMS UI, changes will be pushed to the Github repository, and the website will be automatically deployed to Netlify. To access Netlify CMS, go to [www.artwhileapart.org/admin](artwhileapart.org/admin).
-- **Netlify CMS config** (app/admin/config.yml): General configuration for the CMS. Here you can see and edit all the fields and collections that show up in the CMS.
+- **Netlify CMS config** (app/static/admin/config.yml): General configuration for the CMS. Here you can see and edit all the fields and collections that show up in the CMS.
 - **Nuxt Configuration** (nuxt.config.ts): This is Nuxt configuration file, includes fonts, favicon, css and optimization configuration.
 - **Tailwind Configuration** (app/tailwind.config.js): This is Tailwind configuration file.
 - **Vuex Store** (app/store/index.ts): You'll find the state, mutations and actions.

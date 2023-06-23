@@ -5,29 +5,29 @@
   >
     <div class="w-full">
       <h2 class="text-primary font-display text-center text-3xl md:text-4xl mb-7 lg:mb-10">
-        Staff's Highlight
+        Staff's Portrait Highlight
       </h2>
       <h3 class="text-2xl lg:text-3xl font-bold text-gray-600 text-center mb-2 lg:mb-4">
-        {{ staffHighlight.petName }} by {{ staffHighlight.artistName }}
+        {{ staffPortraitHighlight.petName }} by {{ staffPortraitHighlight.artistName }}
       </h3>
       <div class="text-center text-gray-500 mb-8">
-        Check out {{ staffHighlight.artistName }} at
+        Check out {{ staffPortraitHighlight.artistName }} at
         <a
-          :href="staffHighlight.socialMediaLink"
+          :href="staffPortraitHighlight.socialMediaLink"
           target="_blank"
           class="underline hover:text-primary transition-colors"
-          >@{{ staffHighlight.socialMediaHandler }}</a
+          >@{{ staffPortraitHighlight.socialMediaHandler }}</a
         >
       </div>
     </div>
     <div class="w-full flex items-center justify-center">
-      <a :href="staffHighlight.socialMediaLink" target="_blank">
+      <a :href="staffPortraitHighlight.socialMediaLink" target="_blank">
         <nuxt-img
           format="webp"
           sizes="xs:100vw md:500px"
           placeholder
-          :src="staffHighlight.featuredImage"
-          :alt="staffHighlight.artistName"
+          :src="staffPortraitHighlight.featuredImage"
+          :alt="staffPortraitHighlight.artistName"
           loading="lazy"
           class="w-auto object-scale-down object-center otm-image"
         />
@@ -41,8 +41,8 @@
 import { Component, Vue, Prop } from 'nuxt-property-decorator';
 
 @Component
-export default class StaffOfTheMonth extends Vue {
-  @Prop({ required: true, type: Object }) readonly staffHighlight!: array;
+export default class StaffPortraitHighlight extends Vue {
+  @Prop({ required: true, type: Object }) readonly staffPortraitHighlight!: array;
 }
 </script>
 

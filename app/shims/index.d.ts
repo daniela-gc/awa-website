@@ -28,31 +28,37 @@ interface Artist {
 }
 interface Otm {
   artistOfTheMonth: {
-    artistName: string,
-    socialMediaLink: string,
-    socialMediaHandler: string,
-    pieces: string,
-  }
+    artistName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string;
+    pieces: string;
+  };
   pieceOfTheMonth: {
-    artistName: string,
-    petName: string,
-    socialMediaLink: string,
-    socialMediaHandler: string,
-    featuredImage: string,
-  }
-  staffHighlight: {
-    artistName: string,
-    petName: string,
-    socialMediaLink: string,
-    socialMediaHandler: string,
-    featuredImage: string,
-  }
+    artistName: string;
+    petName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string;
+    featuredImage: string;
+  };
+  staffPortraitHighlight: {
+    artistName: string;
+    petName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string;
+    featuredImage: string;
+  };
+  staffMemberHighlight: {
+    artistName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string;
+    featuredImage: string;
+  };
   mentorOfTheMonth: {
-    artistName: string,
-    socialMediaLink: string,
-    socialMediaHandler: string,
-    featuredImage: string,
-  }
+    artistName: string;
+    socialMediaLink: string;
+    socialMediaHandler: string;
+    featuredImage: string;
+  };
 }
 
 interface PrivacyPolicy {

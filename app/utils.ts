@@ -28,9 +28,15 @@ export default async function getContent({
       socialMediaHandler: string;
       featuredImage: string;
     };
-    staffHighlight: {
+    staffPortraitHighlight: {
       artistName: string;
       petName: string;
+      socialMediaLink: string;
+      socialMediaHandler: string;
+      featuredImage: string;
+    };
+    staffMemberHighlight: {
+      artistName: string;
       socialMediaLink: string;
       socialMediaHandler: string;
       featuredImage: string;
@@ -72,7 +78,8 @@ export default async function getContent({
       position: entry.position,
       artistOfTheMonth: entry.artistOfTheMonth,
       pieceOfTheMonth: entry.pieceOfTheMonth,
-      staffHighlight: entry.staffHighlight,
+      staffPortraitHighlight: entry.staffPortraitHighlight,
+      staffMemberHighlight: entry.staffMemberHighlight,
       mentorOfTheMonth: entry.mentorOfTheMonth,
       privacyPolicyText: entry.privacyPolicyText,
       termsOfServiceText: entry.termsOfServiceText,

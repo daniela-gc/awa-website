@@ -130,13 +130,22 @@ collections:
               - { label: 'Social media link', name: socialMediaLink, widget: string }
               - { label: 'Social media handler', name: socialMediaHandler, widget: string }
               - { label: 'Piece', name: featuredImage, widget: image }
-          - label: "Staff's highlight"
-            name: 'staffHighlight'
+          - label: "Staff's portrait highlight"
+            name: 'staffPortraitHighlight'
             widget: 'object'
             summary: '{{fields.name}}'
             fields:
               - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: "Pet's name", name: 'petName', widget: 'string' }
+              - { label: 'Social media link', name: socialMediaLink, widget: string }
+              - { label: 'Social media handler', name: socialMediaHandler, widget: string }
+              - { label: 'Piece', name: featuredImage, widget: image }
+          - label: "Staff's member highlight"
+            name: 'staffMemberHighlight'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Artist's name", name: 'artistName', widget: string }
               - { label: 'Social media link', name: socialMediaLink, widget: string }
               - { label: 'Social media handler', name: socialMediaHandler, widget: string }
               - { label: 'Piece', name: featuredImage, widget: image }
