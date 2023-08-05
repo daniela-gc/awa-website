@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "SteampunkCorgi",
-    "socialMediaLink": "https://www.instagram.com/steampunkcorgi/",
-    "socialMediaHandler": "steampunkcorgi",
+    "artistName": "Chel",
+    "socialMediaLink": "https://www.instagram.com/chellosia",
+    "socialMediaHandler": "chellosia",
     "pieces": [
       {
-        "featuredImage": "https://cdn.discordapp.com/attachments/709202975926648862/1087910979599347802/commission22.03.2023.v2.png"
+        "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1107250679266943057/IMG_0176.jpg?width=913&height=702"
       },
       {
-        "featuredImage": "https://cdn.discordapp.com/attachments/709202975926648862/1118649541349093416/F140623d2.png"
+        "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1047716435302023269/IMG_8619.jpg?width=936&height=702"
       },
       {
-        "featuredImage": "https://cdn.discordapp.com/attachments/709202975926648862/1055425578032971797/19.12.22.png"
+        "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1042254390846816337/IMG_8170.jpg?width=526&height=701"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Malcress",
+    "artistName": "Luccain",
     "petName": "Cheeto",
-    "socialMediaLink": "https://www.instagram.com/malcress_",
-    "socialMediaHandler": "malcress_",
-    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1121055183745589308/AWA-Cheeto-goldfish-rescue1.jpg"
+    "socialMediaLink": "https://www.instagram.com/luccain.art/",
+    "socialMediaHandler": "luccain.art",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1126290226701152336/pici.png?width=363&height=702"
   },
   "staffPortraitHighlight": {
-    "artistName": "Rhaimo",
-    "petName": "Alpine",
-    "socialMediaLink": "https://www.instagram.com/n0rthernbuffalo/",
-    "socialMediaHandler": "n0rthernbuffalo",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1115784562648305734/Alpine-BC.png?width=1102&height=702"
+    "artistName": "Daniela",
+    "petName": "Hail 043",
+    "socialMediaLink": "https://www.instagram.com/skysurie/",
+    "socialMediaHandler": "Skysurie",
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1124854297922916382/Hail_the_pigeon_for_AWA.jpg?width=560&height=702"
   },
   "staffMemberHighlight": {
-    "artistName": "Ruka",
+    "artistName": "Julia",
     "socialMediaLink": "https://www.instagram.com/rukashiro/",
     "socialMediaHandler": "rukashiro",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1121394464838135942/alma.png?width=702&height=702"
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1116512939332079626/Untitled_Artwork.jpg?width=496&height=702"
   },
   "mentorOfTheMonth": {
-    "artistName": "Whimsyandshenanigans",
-    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans/",
-    "socialMediaHandler": "whimsyandshenanigans",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1118332744947204147/TaiChi_the_Pug.jpg?width=501&height=701"
+    "artistName": "SteampunkCorgi",
+    "socialMediaLink": "https://www.instagram.com/steampunkcorgi/",
+    "socialMediaHandler": "steampunkcorgi",
+    "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1087910979599347802/commission22.03.2023.v2.png?width=526&height=701"
   }
 }
