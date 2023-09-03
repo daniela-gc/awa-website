@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Chel",
-    "socialMediaLink": "https://www.instagram.com/chellosia",
-    "socialMediaHandler": "chellosia",
+    "artistName": "Bingy Bongo",
+    "socialMediaLink": "https://www.instagram.com/bingy_bongo/",
+    "socialMediaHandler": "bingy_bongo",
     "pieces": [
       {
-        "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1107250679266943057/IMG_0176.jpg?width=913&height=702"
+        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1142460266496397423/2023_D_AWA_Kylo.jpg?width=702&height=702"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1047716435302023269/IMG_8619.jpg?width=936&height=702"
+        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1118453618161492088/Opal.jpg?width=702&height=702"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1042254390846816337/IMG_8170.jpg?width=526&height=701"
+        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/898752911880892507/2021_D_AWA_Mr_Wriggles2.jpg?width=983&height=702"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Luccain",
-    "petName": "Cheeto",
-    "socialMediaLink": "https://www.instagram.com/luccain.art/",
-    "socialMediaHandler": "luccain.art",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1126290226701152336/pici.png?width=363&height=702"
+    "artistName": "Lutti",
+    "petName": "Summer",
+    "socialMediaLink": "https://www.instagram.com/dracopuella/",
+    "socialMediaHandler": "dracopuella",
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1142142398516973709/awa_summer.png?width=938&height=702"
   },
   "staffPortraitHighlight": {
-    "artistName": "Daniela",
-    "petName": "Hail 043",
-    "socialMediaLink": "https://www.instagram.com/skysurie/",
-    "socialMediaHandler": "Skysurie",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1124854297922916382/Hail_the_pigeon_for_AWA.jpg?width=560&height=702"
+    "artistName": "Jujudesenhos",
+    "petName": "Ember",
+    "socialMediaLink": "https://www.instagram.com/chocolatepenado/",
+    "socialMediaHandler": "chocolatepenado",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1134410268613558272/Ember.png?width=702&height=702"
   },
   "staffMemberHighlight": {
-    "artistName": "Julia",
-    "socialMediaLink": "https://www.instagram.com/rukashiro/",
-    "socialMediaHandler": "rukashiro",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1116512939332079626/Untitled_Artwork.jpg?width=496&height=702"
+    "artistName": "Ori_gina_lart",
+    "socialMediaLink": "https://www.instagram.com/ori_gina_lart",
+    "socialMediaHandler": "Ori_gina_lart",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1136670285219770408/IMG_5368.png?width=702&height=702"
   },
   "mentorOfTheMonth": {
-    "artistName": "SteampunkCorgi",
-    "socialMediaLink": "https://www.instagram.com/steampunkcorgi/",
-    "socialMediaHandler": "steampunkcorgi",
-    "featuredImage": "https://media.discordapp.net/attachments/709202975926648862/1087910979599347802/commission22.03.2023.v2.png?width=526&height=701"
+    "artistName": "Malcress",
+    "socialMediaLink": "https://www.instagram.com/malcress_/",
+    "socialMediaHandler": "malcress_",
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/972954697587654676/received_3207795976206660.jpeg?width=562&height=702"
   }
 }
