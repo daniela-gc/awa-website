@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Alekzandra",
-    "socialMediaLink": "https://www.instagram.com/pandas_portraits_/",
-    "socialMediaHandler": "pandas_portraits_",
+    "artistName": "Hafi",
+    "socialMediaLink": "https://www.instagram.com/artofhafi/",
+    "socialMediaHandler": "artofhafi",
     "pieces": [
       {
-        "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1157100528069787648/IMG_0289.jpg?ex=651a0457&is=6518b2d7&hm=2078a3e00a8a40533058e36db63d2d22d50bf836fb87bd7a870e2e66a92f6015&=&width=702&height=702"
+        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1166156776249499768/IMG_3043.jpg?ex=6552b1a1&is=65403ca1&hm=d5614ffc92110be2073cf694dea7a8230a7504a0382b8d6554a2d42996ebe1c7&=&width=606&height=662"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1123800429826941020/IMG_0194.jpg?ex=651a2935&is=6518d7b5&hm=525288a69068d52c45e7b55d860a8a68e636771bdae1747ded2190f04afc0b1c&=&width=702&height=702"
+        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1164313006419742842/IMG_3011.jpg?ex=654bfc7c&is=6539877c&hm=23e3ba9708737f552dabec9da87d52d8047573f4c85ca3e236a06aa78d950468&=&width=467&height=661"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1140458879193460816/E6213362-89E7-409D-A492-10512A0D60CF.jpg?ex=651a1e99&is=6518cd19&hm=ddf162da3d5a82c22f9a62d49af8409da4f21b268514cf15ef7ea4ac4dfd3d3e&=&width=702&height=702"
+        "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1164687241793249290/Illustration_sans_titre.png?ex=654d5905&is=653ae405&hm=df350e34437c83608baa05168d6839f9ab16bc73674a10e7ac6eb9acd8ef0d6b&=&width=467&height=661"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Lea",
-    "petName": "Robin",
-    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans/",
-    "socialMediaHandler": "whimsyandshenanigans",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1155663618696818688/Robin_the_Australian_Shepard.jpg?ex=651a101d&is=6518be9d&hm=dc59f937c344ee5520972495b9910acdcfb541c8987a8b2fba65cec7bcef6caa&=&width=936&height=702"
+    "artistName": "Scribble",
+    "petName": "Songo",
+    "socialMediaLink": "https://www.instagram.com/scribble_puppies2/",
+    "socialMediaHandler": "scribble_puppies2",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1165001571654959134/IMG_0425.png?ex=654e7dc3&is=653c08c3&hm=1f774759ebca8747e5b8beedc63d419ef4ad4a58f6fec082d0912eff8aec7646&=&width=496&height=662"
   },
   "staffPortraitHighlight": {
-    "artistName": "Elisabetta",
-    "petName": "Victor",
-    "socialMediaLink": "https://www.instagram.com/elizaanart/",
-    "socialMediaHandler": "elizaanart",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1156329568387473440/asino_awa-Recuperato.png?ex=651a8214&is=65193094&hm=5c7a4e767ae8e1aee1fff3ad08762d1162067f1be05789c675894b9251aa9c28&=&width=993&height=702"
+    "artistName": "Alex",
+    "petName": "Noel",
+    "socialMediaLink": "https://www.instagram.com/alex_pahomov123",
+    "socialMediaHandler": "alex_pahomov123",
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1159882580682870884/noel.png?ex=654e5354&is=653bde54&hm=b3e28fd670b763c4b2b199d1cadf7a5970b431d75e155d72e38ea9200e3ade5c&=&width=496&height=662"
   },
   "staffMemberHighlight": {
-    "artistName": "Samantha",
-    "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook/",
-    "socialMediaHandler": "samteskey_sketchbook",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1150921479572181173/Jupiter_.jpg?ex=651a9be7&is=65194a67&hm=17db5e95a1aab3e1f5eac2671ca4ea5e5c485ecffe48ab3abbf3332955430e51&=&width=561&height=702"
+    "artistName": "Jessica",
+    "socialMediaLink": "https://www.instagram.com/artsygal987/",
+    "socialMediaHandler": "artsygal987",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1166060621054349392/Elie.png?ex=65525814&is=653fe314&hm=9c8a794b0501861eb6bb928b1e5920f1d6a87faeb8c5e213034de1126d2faed2&=&width=496&height=662"
   },
   "mentorOfTheMonth": {
     "artistName": "Lea",
     "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans/",
     "socialMediaHandler": "whimsyandshenanigans",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1145086790487777341/Lotus_the_Siamese_blue_lynx_point_mix.jpg?ex=651a79ed&is=6519286d&hm=e50476196c7423ee01d295d840c69cbaafd9e595929422bcdb548ca90eb05d5b&=&width=526&height=702"
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1164639438450720849/Cola_the_Grey_Floof_DLH_Cat.jpg?ex=654d2c80&is=653ab780&hm=1ba31ace20119b8f8ea34e113025f8aab7a011de18892dd2a8850bdeb2d69958&=&width=883&height=662"
   }
 }
