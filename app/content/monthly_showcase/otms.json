@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Hafi",
-    "socialMediaLink": "https://www.instagram.com/artofhafi/",
-    "socialMediaHandler": "artofhafi",
+    "artistName": "Nicole",
+    "socialMediaLink": "https://www.instagram.com/nicole_b.art",
+    "socialMediaHandler": "nicole_b.art",
     "pieces": [
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1166156776249499768/IMG_3043.jpg?ex=6552b1a1&is=65403ca1&hm=d5614ffc92110be2073cf694dea7a8230a7504a0382b8d6554a2d42996ebe1c7&=&width=606&height=662"
+        "featuredImage": "https://cdn.discordapp.com/attachments/709202975926648862/1162446352362508428/IMG_9601.jpg?ex=657c9107&is=656a1c07&hm=00e1681f2b2b4e532133a020bcb8d489236a6bf0a51d65f6cf4dd98c120bdd87&"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1164313006419742842/IMG_3011.jpg?ex=654bfc7c&is=6539877c&hm=23e3ba9708737f552dabec9da87d52d8047573f4c85ca3e236a06aa78d950468&=&width=467&height=661"
+        "featuredImage": "https://cdn.discordapp.com/attachments/709202975926648862/1109106917961375844/Untitled_Artwork.jpg?ex=657c514f&is=6569dc4f&hm=d17b930045495c18770ec2ce99cc26d4d870bd9882e2f3314df928b32fb965fa&"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1164687241793249290/Illustration_sans_titre.png?ex=654d5905&is=653ae405&hm=df350e34437c83608baa05168d6839f9ab16bc73674a10e7ac6eb9acd8ef0d6b&=&width=467&height=661"
+        "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1069773118119346216/Untitled_Artwork.jpg?ex=6577a65a&is=6565315a&hm=98bb57e23d67862e91fbe8f277fb349d3b2a97790b73b8f18c7cac15cd6eac2d&"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Scribble",
-    "petName": "Songo",
-    "socialMediaLink": "https://www.instagram.com/scribble_puppies2/",
-    "socialMediaHandler": "scribble_puppies2",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1165001571654959134/IMG_0425.png?ex=654e7dc3&is=653c08c3&hm=1f774759ebca8747e5b8beedc63d419ef4ad4a58f6fec082d0912eff8aec7646&=&width=496&height=662"
+    "artistName": "moose",
+    "petName": "Blueberry",
+    "socialMediaLink": "https://www.instagram.com/moosefull/",
+    "socialMediaHandler": "moosefull",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1172857454393040926/IMG_0284.jpg?ex=657d871f&is=656b121f&hm=e4d95d0357bebc37a4184bcde094b3c5dd94b8d74ae412a69b74b848ad0e96d1&=&format=webp&width=585&height=702"
   },
   "staffPortraitHighlight": {
-    "artistName": "Alex",
-    "petName": "Noel",
-    "socialMediaLink": "https://www.instagram.com/alex_pahomov123",
-    "socialMediaHandler": "alex_pahomov123",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1159882580682870884/noel.png?ex=654e5354&is=653bde54&hm=b3e28fd670b763c4b2b199d1cadf7a5970b431d75e155d72e38ea9200e3ade5c&=&width=496&height=662"
+    "artistName": "Saurvax",
+    "petName": "Peanut butter and fluff",
+    "socialMediaLink": "https://www.instagram.com/saurvax",
+    "socialMediaHandler": "saurvax",
+    "featuredImage": "https://cdn.discordapp.com/attachments/714848848979165226/1178797542855675964/AWAPeanutbutternFluff.png?ex=657773c3&is=6564fec3&hm=001d38c2cd15205c0a7caed4284c687f95b013dadff4b0de776de19694129e30&"
   },
   "staffMemberHighlight": {
-    "artistName": "Jessica",
-    "socialMediaLink": "https://www.instagram.com/artsygal987/",
-    "socialMediaHandler": "artsygal987",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1166060621054349392/Elie.png?ex=65525814&is=653fe314&hm=9c8a794b0501861eb6bb928b1e5920f1d6a87faeb8c5e213034de1126d2faed2&=&width=496&height=662"
+    "artistName": "Brooks",
+    "socialMediaLink": "https://www.instagram.com/cindermoon__",
+    "socialMediaHandler": "cindermoon__",
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1175584843522900018/IMG_4083.png?ex=657e38b4&is=656bc3b4&hm=259142c3128ea48816eb49f25102460b18a22151a10273c62fe5b68c6d0bbbab&=&format=webp&quality=lossless&width=702&height=702"
   },
   "mentorOfTheMonth": {
-    "artistName": "Lea",
-    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans/",
-    "socialMediaHandler": "whimsyandshenanigans",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1164639438450720849/Cola_the_Grey_Floof_DLH_Cat.jpg?ex=654d2c80&is=653ab780&hm=1ba31ace20119b8f8ea34e113025f8aab7a011de18892dd2a8850bdeb2d69958&=&width=883&height=662"
+    "artistName": "Alexey",
+    "socialMediaLink": "https://www.instagram.com/alex_pahomov123",
+    "socialMediaHandler": "alex_pahomov123",
+    "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1174380525381755020/tycho.png?ex=6579d718&is=65676218&hm=b4f3f42b74f62695c6cde13f59b1493e46968082d49ceb399e99d45fea157bb1&"
   }
 }
