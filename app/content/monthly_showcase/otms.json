@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Alex",
-    "socialMediaLink": "https://www.instagram.com/pandas_portraits_",
-    "socialMediaHandler": "pandas_portraits_",
+    "artistName": "Ssivo",
+    "socialMediaLink": "https://www.instagram.com/ss_ivo",
+    "socialMediaHandler": "ss_ivo",
     "pieces": [
       {
-        "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1228154249020571690/IMG_0429.jpg?ex=66606786&is=665f1606&hm=7e2afcca3947d445b25789be271360930895a4c52b9e52c9dcaf77b8581c0615&"
+        "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1256405980049309788/IMG_2466.png?ex=66854400&is=6683f280&hm=9623585cdcf6581ed640cbb790b776e2cee6ad39cc07764ccfbe28e9e0ba76fa&"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1205602122972799156/IMG_0401.jpg?ex=66601939&is=665ec7b9&hm=d3c5351cfa0afcd171bc326adf8ccf28b9687f7f804a16e3b92b149906b64661&=&format=webp&width=993&height=662"
+        "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1252809928285093978/IMG_2435.png?ex=6684b52a&is=668363aa&hm=e1bb407843f01d77bab241c892a41d78dd41ae65b7fa0cedd32f6f1eb50b6a4f&"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1242128452379742308/IMG_0438.jpg?ex=665fd384&is=665e8204&hm=1be369cca3e644a67ef9789b6e188ea7af624a18ce5d6cec207d8061d7380543&=&format=webp&width=662&height=662"
+        "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1244295870829170721/IMG_2376.png?ex=6684b715&is=66836595&hm=77f49859b9911a4a99e29b1d29468847b46ac3b6a0a73a769a3659f7584c3deb&"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Smiling",
-    "petName": "Azrael",
-    "socialMediaLink": "https://www.instagram.com/wirancanos/",
-    "socialMediaHandler": "wirancanos",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1241054051773317120/bully.jpg?ex=665fdf67&is=665e8de7&hm=a718c13b7368bd2514d8aa8cc63e0da19f210c985eda6d516e073b4bd5ff69f8&=&format=webp&width=468&height=662"
+    "artistName": "Lutti",
+    "petName": "Frank",
+    "socialMediaLink": "https://www.instagram.com/luttini",
+    "socialMediaHandler": "Luttini",
+    "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1249851480513581126/frank1.png?ex=668526a6&is=6683d526&hm=1fda83c00b06ffe224c1caf74787d0e89fe858a5c67ff6ff2e99241a2069d31c&"
   },
   "staffPortraitHighlight": {
-    "artistName": "Jenna",
-    "petName": "Kevin",
-    "socialMediaLink": "https://www.instagram.com/jennarificart/",
-    "socialMediaHandler": "jennarificart",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1244236823903993947/Kevin_the_Senegal_Parrot_BFAS.jpg?ex=66603ed7&is=665eed57&hm=6b49f798e7a6f8b2fa05264e2e6e8acb2a2171ffc9131fe485224c71dfb8aa70&=&format=webp&width=506&height=662"
+    "artistName": "Saurvax",
+    "petName": "Maggie",
+    "socialMediaLink": "https://www.instagram.com/saurvax",
+    "socialMediaHandler": "Saurvax",
+    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1254373736216526940/AWAMaggie.png?ex=66851f93&is=6683ce13&hm=cef62d9ec40b0a114d7ef4fcce934e3f3ac16c8af37d542af2a6c2f5d0b09380&=&format=webp&quality=lossless&width=1440&height=565"
   },
   "staffMemberHighlight": {
-    "artistName": "Lilian",
-    "socialMediaLink": "https://www.instagram.com/doggy_doodlez",
-    "socialMediaHandler": "doggy_doodlez",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1246269936972861521/Untitled_Artwork.jpg?ex=66606413&is=665f1293&hm=3ab0f48c217da9d1a44e61ecead90bc82b2e80997a665a7b3c997a24cf938ab5&=&format=webp&width=883&height=662"
+    "artistName": "Bianca",
+    "socialMediaLink": "https://www.instagram.com/artbybyanka",
+    "socialMediaHandler": "artbybyanka",
+    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1255982872461054083/9D6C5E58-C20D-4A2A-A8FE-747FE9E6E16D.jpg?ex=66850b73&is=6683b9f3&hm=461f7f435b816a2ff2bd1b8688b9ce01f23766ebbc446986afe7c0126911a30d&=&format=webp&width=857&height=662"
   },
   "mentorOfTheMonth": {
     "artistName": "Fresh Tea",
     "socialMediaLink": "https://www.instagram.com/freshteaart",
     "socialMediaHandler": "freshteaart",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1109575090137481387/IMG_6435.png?ex=66601e94&is=665ecd14&hm=2a2c4f71501c7532e56caf7b48e1eb33ee31d6caeb25c9914a8f54287d5ab099&=&format=webp&quality=lossless&width=827&height=662"
+    "featuredImage": "https://cdn.discordapp.com/attachments/854387000719441950/1109575090137481387/IMG_6435.png?ex=66850894&is=6683b714&hm=890fa959166e7ac7095fe167ed16973706f49008700ccc65fba67be619743d0a&"
   }
 }
