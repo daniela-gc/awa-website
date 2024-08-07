@@ -5,13 +5,13 @@
     "socialMediaHandler": "jennarificart",
     "pieces": [
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1266462878974869587/Aashka_the_Siberian_Husky.jpg?ex=66b071b8&is=66af2038&hm=ff42d62e916f1e315c62495203d5c65dd53a8efc424f837fb6b6a3723a6a9de3&=&format=webp&width=457&height=350"
+        "featuredImage": "/images/uploads/aashka_the_siberian_husky.jpg"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1257711283705348178/Gizmo_the_Chihuahua_Mix.jpg?ex=66b03f29&is=66aeeda9&hm=6b6b97efb7966bde7c91261a0b0c7f9b5b53dae179d83ede49a034765e844f01&=&format=webp&width=268&height=350"
+        "featuredImage": "/images/uploads/gizmo_the_chihuahua_mix.jpg"
       },
       {
-        "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1250513839120973886/Patrick_the_Illigers_Macaw.jpg?ex=66b06e04&is=66af1c84&hm=b2ef8cec4213dabf7144e955492a9c71eec44034e77d797b676614d3aa3192bb&=&format=webp&width=537&height=702"
+        "featuredImage": "/images/uploads/patrick_the_illigers_macaw.jpg"
       }
     ]
   },
@@ -20,25 +20,25 @@
     "petName": "Simba",
     "socialMediaLink": "https://www.instagram.com/nicole_b.art",
     "socialMediaHandler": "nicole_b.art",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1256421732173090890/20240628_212155.png?ex=66b0d42c&is=66af82ac&hm=d7fbaaab3fbbc39e11c402f74a41a73c3e12dd2d4e47d3f9414532c45d4f1029&=&format=webp&quality=lossless&width=573&height=702"
+    "featuredImage": "/images/uploads/simba-by-nicole.jpeg"
   },
   "staffPortraitHighlight": {
     "artistName": "Artsy",
     "petName": "Pixel",
     "socialMediaLink": "https://www.instagram.com/artsycreate",
     "socialMediaHandler": "artsycreate",
-    "featuredImage": "https://media.discordapp.net/attachments/714848848979165226/1257100461618630747/IMG_2908.png?ex=66b0a949&is=66af57c9&hm=fe5e888abe7914c498ad0ea5438fa97858803b1e13d30acc3a0977fd0a4bf330&=&format=webp&quality=lossless&width=520&height=70"
+    "featuredImage": "/images/uploads/pixel-by-artsy.png"
   },
   "staffMemberHighlight": {
     "artistName": "Samantha",
     "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook",
     "socialMediaHandler": "samteskey_sketchbook",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1258255315929923706/AWA_Fred_Yorkie_final.jpg?ex=66b03f94&is=66aeee14&hm=2ad36f8cb331ee84d672087bdec7f0faf93848e5553019b353ef59bd37b84bce&=&format=webp&width=561&height=701"
+    "featuredImage": "/images/uploads/fred-by-samantha.jpg"
   },
   "mentorOfTheMonth": {
     "artistName": "Ssivo",
     "socialMediaLink": "https://www.instagram.com/ss_ivo",
     "socialMediaHandler": "ss_ivo",
-    "featuredImage": "https://media.discordapp.net/attachments/854387000719441950/1256405980049309788/IMG_2466.png?ex=66b0c580&is=66af7400&hm=3307a52deb383a528d49e360eee0c90c18d48f97fb058d3c30ce91948a905d7e&=&format=webp&quality=lossless&width=277&height=350"
+    "featuredImage": "/images/uploads/agnes-by-ssivo.png"
   }
 }
