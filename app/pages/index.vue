@@ -43,7 +43,7 @@
             >Toronto Humane Society</a
           >,
           <a
-            href="https://www.horseplushumanesociety.org/"
+            href="https://horseplus.org"
             target="_blank"
             class="text-primary hover:underline"
             >Horse Plus Humane Society</a
