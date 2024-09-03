@@ -1,8 +1,8 @@
 {
   "artistOfTheMonth": {
     "artistName": "Lumen",
-    "socialMediaLink": "N/A",
-    "socialMediaHandler": "N/A",
+    "socialMediaLink": "Website",
+    "socialMediaHandler": "https://lumenlumen.github.io/CoinDessin/accueil",
     "pieces": [
       {
         "featuredImage": "/images/uploads/lumen_otm-1.png"
