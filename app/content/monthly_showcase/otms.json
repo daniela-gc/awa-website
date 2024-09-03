@@ -1,39 +1,39 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Jenna",
-    "socialMediaLink": "https://www.instagram.com/jennarificart/",
-    "socialMediaHandler": "jennarificart",
+    "artistName": "Lumen",
+    "socialMediaLink": "N/A",
+    "socialMediaHandler": "N/A",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/aashka_the_siberian_husky.jpg"
+        "featuredImage": "/images/uploads/lumen_otm-1.png"
       },
       {
-        "featuredImage": "/images/uploads/gizmo_the_chihuahua_mix.jpg"
+        "featuredImage": "/images/uploads/lumen_otm-2.png"
       },
       {
-        "featuredImage": "/images/uploads/patrick_the_illigers_macaw.jpg"
+        "featuredImage": "/images/uploads/lumen_otm-3.png"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Nicole",
-    "petName": "Simba",
-    "socialMediaLink": "https://www.instagram.com/nicole_b.art",
-    "socialMediaHandler": "nicole_b.art",
-    "featuredImage": "/images/uploads/simba-by-nicole.jpeg"
+    "artistName": "Clari",
+    "petName": "Andromeda",
+    "socialMediaLink": "https://www.instagram.com/clariilustra",
+    "socialMediaHandler": "clariilustra",
+    "featuredImage": "/images/uploads/clariss_otm.jpeg"
   },
   "staffPortraitHighlight": {
-    "artistName": "Artsy",
-    "petName": "Pixel",
-    "socialMediaLink": "https://www.instagram.com/artsycreate",
-    "socialMediaHandler": "artsycreate",
-    "featuredImage": "/images/uploads/pixel-by-artsy.png"
+    "artistName": "Lightning",
+    "petName": "Hero",
+    "socialMediaLink": "https://www.instagram.com/bunstoppable.arts",
+    "socialMediaHandler": "bunstoppable.arts",
+    "featuredImage": "/images/uploads/banana-bread_otm.png"
   },
   "staffMemberHighlight": {
-    "artistName": "Samantha",
-    "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook",
-    "socialMediaHandler": "samteskey_sketchbook",
-    "featuredImage": "/images/uploads/fred-by-samantha.jpg"
+    "artistName": "Merry",
+    "socialMediaLink": "https://www.instagram.com/its__merry__/",
+    "socialMediaHandler": "its__merry__",
+    "featuredImage": "/images/uploads/merry_otm.png"
   },
   "mentorOfTheMonth": {
     "artistName": "Ssivo",
