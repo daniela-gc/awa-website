@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Lumen",
-    "socialMediaLink": "Website",
-    "socialMediaHandler": "https://lumenlumen.github.io/CoinDessin/accueil",
+    "artistName": "Happy",
+    "socialMediaLink": "https://instagram.com/happyplaceportraits",
+    "socialMediaHandler": "happyplaceportraits",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/lumen_otm-1.png"
+        "featuredImage": "/images/uploads/happyplace-1-.png"
       },
       {
-        "featuredImage": "/images/uploads/lumen_otm-2.png"
+        "featuredImage": "/images/uploads/happyplace-2-.png"
       },
       {
-        "featuredImage": "/images/uploads/lumen_otm-3.png"
+        "featuredImage": "/images/uploads/happyplace-1-.jpeg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Clari",
-    "petName": "Andromeda",
-    "socialMediaLink": "https://www.instagram.com/clariilustra",
-    "socialMediaHandler": "clariilustra",
-    "featuredImage": "/images/uploads/clariss_otm.jpeg"
+    "artistName": "Alex",
+    "petName": "Rogers",
+    "socialMediaLink": "https://www.instagram.com/alexmitchellarts/",
+    "socialMediaHandler": "alexmitchellarts",
+    "featuredImage": "/images/uploads/angrycorgo.jpg"
   },
   "staffPortraitHighlight": {
-    "artistName": "Lightning",
-    "petName": "Hero",
-    "socialMediaLink": "https://www.instagram.com/bunstoppable.arts",
-    "socialMediaHandler": "bunstoppable.arts",
-    "featuredImage": "/images/uploads/banana-bread_otm.png"
+    "artistName": "Hafi",
+    "petName": "Enzo",
+    "socialMediaLink": "https://www.instagram.com/artofhafi",
+    "socialMediaHandler": "artofhafi",
+    "featuredImage": "/images/uploads/hafi-octoberotm.jpg"
   },
   "staffMemberHighlight": {
-    "artistName": "Merry",
-    "socialMediaLink": "https://www.instagram.com/its__merry__/",
-    "socialMediaHandler": "its__merry__",
-    "featuredImage": "/images/uploads/merry_otm.png"
+    "artistName": "Lara",
+    "socialMediaLink": "https://instagram.com/petitducnain",
+    "socialMediaHandler": "petitducnain",
+    "featuredImage": "/images/uploads/lara.jpeg"
   },
   "mentorOfTheMonth": {
-    "artistName": "Ssivo",
-    "socialMediaLink": "https://www.instagram.com/ss_ivo",
-    "socialMediaHandler": "ss_ivo",
-    "featuredImage": "/images/uploads/agnes-by-ssivo.png"
+    "artistName": "Lea",
+    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans",
+    "socialMediaHandler": "whimsyandshenanigans",
+    "featuredImage": "/images/uploads/whimsyandshenanigans.png"
   }
 }
