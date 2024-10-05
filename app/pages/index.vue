@@ -106,7 +106,7 @@
 
           <!-- logo - start -->
           <div class="flex justify-center mb-8">
-            <a href="https://www.horseplushumanesociety.org/" target="_blank">
+            <a href="https://horseplus.org/" target="_blank">
               <nuxt-img
                 format="webp"
                 src="/images/rescue_logos/hph-logo.png"
