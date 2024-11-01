@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Happy",
-    "socialMediaLink": "https://instagram.com/happyplaceportraits",
-    "socialMediaHandler": "happyplaceportraits",
+    "artistName": "Merru",
+    "socialMediaLink": "https://instagram.com/its__merry__",
+    "socialMediaHandler": "its__merry__",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/happyplace-1-.png"
+        "featuredImage": "/images/uploads/merry-otm-1.png"
       },
       {
-        "featuredImage": "/images/uploads/happyplace-2-.png"
+        "featuredImage": "/images/uploads/merry-otm-2.png"
       },
       {
-        "featuredImage": "/images/uploads/happyplace-1-.jpeg"
+        "featuredImage": "/images/uploads/merry-otm-3.png"
       }
     ]
   },
   "pieceOfTheMonth": {
     "artistName": "Alex",
-    "petName": "Rogers",
-    "socialMediaLink": "https://www.instagram.com/alexmitchellarts/",
-    "socialMediaHandler": "alexmitchellarts",
-    "featuredImage": "/images/uploads/angrycorgo.jpg"
+    "petName": "Charlie",
+    "socialMediaLink": "https://www.instagram.com/alex_pahomov123",
+    "socialMediaHandler": "alex_pahomov123",
+    "featuredImage": "/images/uploads/alexey-otm.png"
   },
   "staffPortraitHighlight": {
-    "artistName": "Hafi",
-    "petName": "Enzo",
-    "socialMediaLink": "https://www.instagram.com/artofhafi",
-    "socialMediaHandler": "artofhafi",
-    "featuredImage": "/images/uploads/hafi-octoberotm.jpg"
+    "artistName": "Samantha",
+    "petName": "Sequoia",
+    "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook",
+    "socialMediaHandler": "samteskey_sketchbook",
+    "featuredImage": "/images/uploads/sam-t-sequoia.jpg"
   },
   "staffMemberHighlight": {
-    "artistName": "Lara",
-    "socialMediaLink": "https://instagram.com/petitducnain",
-    "socialMediaHandler": "petitducnain",
-    "featuredImage": "/images/uploads/lara.jpeg"
+    "artistName": "Gravenimage",
+    "socialMediaLink": "https://instagram.com/BirdSeedsLtd",
+    "socialMediaHandler": "BirdSeedsLtd",
+    "featuredImage": "/images/uploads/gravenimage-otm.png"
   },
   "mentorOfTheMonth": {
-    "artistName": "Lea",
-    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans",
-    "socialMediaHandler": "whimsyandshenanigans",
-    "featuredImage": "/images/uploads/whimsyandshenanigans.png"
+    "artistName": "Ssivo",
+    "socialMediaLink": "https://www.instagram.com/ss_ivo",
+    "socialMediaHandler": "ss_ivo",
+    "featuredImage": "/images/uploads/ssivo-otm.png"
   }
 }
