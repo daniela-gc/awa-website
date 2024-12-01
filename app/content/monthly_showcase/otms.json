@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Merru",
-    "socialMediaLink": "https://instagram.com/its__merry__",
-    "socialMediaHandler": "its__merry__",
+    "artistName": "Abby",
+    "socialMediaLink": "https://instagram.com/bingy_bongo",
+    "socialMediaHandler": "bingy_bongo",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/merry-otm-1.png"
+        "featuredImage": "/images/uploads/bingy-otm-1.jpg"
       },
       {
-        "featuredImage": "/images/uploads/merry-otm-2.png"
+        "featuredImage": "/images/uploads/bingy-otm-2.jpg"
       },
       {
-        "featuredImage": "/images/uploads/merry-otm-3.png"
+        "featuredImage": "/images/uploads/bingy-otm-3.jpg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Alex",
-    "petName": "Charlie",
-    "socialMediaLink": "https://www.instagram.com/alex_pahomov123",
-    "socialMediaHandler": "alex_pahomov123",
-    "featuredImage": "/images/uploads/alexey-otm.png"
+    "artistName": "Bianca",
+    "petName": "Tzar Kuma",
+    "socialMediaLink": "https://www.instagram.com/byanka.imagination?igsh=NTdrdDUxejh4a3Uz&utm_source=qr",
+    "socialMediaHandler": "byanka.imagination",
+    "featuredImage": "/images/uploads/byanka-otm.jpg"
   },
   "staffPortraitHighlight": {
-    "artistName": "Samantha",
-    "petName": "Sequoia",
-    "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook",
-    "socialMediaHandler": "samteskey_sketchbook",
-    "featuredImage": "/images/uploads/sam-t-sequoia.jpg"
+    "artistName": "Animline",
+    "petName": "Lilly",
+    "socialMediaLink": "https://www.instagram.com/animline",
+    "socialMediaHandler": "animline",
+    "featuredImage": "/images/uploads/animline-otm.png"
   },
   "staffMemberHighlight": {
-    "artistName": "Gravenimage",
-    "socialMediaLink": "https://instagram.com/BirdSeedsLtd",
-    "socialMediaHandler": "BirdSeedsLtd",
-    "featuredImage": "/images/uploads/gravenimage-otm.png"
+    "artistName": "Momo",
+    "socialMediaLink": "https://instagram.com/momodoesart",
+    "socialMediaHandler": "momodoesart",
+    "featuredImage": "/images/uploads/momo-otm.png"
   },
   "mentorOfTheMonth": {
-    "artistName": "Ssivo",
-    "socialMediaLink": "https://www.instagram.com/ss_ivo",
-    "socialMediaHandler": "ss_ivo",
-    "featuredImage": "/images/uploads/ssivo-otm.png"
+    "artistName": "Julia",
+    "socialMediaLink": "https://www.instagram.com/artbyjuliapulia",
+    "socialMediaHandler": "artbyjuliapulia",
+    "featuredImage": "/images/uploads/julia-otm.jpg"
   }
 }
