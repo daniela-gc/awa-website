@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Cupcakewithsugar",
-    "socialMediaLink": "https://instagram.com/cupcakewithsugar_arts",
-    "socialMediaHandler": "cupcakewithsugar_arts",
+    "artistName": "Daniela",
+    "socialMediaLink": "https://instagram.com/danielag.art",
+    "socialMediaHandler": "danielag.art",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/cupcake-otm-1.jpg"
+        "featuredImage": "/images/uploads/daniela-otm1.jpg"
       },
       {
-        "featuredImage": "/images/uploads/cupcake-otm-2.jpg"
+        "featuredImage": "/images/uploads/daniela-otm2.jpg"
       },
       {
-        "featuredImage": "/images/uploads/cupcake-otm-3.jpg"
+        "featuredImage": "/images/uploads/daniela-otm3.jpg"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Juliette",
-    "petName": "Poesi",
-    "socialMediaLink": "https://www.instagram.com/artofhafi",
-    "socialMediaHandler": "artofhafi",
-    "featuredImage": "/images/uploads/hafi-otm.jpg"
-  },
-  "staffPortraitHighlight": {
-    "artistName": "Cull",
-    "petName": "Star",
-    "socialMediaLink": "https://www.instagram.com/cullishere",
-    "socialMediaHandler": "cullishere",
-    "featuredImage": "/images/uploads/cullishere-otm.png"
-  },
-  "staffMemberHighlight": {
-    "artistName": "Jackie",
-    "socialMediaLink": "https://instagram.com/ShaquilleKarma",
-    "socialMediaHandler": "ShaquilleKarma",
-    "featuredImage": "/images/uploads/jackie-otm.png"
-  },
-  "mentorOfTheMonth": {
     "artistName": "Ssivo",
+    "petName": "Mirabelle",
     "socialMediaLink": "https://www.instagram.com/ss_ivo",
     "socialMediaHandler": "ss_ivo",
-    "featuredImage": "/images/uploads/ssivo-otm.png"
+    "featuredImage": "/images/uploads/ssivo-mirabelle.png"
+  },
+  "staffPortraitHighlight": {
+    "artistName": "Samantha",
+    "petName": "Clancy",
+    "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook",
+    "socialMediaHandler": "samteskey_sketchbook",
+    "featuredImage": "/images/uploads/samt-clancy.jpg"
+  },
+  "staffMemberHighlight": {
+    "artistName": "Caroline",
+    "socialMediaLink": "https://instagram.com/carolinemcdonough_art",
+    "socialMediaHandler": "carolinemcdonough_art",
+    "featuredImage": "/images/uploads/caroline-otm.jpg"
+  },
+  "mentorOfTheMonth": {
+    "artistName": "Julia",
+    "socialMediaLink": "https://www.instagram.com/artbyjuliapulia",
+    "socialMediaHandler": "artbyjuliapulia",
+    "featuredImage": "/images/uploads/julia-otm.jpg"
   }
 }
