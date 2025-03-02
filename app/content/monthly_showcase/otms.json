@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Daniela",
-    "socialMediaLink": "https://instagram.com/danielag.art",
-    "socialMediaHandler": "danielag.art",
+    "artistName": "Sandra",
+    "socialMediaLink": "https://instagram.com/universetunes",
+    "socialMediaHandler": "universetunes",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/daniela-otm1.jpg"
+        "featuredImage": "/images/uploads/universetunes1.png"
       },
       {
-        "featuredImage": "/images/uploads/daniela-otm2.jpg"
+        "featuredImage": "/images/uploads/universetunes2.png"
       },
       {
-        "featuredImage": "/images/uploads/daniela-otm3.jpg"
+        "featuredImage": "/images/uploads/universetunes3.png"
       }
     ]
   },
   "pieceOfTheMonth": {
+    "artistName": "Mayke",
+    "petName": "Dopey",
+    "socialMediaLink": "https://www.instagram.com/Maykevlendre",
+    "socialMediaHandler": "Maykevlendre",
+    "featuredImage": "/images/uploads/mayke-dopey.png"
+  },
+  "staffPortraitHighlight": {
+    "artistName": "Jenna",
+    "petName": "Altai",
+    "socialMediaLink": "https://www.instagram.com/jennarific",
+    "socialMediaHandler": "jennarific",
+    "featuredImage": "/images/uploads/jenna-altai.jpg"
+  },
+  "staffMemberHighlight": {
+    "artistName": "Byanka",
+    "socialMediaLink": "https://instagram.com/byanka.imagination",
+    "socialMediaHandler": "byanka.imagination",
+    "featuredImage": "/images/uploads/byanka.jpg"
+  },
+  "mentorOfTheMonth": {
     "artistName": "Ssivo",
-    "petName": "Mirabelle",
     "socialMediaLink": "https://www.instagram.com/ss_ivo",
     "socialMediaHandler": "ss_ivo",
     "featuredImage": "/images/uploads/ssivo-mirabelle.png"
-  },
-  "staffPortraitHighlight": {
-    "artistName": "Samantha",
-    "petName": "Clancy",
-    "socialMediaLink": "https://www.instagram.com/samteskey_sketchbook",
-    "socialMediaHandler": "samteskey_sketchbook",
-    "featuredImage": "/images/uploads/samt-clancy.jpg"
-  },
-  "staffMemberHighlight": {
-    "artistName": "Caroline",
-    "socialMediaLink": "https://instagram.com/carolinemcdonough_art",
-    "socialMediaHandler": "carolinemcdonough_art",
-    "featuredImage": "/images/uploads/caroline-otm.jpg"
-  },
-  "mentorOfTheMonth": {
-    "artistName": "Julia",
-    "socialMediaLink": "https://www.instagram.com/artbyjuliapulia",
-    "socialMediaHandler": "artbyjuliapulia",
-    "featuredImage": "/images/uploads/julia-otm.jpg"
   }
 }
