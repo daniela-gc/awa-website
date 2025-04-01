@@ -1,44 +1,44 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Sandra",
-    "socialMediaLink": "https://instagram.com/universetunes",
-    "socialMediaHandler": "universetunes",
+    "artistName": "Ipheion",
+    "socialMediaLink": "https://instagram.com/ipheion_art_",
+    "socialMediaHandler": "ipheion_art_",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/universetunes1.png"
+        "featuredImage": "/images/uploads/ipheion.png"
       },
       {
-        "featuredImage": "/images/uploads/universetunes2.png"
+        "featuredImage": "/images/uploads/ipheion2.png"
       },
       {
-        "featuredImage": "/images/uploads/universetunes3.png"
+        "featuredImage": "/images/uploads/ipheion3.png"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Mayke",
-    "petName": "Dopey",
-    "socialMediaLink": "https://www.instagram.com/Maykevlendre",
-    "socialMediaHandler": "Maykevlendre",
-    "featuredImage": "/images/uploads/mayke-dopey.png"
+    "artistName": "Sauvax",
+    "petName": "Athena",
+    "socialMediaLink": "https://www.instagram.com/saurvax",
+    "socialMediaHandler": "saurvax",
+    "featuredImage": "/images/uploads/saurvax.png"
   },
   "staffPortraitHighlight": {
-    "artistName": "Jenna",
-    "petName": "Altai",
-    "socialMediaLink": "https://www.instagram.com/jennarificart",
-    "socialMediaHandler": "jennarificart",
-    "featuredImage": "/images/uploads/jenna-altai.jpg"
+    "artistName": "Olivia",
+    "petName": "Enzo",
+    "socialMediaLink": "https://www.instagram.com/olive_stu03",
+    "socialMediaHandler": "olive_stu03",
+    "featuredImage": "/images/uploads/olive_stu.png"
   },
   "staffMemberHighlight": {
-    "artistName": "Byanka",
-    "socialMediaLink": "https://instagram.com/byanka.imagination",
-    "socialMediaHandler": "byanka.imagination",
-    "featuredImage": "/images/uploads/byanka.jpg"
+    "artistName": "ShaquilleKarma",
+    "socialMediaLink": "https://instagram.com/ShaquilleKarma",
+    "socialMediaHandler": "ShaquilleKarma",
+    "featuredImage": "/images/uploads/jackie.png"
   },
   "mentorOfTheMonth": {
-    "artistName": "Ssivo",
-    "socialMediaLink": "https://www.instagram.com/ss_ivo",
-    "socialMediaHandler": "ss_ivo",
-    "featuredImage": "/images/uploads/ssivo-mirabelle.png"
+    "artistName": "Julia",
+    "socialMediaLink": "https://www.instagram.com/artbyjuliapulia",
+    "socialMediaHandler": "artbyjuliapulia",
+    "featuredImage": "/images/uploads/julia-otm.jpg"
   }
 }
