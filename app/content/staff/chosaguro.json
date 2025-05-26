@@ -1,7 +1,7 @@
 {
   "title": "Chosaguro",
   "role": "Administrator",
-  "bio": "Chosaguro is a hobbyist artist with a cartoony style from Brazil. She draws mainly canines and felines, but loves experimenting and trying to draw all sorts of animals.",
+  "bio": "Chosaguro is an artist with a cartoony style from Brazil. She draws mainly canines and felines, but loves experimenting and trying to draw all sorts of animals.",
   "externalLinks": [
     {
       "name": "Instagram",
@@ -20,6 +20,6 @@
       "url": "https://chosaguro.carrd.co"
     }
   ],
-  "featuredImage": "/images/uploads/chosaguro.png",
+  "featuredImage": "/images/uploads/chosaguro-pfp.png",
   "position": 2
 }
