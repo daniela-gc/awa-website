@@ -1,39 +1,39 @@
 {
   "artistOfTheMonth": {
-    "artistName": "Emma",
-    "socialMediaLink": "https://instagram.com/bestmurphy.art",
-    "socialMediaHandler": "bestmurphy.art",
+    "artistName": "ShaquilleKarma",
+    "socialMediaLink": "https://instagram.com/ShaquilleKarma",
+    "socialMediaHandler": "ShaquilleKarma",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/bestmurphy-otm-1.jpg"
+        "featuredImage": "/images/uploads/jackie-otm1.png"
       },
       {
-        "featuredImage": "/images/uploads/bestmurphy-otm-2.png"
+        "featuredImage": "/images/uploads/jackie-otm2.png"
       },
       {
-        "featuredImage": "/images/uploads/bestmurphy-otm-3.png"
+        "featuredImage": "/images/uploads/jackie-otm3.png"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "Alexey",
-    "petName": "Lainey",
-    "socialMediaLink": "https://www.instagram.com/alex_pahomov123",
-    "socialMediaHandler": "alex_pahomov123",
-    "featuredImage": "/images/uploads/alexey-lainey.png"
+    "artistName": "ShaquilleKarma",
+    "petName": "Baker",
+    "socialMediaLink": "https://www.instagram.com/ShaquilleKarma",
+    "socialMediaHandler": "ShaquilleKarma",
+    "featuredImage": "/images/uploads/jackie-baker.png"
   },
   "staffPortraitHighlight": {
-    "artistName": "Jessica",
-    "petName": "KC",
-    "socialMediaLink": "https://www.instagram.com/Artsygal987",
-    "socialMediaHandler": "Artsygal987",
-    "featuredImage": "/images/uploads/jessica-kc.png"
+    "artistName": "Lea Brubaker",
+    "petName": "Bacon",
+    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans",
+    "socialMediaHandler": "whimsyandshenanigans",
+    "featuredImage": "/images/uploads/whimsyandshenanigans-bacon.jpg"
   },
   "staffMemberHighlight": {
-    "artistName": "SteampunkCorgi",
-    "socialMediaLink": "https://instagram.com/steampunk_corgi",
-    "socialMediaHandler": "steampunk_corgi",
-    "featuredImage": "/images/uploads/steampunkcorgi.png"
+    "artistName": "feytress",
+    "socialMediaLink": "https://instagram.com/feytress",
+    "socialMediaHandler": "feytress",
+    "featuredImage": "/images/uploads/feytress.png"
   },
   "mentorOfTheMonth": {
     "artistName": "Julia",
