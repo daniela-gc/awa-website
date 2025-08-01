@@ -1,39 +1,39 @@
 {
   "artistOfTheMonth": {
-    "artistName": "ShaquilleKarma",
-    "socialMediaLink": "https://instagram.com/ShaquilleKarma",
-    "socialMediaHandler": "ShaquilleKarma",
+    "artistName": "Owl",
+    "socialMediaLink": "https://www.instagram.com/laughing.owls/",
+    "socialMediaHandler": "laughing.owls",
     "pieces": [
       {
-        "featuredImage": "/images/uploads/jackie-otm1.png"
+        "featuredImage": "/images/uploads/owlie-otm-1.png"
       },
       {
-        "featuredImage": "/images/uploads/jackie-otm2.png"
+        "featuredImage": "/images/uploads/owlie-otm-2.png"
       },
       {
-        "featuredImage": "/images/uploads/jackie-otm3.png"
+        "featuredImage": "/images/uploads/owlie-otm-3.png"
       }
     ]
   },
   "pieceOfTheMonth": {
-    "artistName": "ShaquilleKarma",
-    "petName": "Baker",
-    "socialMediaLink": "https://www.instagram.com/ShaquilleKarma",
-    "socialMediaHandler": "ShaquilleKarma",
-    "featuredImage": "/images/uploads/jackie-baker.png"
+    "artistName": "Jenna",
+    "petName": "Banjo",
+    "socialMediaLink": "https://www.instagram.com/jennarificart",
+    "socialMediaHandler": "jennarificart",
+    "featuredImage": "/images/uploads/banjo-by-jenna.jpg"
   },
   "staffPortraitHighlight": {
-    "artistName": "Lea Brubaker",
-    "petName": "Bacon",
-    "socialMediaLink": "https://www.instagram.com/whimsyandshenanigans",
-    "socialMediaHandler": "whimsyandshenanigans",
-    "featuredImage": "/images/uploads/whimsyandshenanigans-bacon.jpg"
+    "artistName": "Ruka",
+    "petName": "Breanna",
+    "socialMediaLink": "https://www.instagram.com/rukashiro",
+    "socialMediaHandler": "rukashiro",
+    "featuredImage": "/images/uploads/breanna-by-ruka.jpg"
   },
   "staffMemberHighlight": {
-    "artistName": "feytress",
-    "socialMediaLink": "https://instagram.com/feytress",
-    "socialMediaHandler": "feytress",
-    "featuredImage": "/images/uploads/feytress.png"
+    "artistName": "Abby",
+    "socialMediaLink": "https://instagram.com/bingy_bongo",
+    "socialMediaHandler": "bingy_bongo",
+    "featuredImage": "/images/uploads/bingybongo.jpg"
   },
   "mentorOfTheMonth": {
     "artistName": "Julia",
